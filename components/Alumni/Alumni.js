@@ -1,7 +1,7 @@
 import styles from './Alumni.module.css'
 import arrow from '../../assets/images/Arrow.png'
 import Image from 'next/image'
-import alumniImage from '../../assets/images/alumniimage.png'
+import alumniImage from '../../assets/images/alumniImage.png'
 import alumniCompanies from '../../assets/images/alumnicompanies.png'
 
 export default function Alumni() {
