@@ -6,6 +6,7 @@ import alumniCompanies from '../../assets/images/alumnicompanies.png'
 
 export default function Alumni() {
     return (
+        
         <div className={styles.Alumni}>
             <div className={styles.AlumniText}>SX ALUMNI</div>
             <div className={styles.AlumniContainer}>
