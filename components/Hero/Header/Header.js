@@ -1,4 +1,4 @@
-import Image from 'next/Image'
+import Image from 'next/image'
 import sxlogo from '../../../assets/images/SXsecondaryLogo.png'
 import styles from './Header.module.css'
 
