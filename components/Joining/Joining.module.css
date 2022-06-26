@@ -1,0 +1,89 @@
+.Joining {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    background: #111111;
+    padding: 15%;
+    padding-top: 0;
+    padding-bottom: 10%;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Joiningtext {
+    font-family: 'Monaco';
+    color: #696969;
+    font-size: 24px;
+}
+
+.JoiningHeading {
+    font-size: 50px;
+    font-family: 'Druk';
+    text-align: center;
+    width: 70%;
+}
+
+.JoiningCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    border-bottom: 1px #515151 solid;
+    padding-bottom: 5%;
+}
+
+.JoiningCard {
+    border: 1px solid #515151;
+    border-radius: 4px;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+    row-gap: 20px;
+}
+
+.JoiningCardHeading {
+    font-family: 'Monaco';
+    font-size: 30px;
+}
+
+.JoiningCardBody {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.JoiningListHeading {
+    font-family: 'Monaco';
+    font-size: 24px;
+}
+
+.JoiningListSubheading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.JoiningListContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    width: 80%;
+    font-size: 19px;
+}
+
+.JoiningList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    row-gap: 20px;
+}
+
+.joinAction {
+    font-size: 24px;
+    margin-top: 2%;
+}

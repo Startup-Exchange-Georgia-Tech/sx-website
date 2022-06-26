@@ -1,0 +1,68 @@
+.WhatsHappening {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10%;
+    padding-top: 0;
+    padding-bottom: 15%;
+    background: #111111;
+}
+
+.WhatsHappeningText {
+    font-family: 'Monaco';
+    color: #696969;
+    font-size: 24px;
+}
+
+.WhatsHappeningHeading {
+    font-family: 'Druk';
+    font-size: 50px;
+    color: white;
+}
+
+.WhatsHappeningLeft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.WhatsHappeningRight {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+    padding-left: 2%;
+}
+
+.WhatsHappeningCard {
+    border: 1px solid #505050;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4%;
+    width: 50%;
+    color: white;
+    height: 150%;
+}
+
+.WhatsHappeningCardHeading {
+    font-family: 'Druk';
+    font-size: 24px;
+}
+
+.WhatsHappeningCardBody {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.WhatsHappeningCardLearn {
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: #EAAA00;
+    border: 2px solid #EAAA00;
+    padding: 2%;
+    width: 50%;
+    text-align: center;
+}

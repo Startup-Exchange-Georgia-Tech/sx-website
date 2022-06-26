@@ -1,0 +1,54 @@
+.AboutUs {
+    background: #111111;
+    color: white;
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.AboutUsLeft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.AboutUsHeading {
+    font-family: 'Druk';
+    font-size: 50px;
+}
+
+.AboutUsBody {
+    font-size: 24px;
+}
+
+.AboutUsText {
+    font-family: 'Monaco';
+    color: #696969;
+    font-size: 24px;
+}
+
+.AboutUsRight {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.eventLink {
+    font-size: 30px;
+    color: #F2B111;
+    font-weight: 700;
+    padding-right: 2%;
+}
+
+.eventLinkContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.arrowContainer {
+    width: 20%;
+}

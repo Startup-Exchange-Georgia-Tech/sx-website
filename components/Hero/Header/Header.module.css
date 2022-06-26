@@ -1,0 +1,32 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: space-between;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 14px;
+    width: 100%;
+    font-family: 'Druk', sans-serif;
+}
+
+.pagesContainerHeader {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.headerLogoContainer {
+    width: 15%;
+}
+
+.headerToolbox {
+    border: 2px solid #F2C94C;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+}

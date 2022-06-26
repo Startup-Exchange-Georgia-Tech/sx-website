@@ -1,0 +1,54 @@
+.heroImageContainer {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+.Hero {
+    background-image: url(../../assets/images/heroimage.png);
+    background-size: cover;
+}
+
+.HeroContentContainer {
+    width: 70%;
+    margin-left: 15%;
+    padding-bottom: 10%;
+}
+
+.HeroHeading {
+    background: -webkit-linear-gradient(90deg, #EAAA00 0%, #F2994A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: 'Druk';
+    font-size: 60px;
+}
+
+.HeroBody {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.eventLink {
+    font-size: 30px;
+    color: #F2B111;
+    font-weight: 700;
+    padding-right: 2%;
+}
+
+.eventLinkContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.arrowContainer {
+    width: 20%;
+}
+
+.Hero {
+    width: 100vw;
+}

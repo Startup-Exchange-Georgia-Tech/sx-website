@@ -1,0 +1,57 @@
+.ExecBoard {
+    padding: 10%;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ExecBoardText {
+    font-family: 'Monaco';
+    color: #696969;
+    font-size: 24px;
+}
+
+.ExecBoardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 5%;
+    column-gap: 2%;
+    row-gap: 40px;
+}
+
+.ExecBoardCard {
+    width: 23%;
+    border: 1px solid #515151;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ExecBoardCardContainer {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+
+.ExecBoardCardName {
+    font-family: 'Monaco';
+    font-size: 20px;
+    margin-top: 4%;
+}
+
+.ExecBoardTitle {
+    background: #EAAA00;
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+    margin-top: -15px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
