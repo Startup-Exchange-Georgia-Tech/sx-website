@@ -4,6 +4,7 @@ import exectest from '../../assets/images/exectest.png'
 
 export default function ExecBoard() {
     return (
+        
         <div className={styles.ExecBoard}>
             <div className={styles.ExecBoardText}>OUR EXECUTIVE BOARD</div>
             <div className={styles.ExecBoardContainer}>
