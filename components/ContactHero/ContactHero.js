@@ -15,7 +15,10 @@ const ContactHero = () => {
                     <div className={styles.ContactHeroAddress}>848 SPRING STREET NW</div>
                     <div className={styles.ContactHeroAddress}>ATLANTA, GA 30308</div>
                 </div>
-                <a className={styles.ContactHeroView} href="https://g.page/techsquareatl?share">VIEW IN MAPS<span className={styles.ContactHeroArrow}><Image src={arrow}></Image></span></a>
+                <Link href="https://g.page/techsquareatl?share">
+                    <a className={styles.ContactHeroView}>VIEW IN MAPS<span className={styles.ContactHeroArrow}><Image src={arrow}></Image></span></a>
+                </Link>
+                
                
             </div>
             <Image src={contactHeroImage}></Image>
