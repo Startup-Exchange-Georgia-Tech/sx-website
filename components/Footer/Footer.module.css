@@ -1,0 +1,50 @@
+.Footer {
+    padding: 10%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.FooterContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.FooterList {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 5%;
+}
+
+.FooterListHeading {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.FooterListItem {
+    font-size: 20px;
+    padding-top: 3%;
+}
+
+.FooterFooter {
+    font-family: 'Monaco';
+    color: #7F7F7F;
+    font-size: 22px;
+    align-items: center;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FooterFooterText {
+    display: flex;
+    align-items: center;
+}

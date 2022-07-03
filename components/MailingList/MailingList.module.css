@@ -1,0 +1,25 @@
+.MailingList {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 10%;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.joinMailingList {
+    font-size: 40px;
+    width: 70%;
+    font-family: "Druk";
+}
+
+.signUpMailingList {
+    font-size: 35px;
+    font-family: 'Roboto';
+    color: #EAAA00;
+    border: 1px solid #EAAA00;
+    padding: 2% 4% 2% 4%;
+}

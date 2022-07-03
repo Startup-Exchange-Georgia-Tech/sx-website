@@ -8,6 +8,10 @@ import Joining from '../components/Joining/Joining'
 import Events from '../components/Events/Events'
 import Alumni from '../components/Alumni/Alumni'
 import ExecBoard from '../components/ExecBoard/ExecBoard'
+// import Instagram from '../components/Instagram/Instagram'
+import Sponsors from '../components/Sponsors/Sponsors'
+import MailingList from '../components/MailingList/MailingList'
+import Footer from '../components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -19,6 +23,10 @@ export default function Home() {
       <Events></Events>
       <Alumni></Alumni>
       <ExecBoard></ExecBoard>
+      {/* <Instagram></Instagram> */}
+      <Sponsors></Sponsors>
+      <MailingList></MailingList>
+      <Footer></Footer>
     </div>
   )
 }

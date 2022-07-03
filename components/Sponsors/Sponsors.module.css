@@ -1,0 +1,13 @@
+.SponsorsText {
+    font-family: 'Monaco';
+    color: #696969;
+    font-size: 24px;
+}
+
+.Sponsors {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    padding-top: 0;
+    padding-bottom: 5%;
+}
