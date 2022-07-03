@@ -5,15 +5,15 @@ import styles from './Header.module.css'
 export default function Header() {
     return (
         <div className={styles.Header}>
-            <div className={styles.headerLogoContainer}>
+            <a className={styles.headerLogoContainer} href="/">
                 <Image src={sxlogo}></Image>
-            </div>
+            </a>
             <div className={styles.pagesContainerHeader}>
-                <div className={styles.headerPageLink}>ABOUT</div>
-                <div className={styles.headerPageLink}>JOIN</div>
-                <div className={styles.headerPageLink}>LEARN</div>
-                <div className={styles.headerPageLink}>CONTACT</div>
-                <div className={styles.headerToolbox}>SX TOOLBOX</div>
+                <a className={styles.headerPageLink}>ABOUT</a>
+                <a className={styles.headerPageLink}>JOIN</a>
+                <a className={styles.headerPageLink}>LEARN</a>
+                <a className={styles.headerPageLink} href="/contact">CONTACT</a>
+                <a className={styles.headerToolbox}>SX TOOLBOX</a>
             </div>
         </div>  
     )

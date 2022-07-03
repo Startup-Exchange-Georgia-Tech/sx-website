@@ -20,6 +20,14 @@
     width: 40%;
 }
 
+.headerPageLink {
+    cursor: pointer;
+}
+
+.headerPageLink:hover {
+    color: #F2C94C;
+}
+
 .headerLogoContainer {
     width: 15%;
 }
