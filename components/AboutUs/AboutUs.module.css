@@ -3,6 +3,7 @@
     color: white;
     padding: 10%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
@@ -23,7 +24,7 @@
 }
 
 .AboutUsText {
-    font-family: 'Monaco';
+    font-family: 'Crimson';
     color: #696969;
     font-size: 24px;
 }
@@ -31,12 +32,12 @@
 .AboutUsRight {
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 40%;
     margin-left: 5%;
 }
 
 .eventLink {
-    font-size: 30px;
+    font-size: 24px;
     color: #F2B111;
     font-weight: 700;
     padding-right: 2%;
@@ -50,5 +51,39 @@
 }
 
 .arrowContainer {
-    width: 20%;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .AboutUsHeading {
+        font-size: 28px;
+    }
+
+    .AboutUsBody {
+        font-size: 20px;
+    }
+
+    .AboutUsLeft {
+        width: 100%;
+    }
+
+    .AboutUsRight {
+        width: 100%;
+    }
+
+    .AboutUsText {
+        font-size: 16px;
+    }
+
+    .eventLink {
+        font-size:18px;
+    }
+
+    .arrowContainer {
+        width: 30px;
+    }
+
+    .AboutUsRight {
+        padding-top: 10%;
+    }
 }

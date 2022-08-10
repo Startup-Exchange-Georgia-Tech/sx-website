@@ -18,8 +18,14 @@
 
 .signUpMailingList {
     font-size: 35px;
-    font-family: 'Roboto';
+    font-family: 'NeueHaasDisplay-Roman', sans-serif;
     color: #EAAA00;
     border: 1px solid #EAAA00;
     padding: 2% 4% 2% 4%;
+}
+
+@media screen and (max-width: 700px) {
+    .MailingList {
+        display: none;
+    }
 }

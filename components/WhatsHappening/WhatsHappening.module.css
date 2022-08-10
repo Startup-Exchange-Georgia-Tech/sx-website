@@ -4,12 +4,13 @@
     justify-content: space-between;
     padding: 10%;
     padding-top: 0;
+    flex-wrap: wrap;
     padding-bottom: 15%;
     background: #111111;
 }
 
 .WhatsHappeningText {
-    font-family: 'Monaco';
+    font-family: 'Crimson';
     color: #696969;
     font-size: 24px;
 }
@@ -44,7 +45,8 @@
     padding: 4%;
     width: 50%;
     color: white;
-    height: 150%;
+    height: 400px;
+    background: #222222;
 }
 
 .WhatsHappeningCardHeading {
@@ -65,4 +67,28 @@
     padding: 2%;
     width: 50%;
     text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .WhatsHappeningHeading {
+        font-size: 28px;
+    }
+
+    .WhatsHappeningText {
+        font-size: 16px;
+    }
+
+    .WhatsHappeningRight {
+        min-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .WhatsHappeningLeft {
+        min-width: 100%;
+    }
+
+    .WhatsHappeningCard {
+        width: 100%;
+        margin-top: 10%;
+    }
 }

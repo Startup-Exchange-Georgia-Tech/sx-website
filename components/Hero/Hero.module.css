@@ -8,16 +8,18 @@
 .Hero {
     background-image: url(../../assets/images/heroimage.png);
     background-size: cover;
+    height: 100vh;
 }
 
 .HeroContentContainer {
     width: 70%;
-    margin-left: 15%;
+    margin-left: 10%;
     padding-bottom: 10%;
+    padding-top: 5%;
 }
 
 .HeroHeading {
-    background: -webkit-linear-gradient(90deg, #EAAA00 0%, #F2994A 100%);
+    background: -webkit-linear-gradient(-90deg, #FFFFFF 0%, #F2994A 88.54%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -25,17 +27,34 @@
     font-size: 60px;
 }
 
+.HeroHeadingStartup {
+    font-size: 72px;
+}
+
+.HeroHeadingsContainer {
+
+}
+
+.HeroSubHeading {
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    font-family: 'Crimson Text', serif;
+}
+
+
 .HeroBody {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'NeueHaasDisplay-Roman', sans-serif;
     color: white;
     font-size: 30px;
+    padding-top: 2%;
 }
 
 .eventLink {
-    font-size: 30px;
+    font-size: 24px;
     color: #F2B111;
     font-weight: 700;
-    padding-right: 2%;
+    padding-top: 20px;
 }
 
 .eventLinkContainer {
@@ -45,10 +64,40 @@
     padding-top: 2%;
 }
 
-.arrowContainer {
-    width: 20%;
+.HeroArrow {
+    padding-right: 10px;
+}
+
+.arrow {
+    margin-right: 4%;
 }
 
 .Hero {
     width: 100vw;
+}
+
+@media screen and (max-width: 700px) {
+    .HeroHeading  {
+        font-size: 36px;
+    }
+    .HeroHeadingStartup {
+        font-size: 44px;
+    }
+
+    .HeroContentContainer {
+        width: 80%;
+    }
+
+    .HeroSubHeading {
+        font-size: 14px;
+    }
+
+    .HeroBody {
+        font-size: 16px;
+        padding-top: 100%;
+    }
+
+    .eventLink {
+        font-size: 16px;
+    }
 }

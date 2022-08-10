@@ -1,49 +1,58 @@
 import styles from './Footer.module.css'
 import Image from 'next/image'
-import primaryLogo from '../../assets/images/SXprimaryLogo.png'
+import secondaryLogo from '../../assets/images/SXsecondaryLogo.png'
 import locationIcon from '../../assets/images/locationIcon.png'
+import smallArrow from '../../assets/images/smallArrow.png'
 
 const Footer = () => {
     return (
         <div className={styles.Footer}>
             <div className={styles.FooterContent}>
-                <div className={styles.FooterList}>
-                    <Image src={primaryLogo}></Image>
+                <div className={styles.FooterListLeft}>
+                    <div className={styles.FooterLogo}>
+                        <Image src={secondaryLogo}></Image>
+                    </div>
+                    <div className={styles.helloSX}>
+                        <Image src={smallArrow}></Image>
+                        <div className={styles.helloText}><u>hello@startupexchange.com</u></div>
+                    </div>
+                </div>
+                <div className={styles.FooterRight}>
+                    <div className={styles.FooterList}>
+                        <div className={styles.helloSX}>
+                            <div className={styles.FooterListHeading}>HOME</div>
+                            <Image src={smallArrow} className={styles.reverseArrow}></Image>
+                        </div>
+                        
+                        <div className={styles.FooterListItem}>SX TOOLBOX</div>
+                        <div className={styles.FooterListItem}>CONTACT</div>
+                    </div>
+                    <div className={styles.FooterList}>
+                        <div className={styles.FooterListHeading}>FOLLOW US</div>
+                        <div className={styles.SocialIcons}>Ig   Li   Fb   Tw</div>
+                        <div className={styles.helloSX}>
+                            <Image src={smallArrow}></Image>
+                            <div className={styles.FooterListItem}>gatech</div>
+                            
+                        </div>
+                        <div className={styles.helloSX}>
+                            <Image src={smallArrow}></Image>
+                            <div className={styles.FooterListItem}>create-x</div>
+                        </div>
+                    </div>
+                    <div className={styles.FooterList}>
+                        <div className={styles.FooterListHeading}>ABOUT</div>
+                        <div className={styles.FooterListHeading}>JOIN</div>
+                        <div className={styles.FooterListHeading}>EVENTS</div>
+                        <div className={styles.FooterListHeading}>ALUMNI</div>
+                        <div className={styles.FooterListHeading}>EXEC</div>
+                    </div>
                 </div>
                 
-                <div className={styles.FooterList}>
-                    <div className={styles.FooterListHeading}>ABOUT</div>
-                    <div className={styles.FooterListItem}>Missions \& Values</div>
-                    <div className={styles.FooterListItem}>Our Members</div>
-                    <div className={styles.FooterListItem}>Our Executive Board</div>
-                    <div className={styles.FooterListItem}>Alumni Network</div>
-                </div>
-                <div className={styles.FooterList}>
-                    <div className={styles.FooterListHeading}>STUDENTS</div>
-                    <div className={styles.FooterListItem}>Why SX?</div>
-                    <div className={styles.FooterListItem}>Join US</div>
-                    <div className={styles.FooterListItem}>Resources</div>
-                    <div className={styles.FooterListItem}>Job Board</div>
-                </div>
-                <div className={styles.FooterList}>
-                    <div className={styles.FooterListHeading}>EVENTS</div>
-                    <div className={styles.FooterListItem}>Innovator's Forum</div>
-                    <div className={styles.FooterListItem}>Startup Toolbox</div>
-                    <div className={styles.FooterListItem}>Networking</div>
-                    <div className={styles.FooterListItem}>Pitch Competitions</div>
-                    <div className={styles.FooterListItem}>Year in Review 2020-21</div>
-                </div>
-                <div className={styles.FooterList}>
-                    <div className={styles.FooterListHeading}>PODCAST</div>
-                    <div className={styles.FooterListHeading}>BLOG</div>
-                    <div className={styles.FooterListHeading}>PARTNERSHIP</div>
-                    <div className={styles.FooterListHeading}>CONTACT</div>
-                </div>
-
             </div>
             <div className={styles.FooterFooter}>
-                <div className={styles.FooterFooterText}><span><Image src={locationIcon}></Image></span>STARTUP EXCHANGE| 848 SPRING STREET NW, ATLANTA, GEORGIA 30308</div>
                 <div className={styles.FooterFooterText}>MADE BY OUR SX FAMILY.</div>
+                <div className={styles.FooterFooterText}>top</div>
             </div>
         </div>
     )

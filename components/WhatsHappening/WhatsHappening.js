@@ -9,14 +9,17 @@ export default function WhatsHappening() {
             </div>
             <div className={styles.WhatsHappeningRight}>
                 <div className={styles.WhatsHappeningCard}>
-                    <div className={styles.WhatsHappeningCardHeading}>Pitch Perfect</div>
-                    <div className={styles.WhatsHappeningCardBody}>Our end of the semester pitch competition.<br></br><br></br>
-April 22nd from 4-6:30 PM at the TSQ ATL Social Club.</div>
+                    <div className={styles.WhatsHappeningCardHeading}>New Member</div>
+                    <div className={styles.WhatsHappeningCardBody}>For the problem-solvers with rad skills and like working on cool stuff.
+
+And want to learn the ropes of entrepreneurship. Apply now!</div>
                     <div className={styles.WhatsHappeningCardLearn}>Learn More</div>
                 </div>
                 <div className={styles.WhatsHappeningCard}>
-                    <div className={styles.WhatsHappeningCardHeading}>SX Toolbox</div>
-                    <div className={styles.WhatsHappeningCardBody}>SX Toolbox is our open- access entrepreneurial curriculum, providing resources, workshops, and fireside chats to GT and the greater public.</div>
+                    <div className={styles.WhatsHappeningCardHeading}>Fellowship</div>
+                    <div className={styles.WhatsHappeningCardBody}>For the builders looking to turn their new idea into the next unicorn.
+
+Teams of 2-5. Apply now!</div>
                     <div className={styles.WhatsHappeningCardLearn}>Learn More</div>
                 </div>
             </div>

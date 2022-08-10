@@ -3,6 +3,17 @@ import arrow from '../../assets/images/Arrow.png'
 import Image from 'next/image'
 import alumniImage from '../../assets/images/alumniImage.png'
 import alumniCompanies from '../../assets/images/alumnicompanies.png'
+import amazon from '../../assets/images/amazon.png'
+import apple from '../../assets/images/apple.png'
+import autodesk from '../../assets/images/autodesk.png'
+import deloitte from '../../assets/images/deloitte.png'
+import kliener from '../../assets/images/kliener.png'
+import meta from '../../assets/images/meta.png'
+import tesla from '../../assets/images/tesla.png'
+import blackstone from '../../assets/images/blackstone-logo.png'
+import google from '../../assets/images/google.png'
+import jpmorgan from '../../assets/images/jpmorgan.png'
+
 
 export default function Alumni() {
     return (
@@ -13,11 +24,11 @@ export default function Alumni() {
                 <div className={styles.AlumniLeft}>
                     <div className={styles.AlumniHeading}>Alumni Project Spotlight</div>
                     <div className={styles.AlumniBody}>Sola uses 70 years of data to develop a proprietary model to help homeowners access financial support immediately following the devastation of a tornado.</div>
-                    <div className={styles.checkoutContainer}>
-                        <div className={styles.AlumniCheckout}>CHECK OUT SOLA</div>
-                        <div className={styles.arrowContainer}>
+                    <div className={styles.AlumniCheckout}>
+                        CHECK OUT SOLA
+                        <span className={styles.arrowContainer}>
                             <Image src={arrow}></Image>
-                        </div>
+                        </span>
                     </div>
                     <div className={styles.alumniImageContainer}>
                         <Image src={alumniImage} layout="responsive"></Image>
@@ -26,7 +37,78 @@ export default function Alumni() {
                 <div className={styles.AlumniRight}>
                     <div className={styles.AlumniCardHeading}>Alumni Employment</div>
                     <div className={styles.AlumniCompanyContainer}>
-                        <Image src={alumniCompanies} layout="responsive"></Image>
+                        <div className={styles.CompanyContainer}>
+                            <div className={styles.CompanyImageContainer}>
+                                <Image src={amazon} layout="responsive"></Image>
+                            </div>
+                            <div className={styles.CompanyName}>AMAZON</div>
+                        </div>
+                        <div className={styles.CompanyContainer}>
+                            <div className={styles.CompanyImageContainer}>
+                                <Image src={apple} layout="responsive"></Image>
+                            </div>
+                            <div className={styles.CompanyName}>APPLE</div>
+                        </div>
+                        <div className={styles.CompanyContainer}>
+                            <div className={styles.CompanyImageContainer}>
+                                <Image src={autodesk} layout="responsive"></Image>
+                            </div>
+                            <div className={styles.CompanyName}>AUTODESK</div>
+                        </div>
+                        <div className={styles.CompanyContainer}>
+                            <div className={styles.CompanyImageContainer}>
+                                <Image src={blackstone} layout="responsive"></Image>
+                            </div>
+                            <div className={styles.CompanyName}>BLACKSTONE</div>
+                        </div>
+                        <div className={styles.CompanyContainer}>
+                            <div className={styles.CompanyImageContainer}>
+                                <Image src={deloitte} layout="responsive"></Image>
+                            </div>
+                            <div className={styles.CompanyName}>DELOITTE</div>
+                        </div>
+                        <div className={styles.CompanyContainer}>
+                            <div className={styles.CompanyImageContainer}>
+                                <Image src={google} layout="responsive"></Image>
+                            </div>
+                            <div className={styles.CompanyName}>GOOGLE</div>
+                        </div>
+                        <div className={styles.CompanyContainer}>
+                            <div className={styles.CompanyImageContainer}>
+                                <Image src={jpmorgan} layout="responsive"></Image>
+                            </div>
+                            <div className={styles.CompanyName}>JPMORGAN</div>
+                        </div>
+                        <div className={styles.CompanyContainer}>
+                            <div className={styles.CompanyImageContainer}>
+                                <Image src={kliener} layout="responsive"></Image>
+                            </div>
+                            <div className={styles.CompanyName}>KLEINER PERKINS</div>
+                        </div>
+                        <div className={styles.CompanyContainer}>
+                            <div className={styles.CompanyImageContainer}>
+                                <Image src={amazon} layout="responsive"></Image>
+                            </div>
+                            <div className={styles.CompanyName}>MICROSOFT</div>
+                        </div>
+                        <div className={styles.CompanyContainer}>
+                            <div className={styles.CompanyImageContainer}>
+                                <Image src={meta} layout="responsive"></Image>
+                            </div>
+                            <div className={styles.CompanyName}>META</div>
+                        </div>
+                        <div className={styles.CompanyContainer}>
+                            <div className={styles.CompanyImageContainer}>
+                                <Image src={tesla} layout="responsive"></Image>
+                            </div>
+                            <div className={styles.CompanyName}>TESLA</div>
+                        </div>
+                        <div className={styles.CompanyContainer}>
+                            <div className={styles.CompanyImageContainer}>
+                                <Image src={amazon} layout="responsive"></Image>
+                            </div>
+                            <div className={styles.CompanyName}>and more</div>
+                        </div>
                     </div>
                 </div>
             </div>

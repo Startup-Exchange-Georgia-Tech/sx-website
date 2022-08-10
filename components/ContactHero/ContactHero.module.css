@@ -5,6 +5,8 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 0;
+    flex-wrap: wrap;
+    row-gap: 50px;
     color: white;
 }
 
@@ -16,14 +18,14 @@
 
 .ContactHeroEmail {
     font-size: 26px;
-    font-family: 'Monaco';
+    font-family: 'Crimson';
 }
 
 .ContactHeroHeading {
     font-size: 30px;
     display: flex;
     align-items: center;
-    font-family: 'Monaco';
+    font-family: 'Crimson';
 }
 
 .ContactHeroAddressContainer {
@@ -34,7 +36,7 @@
 }
 
 .ContactHeroSubHeading {
-    font-family: 'Roboto';
+    font-family: 'NeueHaasDisplay-Roman', sans-serif;
     font-weight: 200;
     font-style: 18px;
     color: #C4C4C4;
@@ -42,7 +44,7 @@
 }
 
 .ContactHeroAddress {
-    font-family: 'Monaco';
+    font-family: 'Crimson';
 }
 
 .ContactHeroView {
@@ -53,4 +55,10 @@
 
 .ContactHeroArrow {
     padding-left: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .ContactHero {
+        padding-top: 10%;
+    }
 }

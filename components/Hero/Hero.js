@@ -14,19 +14,12 @@ export default function Hero() {
                 <Image src={heroimage} layout="responsive"></Image>
             </div> */}
             <div className={styles.HeroContentContainer}>
-                <div className={styles.heroLogoContainer}>
-                    <Image src={circlelogo}></Image>
+                <div className={styles.HeroHeadingsContainer}>
+                    <div className={styles.HeroHeading}><span className={styles.HeroHeadingStartup}>STARTUP</span><br></br>EXCHANGE</div>
+                    <div className={styles.HeroSubHeading}>AT THE GEORGIA INSTITUTE OF TECHNOLOGY</div>
                 </div>
-                <div className={styles.HeroHeading}>Creating a hub for Yellow Jackets to connect, collaborate, and innovate.</div>
-                <div className={styles.HeroBody}>Through Startup Exchange, find community as you take your startup idea from concept to prototype, 
-or as you learn how to brainstorm a startup in the first place.</div>
-                <div className={styles.eventLinkContainer}>
-                    <div className={styles.eventLink}>OUR EVENTS</div>
-                    <div className={styles.arrowContainer}>
-                        <Image src={arrow}></Image>
-                    </div>
-                </div>
-                
+                <div className={styles.HeroBody}>With Startup Exchange, find community as you take your idea from concept to prototype,  or as you learn how to brainstorm a startup in the first place.</div>
+                <div className={styles.eventLink}><span className={styles.HeroArrow}><Image src={arrow}></Image></span>OUR PROGRAMS</div>
             </div>
             
         </div>

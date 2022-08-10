@@ -14,7 +14,14 @@ export default class MyDocument extends Document {
               />
               <link
                 rel="preload"
-                href="../public/fonts/Monaco.ttf"
+                href="../public/fonts/Crimson-Roman.otf"
+                as="font"
+                type="font/otf"
+                crossOrigin="anonymous"
+              />
+              <link
+                rel="preload"
+                href="../public/fonts/NeueHaasDisplayRoman.ttf"
                 as="font"
                 type="font/ttf"
                 crossOrigin="anonymous"

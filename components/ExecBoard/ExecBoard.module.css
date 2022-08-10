@@ -7,7 +7,7 @@
 }
 
 .ExecBoardText {
-    font-family: 'Monaco';
+    font-family: 'Crimson';
     color: #696969;
     font-size: 24px;
 }
@@ -40,9 +40,14 @@
 }
 
 .ExecBoardCardName {
-    font-family: 'Monaco';
+    font-family: 'Crimson';
     font-size: 20px;
     margin-top: 4%;
+}
+
+.ExecBoardCardEmail  {
+    color: #EAAA00;
+    font-family: 'NeueHaasDisplay-Roman', sans-serif;
 }
 
 .ExecBoardTitle {
@@ -54,4 +59,14 @@
     color: white;
     font-size: 20px;
     text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .ExecBoardText {
+        font-size: 16px;
+    }
+
+    .ExecBoardCard {
+        width: 100%;
+    }
 }

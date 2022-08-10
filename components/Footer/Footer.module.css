@@ -6,6 +6,7 @@
     flex-direction: column;
     color: white;
     font-family: 'Roboto';
+    border-top: 1px solid white;
 }
 
 .FooterContent {
@@ -13,13 +14,31 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .FooterList {
     display: flex;
     flex-direction: column;
     width: 20%;
-    margin-left: 5%;
+    row-gap: 10px;
+}
+
+.FooterListLeft {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.FooterRight {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.FooterLogo {
+    width: 50%;
 }
 
 .FooterListHeading {
@@ -42,9 +61,68 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-size: 16px;
 }
 
 .FooterFooterText {
     display: flex;
     align-items: center;
+}
+
+.helloSX {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    
+}
+
+.reverseArrow {
+    transform: scaleX(-1);
+}
+
+.SocialIcons {
+    word-spacing: 10px;
+    font-size: 20px;
+}
+
+.helloText {
+    font-size: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .FooterListLeft {
+        width: 100%;
+    }
+
+    .FooterLogo {
+        width: 100%;
+    }
+
+    .helloText {
+        font-size: 120%;
+        text-align: center;
+    }
+
+    .FooterList {
+        width: 50%;
+    }
+
+    .FooterRight {
+        width: 100%;
+        margin-top: 10%;
+        row-gap: 50px;
+        padding-bottom: 10%;
+    }
+
+    .FooterListItem {
+        font-size: 18px;
+    }
+
+    .Footer {
+        padding-top: 50px;
+    }
+
+    .FooterListHeading {
+        font-size: 20px;
+    }
 }

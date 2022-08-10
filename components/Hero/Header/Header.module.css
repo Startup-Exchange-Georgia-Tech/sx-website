@@ -1,23 +1,32 @@
 .Header {
     display: flex;
     flex-direction: row;
-    align-items: space-between;
+    align-items: center;
     justify-content: space-between;
     padding: 2%;
     padding-left: 4%;
     padding-right: 4%;
+    padding-top: 4%;
     font-size: 14px;
     width: 100%;
     font-family: 'Druk', sans-serif;
 }
 
+.HeaderLogo {
+    height: 10vh;
+}
+
 .pagesContainerHeader {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: white;
-    justify-content: space-between;
-    align-items: center;
-    width: 40%;
+    text-align: right;
+    row-gap: 10px;
+    position: absolute;
+    right: 40px;
+    font-size: 20px;
+    top: 50px;
+    font-family: 'NeueHaasDisplay-Roman', sans-serif;
 }
 
 .headerPageLink {
@@ -29,7 +38,14 @@
 }
 
 .headerLogoContainer {
-    width: 15%;
+    width: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellow {
+    color: #F2C94C;
 }
 
 .headerToolbox {
@@ -37,4 +53,73 @@
     padding: 2%;
     padding-left: 4%;
     padding-right: 4%;
+}
+
+.pagesDropDown {
+    display: none;
+}
+
+.HeaderDropDown {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(90deg, #EAAA00 0%, #F2994A 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.dropdownLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.ddLink {
+    height: 60px;
+    font-size: 20px;
+}
+
+.ddClose {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.ddLinkContact {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border: 2px solid white;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.dropdownLogo {
+    position: absolute;
+    top: 5%;
+}
+
+@media screen and (max-width: 700px) {
+    .headerLogoContainer {
+        width: 8vw;
+    }
+
+    .pagesContainerHeader {
+        display: none;
+    }
+
+    .pagesDropDown {
+        display: block;
+    }
+
+    .Header {
+        padding: 4%;
+    }
 }

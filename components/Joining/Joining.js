@@ -7,7 +7,7 @@ export default function Joining() {
     return (
         <div className={styles.Joining}>
             <div className={styles.Joiningtext}>JOINING SX</div>
-            <div className={styles.JoiningHeading}>We’re building a community of “do-ers.”</div>
+            <div className={styles.JoiningHeading}>We’re building a community of “<span className={styles.yellow}>do-ers</span>.”</div>
             <div className={styles.JoiningCardContainer}>
                 <div className={styles.JoiningCard}>
                     <Image src={newmember}></Image>
@@ -44,7 +44,10 @@ Work alongside industry leaders, and participate in workshops, socials, and fire
                     </ul>  
                 </div>
             </div>
-            <div className={styles.joinAction}>Follow @gtstartupexchange on social media, or subscribe to our mailing list for updates on our application season.</div>
+            <div className={styles.joinAction}>
+                <div className={styles.stayUp}>Stay up-to-date on our membership programs.</div>
+                <div className={styles.follow}>Follow @gtstartupexchange</div>
+            </div>
         </div>
     )
 }
