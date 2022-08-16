@@ -46,9 +46,16 @@
     font-size: 24px;
 }
 
+.FooterLink {
+    cursor: pointer;
+}
+
+.FooterLink:hover {
+    color: #EAAA00;
+}
+
 .FooterListItem {
     font-size: 20px;
-    padding-top: 3%;
 }
 
 .FooterFooter {
@@ -83,10 +90,34 @@
 .SocialIcons {
     word-spacing: 10px;
     font-size: 20px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.socialIcon {
+    cursor: pointer;
+}
+
+.socialIcon:hover {
+    color: #EAAA00;
 }
 
 .helloText {
     font-size: 100%;
+}
+
+.FooterFooterTop {
+    background: #505050;
+    color: white;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    justify-content: center;
+    height: 80px;
+    border-radius: 100px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 700px) {

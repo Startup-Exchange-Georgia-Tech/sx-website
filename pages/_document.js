@@ -21,7 +21,7 @@ export default class MyDocument extends Document {
               />
               <link
                 rel="preload"
-                href="../public/fonts/NeueHaasDisplayRoman.ttf"
+                href="../public/fonts/NeueHaasDisplay-Roman.ttf"
                 as="font"
                 type="font/ttf"
                 crossOrigin="anonymous"

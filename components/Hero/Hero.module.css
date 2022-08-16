@@ -55,6 +55,7 @@
     color: #F2B111;
     font-weight: 700;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 .eventLinkContainer {

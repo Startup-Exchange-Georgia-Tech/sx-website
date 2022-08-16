@@ -17,7 +17,7 @@
   font-family: 'NeueHaasDisplay-Roman';
   font-style: normal;
   font-weight: normal;
-  src: local('NeueHaasDisplay-Roman'), url('/fonts/NeueHaasDisplayRoman.ttf') format('ttf');
+  src: local('NeueHaasDisplay-Roman'), url('/fonts/NeueHaasDisplay-Roman.ttf') format('ttf');
 }
 
 html,

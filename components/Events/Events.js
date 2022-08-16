@@ -9,7 +9,7 @@ import pitch from '../../assets/images/pitch.png'
 
 export default function Events() {
     return (
-        <div className={styles.Events}>
+        <div className={styles.Events} id="Events">
             <div className={styles.EventsText}>EVENTS</div>
             <div className={styles.EventsCardContainer}>
                 <div className={styles.EventsCard}>

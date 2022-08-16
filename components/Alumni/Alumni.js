@@ -13,23 +13,27 @@ import tesla from '../../assets/images/tesla.png'
 import blackstone from '../../assets/images/blackstone-logo.png'
 import google from '../../assets/images/google.png'
 import jpmorgan from '../../assets/images/jpmorgan.png'
+import Link from 'next/link'
 
 
 export default function Alumni() {
     return (
         
-        <div className={styles.Alumni}>
+        <div className={styles.Alumni} id="Alumni">
             <div className={styles.AlumniText}>SX ALUMNI</div>
             <div className={styles.AlumniContainer}>
                 <div className={styles.AlumniLeft}>
-                    <div className={styles.AlumniHeading}>Alumni Project Spotlight</div>
+                    <div className={styles.AlumniHeading}>Alumni Project Spotlight</div> 
                     <div className={styles.AlumniBody}>Sola uses 70 years of data to develop a proprietary model to help homeowners access financial support immediately following the devastation of a tornado.</div>
-                    <div className={styles.AlumniCheckout}>
-                        CHECK OUT SOLA
-                        <span className={styles.arrowContainer}>
-                            <Image src={arrow}></Image>
-                        </span>
-                    </div>
+                    <Link href="https://solainsurance.com/">
+                        <div className={styles.AlumniCheckout}>
+                            CHECK OUT SOLA
+                            <span className={styles.arrowContainer}>
+                                <Image src={arrow}></Image>
+                            </span>
+                        </div>
+                    </Link>
+                    
                     <div className={styles.alumniImageContainer}>
                         <Image src={alumniImage} layout="responsive"></Image>
                     </div>

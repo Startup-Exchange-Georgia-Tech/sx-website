@@ -3,6 +3,8 @@ import Image from 'next/image'
 import secondaryLogo from '../../assets/images/SXsecondaryLogo.png'
 import locationIcon from '../../assets/images/locationIcon.png'
 import smallArrow from '../../assets/images/smallArrow.png'
+import arrowUp from '../../assets/images/arrowUp.png'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -29,7 +31,21 @@ const Footer = () => {
                     </div>
                     <div className={styles.FooterList}>
                         <div className={styles.FooterListHeading}>FOLLOW US</div>
-                        <div className={styles.SocialIcons}>Ig   Li   Fb   Tw</div>
+                        <div className={styles.SocialIcons}>
+                            <Link href="https://www.instagram.com/gtstartupexchange/">
+                                <div className={styles.socialIcon}>Ig</div>
+                            </Link>
+                            <Link href="https://www.linkedin.com/company/gtstartupexchange/">
+                                <div className={styles.socialIcon}>Li</div>
+                            </Link>
+                            <Link href="https://www.facebook.com/groups/startupexchange">
+                                <div className={styles.socialIcon}>Fb</div>
+                            </Link>
+                            <Link href="https://twitter.com/startupxchange">
+                                <div className={styles.socialIcon}>Tw</div>
+                            </Link>
+
+                        </div>
                         <div className={styles.helloSX}>
                             <Image src={smallArrow}></Image>
                             <div className={styles.FooterListItem}>gatech</div>
@@ -41,18 +57,34 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className={styles.FooterList}>
-                        <div className={styles.FooterListHeading}>ABOUT</div>
-                        <div className={styles.FooterListHeading}>JOIN</div>
-                        <div className={styles.FooterListHeading}>EVENTS</div>
-                        <div className={styles.FooterListHeading}>ALUMNI</div>
-                        <div className={styles.FooterListHeading}>EXEC</div>
+                        <Link href="#AboutUs">
+                            <div className={styles.FooterListHeading}>ABOUT</div>
+                        </Link>
+                        <Link href="#Join">
+                            <div className={styles.FooterListHeading}>JOIN</div>
+                        </Link>
+                        <Link href="#Events">
+                            <div className={styles.FooterListHeading}>EVENTS</div>
+                        </Link>
+                        <Link href="#Alumni">
+                            <div className={styles.FooterListHeading}>ALUMNI</div>
+                        </Link>
+                        <Link href="#Exec">
+                            <div className={styles.FooterListHeading}>EXEC</div>
+                        </Link>
                     </div>
                 </div>
                 
             </div>
             <div className={styles.FooterFooter}>
                 <div className={styles.FooterFooterText}>MADE BY OUR SX FAMILY.</div>
-                <div className={styles.FooterFooterText}>top</div>
+                <Link href="#hero">
+                    <div className={styles.FooterFooterTop}>
+                        <div>TOP</div>
+                        <Image src={arrowUp} className={styles.topSmallArrow}></Image>
+                    </div>
+                </Link>
+                
             </div>
         </div>
     )

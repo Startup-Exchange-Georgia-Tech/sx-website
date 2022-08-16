@@ -41,8 +41,13 @@ export default function Header() {
                 </Link>
                 
                 <div className={styles.pagesContainerHeader}>
-                    <a className={styles.headerPageLink}>ABOUT</a>
-                    <a className={styles.headerPageLink}>JOIN</a>
+                    <Link href="#AboutUs">
+                        <a className={styles.headerPageLink}>ABOUT</a>
+                    </Link>
+                    <Link href="#Join">
+                        <a className={styles.headerPageLink}>JOIN</a>
+                    </Link>
+                    
                     <a className={styles.headerPageLink}>LEARN</a>
                     <Link href="/contact">
                         <a className={styles.headerPageLink}>CONTACT</a>

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './WhatsHappening.module.css'
 
 export default function WhatsHappening() {
@@ -20,7 +21,10 @@ And want to learn the ropes of entrepreneurship. Apply now!</div>
                     <div className={styles.WhatsHappeningCardBody}>For the builders looking to turn their new idea into the next unicorn.
 
 Teams of 2-5. Apply now!</div>
-                    <div className={styles.WhatsHappeningCardLearn}>Learn More</div>
+                    <Link href="https://gatech.co1.qualtrics.com/jfe/form/SV_9zPz80hHAqyYJka">
+                        <div className={styles.WhatsHappeningCardLearn}>Learn More</div>
+                    </Link>
+                    
                 </div>
             </div>
         </div>

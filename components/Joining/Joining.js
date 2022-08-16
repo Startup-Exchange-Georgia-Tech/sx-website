@@ -2,10 +2,11 @@ import styles from './Joining.module.css'
 import newmember from '../../assets/images/newmember.png'
 import fellow from '../../assets/images/fellow.png'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Joining() {
     return (
-        <div className={styles.Joining}>
+        <div className={styles.Joining} id="Join">
             <div className={styles.Joiningtext}>JOINING SX</div>
             <div className={styles.JoiningHeading}>We’re building a community of “<span className={styles.yellow}>do-ers</span>.”</div>
             <div className={styles.JoiningCardContainer}>
@@ -46,7 +47,10 @@ Work alongside industry leaders, and participate in workshops, socials, and fire
             </div>
             <div className={styles.joinAction}>
                 <div className={styles.stayUp}>Stay up-to-date on our membership programs.</div>
-                <div className={styles.follow}>Follow @gtstartupexchange</div>
+                <Link href="https://www.instagram.com/gtstartupexchange/">
+                    <div className={styles.follow}>Follow @gtstartupexchange</div>
+                </Link>
+                
             </div>
         </div>
     )

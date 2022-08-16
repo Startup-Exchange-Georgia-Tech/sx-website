@@ -32,8 +32,12 @@
 .AboutUsRight {
     display: flex;
     justify-content: center;
-    width: 40%;
     margin-left: 5%;
+    width: 40%;
+}
+
+.AboutUsVideo {
+    width: 100%;
 }
 
 .eventLink {
@@ -41,6 +45,7 @@
     color: #F2B111;
     font-weight: 700;
     padding-right: 2%;
+    cursor: pointer;
 }
 
 .eventLinkContainer {

@@ -67,6 +67,7 @@
     padding: 2%;
     width: 50%;
     text-align: center;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 700px) {
