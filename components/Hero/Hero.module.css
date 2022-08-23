@@ -95,10 +95,24 @@
 
     .HeroBody {
         font-size: 16px;
-        padding-top: 100%;
+        margin-top: 80%;
     }
 
     .eventLink {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .HeroHeading {
+        font-size: 32px;
+    }
+
+    .HeroHeadingStartup {
+        font-size: 38px;
+    }
+
+    .HeroSubHeading {
+        font-size: 12.5px;
     }
 }
