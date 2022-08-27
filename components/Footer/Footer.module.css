@@ -46,6 +46,21 @@
     font-size: 24px;
 }
 
+.FooterListLink {
+    font-weight: 800;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.FooterListLink:hover {
+    color: #EAAA00;
+}
+
+.FooterListHeading {
+    font-weight: 800;
+    font-size: 24px;
+}
+
 .FooterLink {
     cursor: pointer;
 }
@@ -80,7 +95,7 @@
     display: flex;
     align-items: center;
     column-gap: 5px;
-    
+    cursor: pointer;
 }
 
 .reverseArrow {
