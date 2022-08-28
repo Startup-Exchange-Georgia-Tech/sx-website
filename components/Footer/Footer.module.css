@@ -5,7 +5,9 @@
     display: flex;
     flex-direction: column;
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    font-style: normal;
     border-top: 1px solid white;
 }
 
@@ -42,12 +44,12 @@
 }
 
 .FooterListHeading {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 24px;
 }
 
 .FooterListLink {
-    font-weight: 800;
+    font-weight: 600;
     font-size: 24px;
     cursor: pointer;
 }
@@ -57,7 +59,7 @@
 }
 
 .FooterListHeading {
-    font-weight: 800;
+    font-weight: 600;
     font-size: 24px;
 }
 
@@ -96,6 +98,9 @@
     align-items: center;
     column-gap: 5px;
     cursor: pointer;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .reverseArrow {
@@ -122,10 +127,14 @@
 }
 
 .FooterFooterTop {
-    background: #505050;
+    background: #222222;
     color: white;
     width: 80px;
     display: flex;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    border: 0.5px white solid;
+    font-style: normal;
     flex-direction: column;
     align-items: center;
     row-gap: 10px;

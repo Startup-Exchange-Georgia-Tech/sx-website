@@ -47,7 +47,9 @@
 
 .ExecBoardCardEmail  {
     color: #EAAA00;
-    font-family: 'NeueHaasDisplay-Roman', sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .ExecBoardTitle {

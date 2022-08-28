@@ -36,7 +36,9 @@
 }
 
 .ContactHeroSubHeading {
-    font-family: 'NeueHaasDisplay-Roman', sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    font-style: normal;
     font-weight: 200;
     font-style: 18px;
     color: #C4C4C4;

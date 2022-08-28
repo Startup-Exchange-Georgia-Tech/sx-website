@@ -55,13 +55,17 @@
 }
 
 .WhatsHappeningCardBody {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-weight: 200;
+    font-style: normal;
     font-size: 20px;
 }
 
 .WhatsHappeningCardLearn {
     font-weight: 900;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro';
+
+    font-style: normal;
     color: #EAAA00;
     border: 2px solid #EAAA00;
     padding: 2%;

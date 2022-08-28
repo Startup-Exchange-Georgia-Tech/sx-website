@@ -2,7 +2,9 @@
     padding: 10%;
     padding-top: 0;
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    font-style: normal;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
@@ -14,7 +16,7 @@
 }
 
 .Question {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 26px;
 }
 

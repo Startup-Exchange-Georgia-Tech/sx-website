@@ -15,7 +15,7 @@ export default function WhatsHappening() {
 
 And want to learn the ropes of entrepreneurship. Apply now!</div>
                     <Link href="https://docs.google.com/forms/d/e/1FAIpQLSc_AEgeYP63jxW2dZr-iX-3VxVQq78r3v-HqCdsUWaGSH4OTg/viewform">
-                        <div className={styles.WhatsHappeningCardLearn}>Learn More</div>
+                        <div className={styles.WhatsHappeningCardLearn}>Apply Now</div>
                     </Link>
                 </div>
                 <div className={styles.WhatsHappeningCard}>
@@ -24,7 +24,7 @@ And want to learn the ropes of entrepreneurship. Apply now!</div>
 
 Teams of 2-5. Apply now!</div>
                     <Link href="https://gatech.co1.qualtrics.com/jfe/form/SV_9zPz80hHAqyYJka">
-                        <div className={styles.WhatsHappeningCardLearn}>Learn More</div>
+                        <div className={styles.WhatsHappeningCardLearn}>Apply Now</div>
                     </Link>
                     
                 </div>
