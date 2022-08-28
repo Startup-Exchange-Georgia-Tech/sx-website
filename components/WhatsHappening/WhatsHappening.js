@@ -14,7 +14,9 @@ export default function WhatsHappening() {
                     <div className={styles.WhatsHappeningCardBody}>For the problem-solvers with rad skills and like working on cool stuff.
 
 And want to learn the ropes of entrepreneurship. Apply now!</div>
-                    <div className={styles.WhatsHappeningCardLearn}>Learn More</div>
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSc_AEgeYP63jxW2dZr-iX-3VxVQq78r3v-HqCdsUWaGSH4OTg/viewform">
+                        <div className={styles.WhatsHappeningCardLearn}>Learn More</div>
+                    </Link>
                 </div>
                 <div className={styles.WhatsHappeningCard}>
                     <div className={styles.WhatsHappeningCardHeading}>Fellowship</div>
