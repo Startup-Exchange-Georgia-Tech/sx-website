@@ -26,7 +26,9 @@
     right: 40px;
     font-size: 20px;
     top: 50px;
-    font-family: 'NeueHaasDisplay-Roman', sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .headerPageLink {
