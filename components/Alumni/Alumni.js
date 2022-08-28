@@ -113,7 +113,7 @@ export default function Alumni() {
                             <div className={styles.CompanyImageContainer}>
                                 <Image src={more} layout="responsive"></Image>
                             </div>
-                            <div className={styles.CompanyName}>and more</div>
+                            <div className={styles.CompanyName}>AND MORE</div>
                         </div>
                     </div>
                 </div>

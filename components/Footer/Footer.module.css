@@ -45,12 +45,12 @@
 
 .FooterListHeading {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .FooterListLink {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
     cursor: pointer;
 }
 
@@ -60,7 +60,7 @@
 
 .FooterListHeading {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .FooterLink {
@@ -72,13 +72,17 @@
 }
 
 .FooterListItem {
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.FooterListItem:hover {
+    color: #EAAA00;
 }
 
 .FooterFooter {
     font-family: 'Monaco';
     color: #7F7F7F;
-    font-size: 22px;
+    font-size: 18px;
     align-items: center;
     padding-top: 3%;
     display: flex;

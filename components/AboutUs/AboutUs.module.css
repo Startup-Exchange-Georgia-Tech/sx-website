@@ -19,17 +19,18 @@
 
 .AboutUsHeading {
     font-family: 'Druk';
-    font-size: 50px;
+    font-size: 36px;
 }
 
 .AboutUsBody {
+    line-height: 150%;
     font-size: 24px;
 }
 
 .AboutUsText {
     font-family: 'Crimson';
     color: #696969;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .AboutUsRight {
@@ -44,7 +45,7 @@
 }
 
 .eventLink {
-    font-size: 24px;
+    font-size: 20px;
     color: #F2B111;
     font-weight: 700;
     padding-right: 2%;

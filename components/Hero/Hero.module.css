@@ -22,7 +22,7 @@
 }
 
 .HeroHeading {
-    background: -webkit-linear-gradient(-90deg, #FFFFFF 0%, #eaaa00 88.54%);
+    background: -webkit-linear-gradient(-45deg, #FFFFFF 0%, #eaaa00 94.54%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -51,12 +51,12 @@
     font-weight: 200;
     font-style: normal;
     color: white;
-    font-size: 30px;
+    font-size: 24px;
     padding-top: 2%;
 }
 
 .eventLink {
-    font-size: 24px;
+    font-size: 20px;
     color: #eaaa00;
     font-weight: 700;
     padding-top: 20px;
