@@ -25,11 +25,21 @@ export default function Header() {
                     <Image src={sxwhite} ></Image>
                 </div>
                 <div className={styles.dropdownLinks}>
-                    <div className={styles.ddLink}>Home</div>
-                    <div className={styles.ddLink}>About</div>
-                    <div className={styles.ddLink}>Events</div>
-                    <div className={styles.ddLink}>Get Involved</div>
-                    <div className={styles.ddLinkContact}>Contact Us</div>
+                    <Link href="/">
+                        <div className={styles.ddLink}>Home</div>
+                    </Link>
+                    <Link href="/#AboutUs">
+                        <div className={styles.ddLink}>About</div>
+                    </Link>
+                    <Link href="/#Join">
+                        <div className={styles.ddLink}>Join</div>
+                    </Link>
+                    
+                    <div className={styles.ddLink}>Learn</div>
+                    <Link href="/contact">
+                        <div className={styles.ddLinkContact}>Contact</div>
+                    </Link>
+                    
                 </div>
             </div>
             : 
@@ -41,10 +51,10 @@ export default function Header() {
                 </Link>
                 
                 <div className={styles.pagesContainerHeader}>
-                    <Link href="#AboutUs">
+                    <Link href="/#AboutUs">
                         <a className={styles.headerPageLink}>ABOUT</a>
                     </Link>
-                    <Link href="#Join">
+                    <Link href="/#Join">
                         <a className={styles.headerPageLink}>JOIN</a>
                     </Link>
                     

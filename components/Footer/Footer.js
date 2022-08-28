@@ -7,6 +7,11 @@ import arrowUp from '../../assets/images/arrowUp.png'
 import Link from 'next/link'
 
 const Footer = () => {
+
+    const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    }
+    
     return (
         <div className={styles.Footer}>
             <div className={styles.FooterContent}>
@@ -89,12 +94,11 @@ const Footer = () => {
             </div>
             <div className={styles.FooterFooter}>
                 <div className={styles.FooterFooterText}>MADE BY OUR SX FAMILY.</div>
-                <Link href="#hero">
-                    <div className={styles.FooterFooterTop}>
-                        <div>TOP</div>
-                        <Image src={arrowUp} className={styles.topSmallArrow}></Image>
-                    </div>
-                </Link>
+
+                <div className={styles.FooterFooterTop} onClick={scrollToTop}>
+                    <div>TOP</div>
+                    <Image src={arrowUp} className={styles.topSmallArrow}></Image>
+                </div>
                 
             </div>
         </div>
