@@ -45,7 +45,12 @@
 }
 
 .EventsCardBody {
-    font-family: 'Roboto', sans-serif;
+
+
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    
     color: white;
     margin-top: 5%;
     font-size: 20px;

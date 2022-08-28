@@ -16,15 +16,18 @@
 @font-face {
   font-family: 'NeueHaasDisplay-Roman';
   font-style: normal;
+  src: url('/fonts/NeueHaasDisplay-Roman.woff2') format('woff2'),
+        url('/fonts/NeueHaasDisplay-Roman.woff') format('woff');
   font-weight: normal;
-  src: local('NeueHaasDisplay-Roman'), url('/fonts/NeueHaasDisplay-Roman.ttf') format('ttf');
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'NeueHaasDisplay-Roman', sans-serif;
+  font-family: 'Neue Haas Grotesk Display Pro';
+  font-weight: 500;
+  font-style: normal;
   overflow-x: hidden;
   background: #111111;
   overflow: overlay;

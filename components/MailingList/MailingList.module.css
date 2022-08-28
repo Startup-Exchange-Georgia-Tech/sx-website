@@ -18,10 +18,12 @@
 
 .signUpMailingList {
     font-size: 24px;
-    font-family: 'NeueHaasDisplay-Roman', sans-serif;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    font-style: normal;
     color: #EAAA00;
     border: 1px solid #EAAA00;
-    padding: 2% 6% 2% 6%;
+    padding: 1.5% 7% 1.5% 7%;
     cursor: pointer;
     border-radius: 4px;
 }

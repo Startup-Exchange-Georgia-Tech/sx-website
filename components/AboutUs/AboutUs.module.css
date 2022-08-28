@@ -5,6 +5,9 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .AboutUsLeft {
