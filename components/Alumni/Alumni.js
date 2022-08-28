@@ -9,6 +9,7 @@ import autodesk from '../../assets/images/autodesk.png'
 import deloitte from '../../assets/images/deloitte.png'
 import kliener from '../../assets/images/kliener.png'
 import meta from '../../assets/images/meta.png'
+import more from '../../assets/images/more.png'
 import tesla from '../../assets/images/tesla.png'
 import blackstone from '../../assets/images/blackstone-logo.png'
 import google from '../../assets/images/google.png'
@@ -109,7 +110,7 @@ export default function Alumni() {
                         </div>
                         <div className={styles.CompanyContainer}>
                             <div className={styles.CompanyImageContainer}>
-                                <Image src={amazon} layout="responsive"></Image>
+                                <Image src={more} layout="responsive"></Image>
                             </div>
                             <div className={styles.CompanyName}>and more</div>
                         </div>
