@@ -35,10 +35,11 @@ const Footer = () => {
                                 <Image src={smallArrow} className={styles.reverseArrow}></Image>
                             </div>
                         </Link>
-                        
-
                         <div className={styles.FooterListItem}>SX TOOLBOX</div>
-                        <div className={styles.FooterListItem}>CONTACT</div>
+                        <Link href="https://startup.exchange/contact">
+                            <div className={styles.FooterListItem}>CONTACT</div>
+                        </Link>
+                        
                     </div>
                     <div className={styles.FooterList}>
                         <div className={styles.FooterListHeading}>FOLLOW US</div>
