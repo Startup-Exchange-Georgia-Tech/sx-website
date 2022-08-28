@@ -67,6 +67,7 @@
     padding: 2%;
     width: 50%;
     text-align: center;
+    border-radius: 4px;
     cursor: pointer;
 }
 

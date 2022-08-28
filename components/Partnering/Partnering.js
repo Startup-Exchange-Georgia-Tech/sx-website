@@ -21,7 +21,7 @@ const Partnering = () => {
                 <div className={styles.PartneringBody}>If you are a VC, entrepreneur, founder, professor, executive, angel, lawyer, recruiter, or simply interested in the SX community, we will work with you to foster a meaningful relationship.</div>
             </div>
             <div className={styles.PartneringSubHeading}>Past event types have included information sessions, panels, workshops, recruiting and networking evenings, sharing of personal stories, and Q&As. </div>
-            <div className={styles.PartneringSubHeading}>Email us for more information at <span className={styles.yellow}>gabe@startup.exchange</span>.</div>
+            <div className={styles.PartneringSubHeading}>Email us for more information at <span className={styles.yellow}>vani@startup.exchange</span>.</div>
             <div className={styles.PartneringImage}>
                 <Image src={partneringImage} layout="responsive"></Image>
             </div>
@@ -30,7 +30,7 @@ const Partnering = () => {
                 <div className={styles.PartneringSubSubHeading}>What does a mentor do?</div>
                 <div className={styles.PartneringBody}>We are actively growing our diverse list of mentors to jumpstart student entrepreneurship talent.  Our mentors dedicate around 30 to 40 minutes per week to meet with Fellowship teams during the 10 week program, providing valuable feedback to the team’s idea.</div>
             </div>
-            <div className={styles.PartneringSubHeading}>Email us at <span className={styles.yellow}>revanth@startup.exchange</span> or <span className={styles.yellow}>saurav@startup.exchange</span> to get started!</div>
+            <div className={styles.PartneringSubHeading}>Email us at <span className={styles.yellow}>parth@startup.exchange</span> to get started!</div>
         </div>
     )
 }
