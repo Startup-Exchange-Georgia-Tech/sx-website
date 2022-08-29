@@ -15,7 +15,7 @@ const Partnering = () => {
                 <div className={styles.PartneringSubSubHeading}>Recruiting</div>
                 <div className={styles.PartneringBody}>Bolster your campus recruiting efforts with help from SX. Our team can plan and tailor personalized marketing campaigns, organize coffee chats, and help with anything you have in mind.</div>
             </div>
-            <div className={styles.PartneringSubHeading}>Gain access to the SX members resume book to connect with Georgia Tech’s most entrepreneurial-minded students.</div>
+            <div className={styles.PartneringSubHeading}>Gain access to our SX member community to connect with Georgia Tech’s most entrepreneurial-minded students.</div>
             <div className={styles.PartneringDivContainer}>
                 <div className={styles.PartneringSubSubHeading}>Sourcing</div>
                 <div className={styles.PartneringBody}>If you are a VC, entrepreneur, founder, professor, executive, angel, lawyer, recruiter, or simply interested in the SX community, we will work with you to foster a meaningful relationship.</div>

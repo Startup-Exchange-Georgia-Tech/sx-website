@@ -11,23 +11,24 @@
 }
 
 .PartneringHeading {
-    font-size: 40px;
+    font-size: 36px;
     font-family: 'Druk';
 }
 
 .PartneringSubHeading {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
 }
 
 .PartneringSubSubHeading {
     color: #EAAA00;
-    font-weight: 700;
-    font-size: 28px;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .PartneringBody {
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 150%;
 }
 
 .yellow {
