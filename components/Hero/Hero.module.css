@@ -100,7 +100,9 @@
     .HeroHeadingStartup {
         font-size: 44px;
     }
-
+    .HeroHeadingExchange {
+        font-size: 44px;
+    }
     .HeroContentContainer {
         width: 80%;
     }
@@ -127,7 +129,9 @@
     .HeroHeadingStartup {
         font-size: 38px;
     }
-
+    .HeroHeadingExchange {
+        font-size: 38px;
+    }
     .HeroSubHeading {
         font-size: 12.5px;
     }
