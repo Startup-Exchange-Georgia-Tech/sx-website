@@ -22,22 +22,25 @@
 }
 
 .HeroHeading {
-    background: -webkit-linear-gradient(-45deg, #FFFFFF 0%, #eaaa00 90.54%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+
     font-family: 'Druk';
     font-size: 60px;
 }
 
 .HeroHeadingStartup {
-    background: -webkit-linear-gradient(-45deg, #FFFFFF 0%, #eaaa00 88.54%);
-    font-size: 72px;
+    background: -webkit-linear-gradient(-45deg, #FFFFFF 0%, #eaaa00 90.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 74px;
 }
 
 .HeroHeadingExchange {
     background: -webkit-linear-gradient(-45deg, #eaaa00 0%, #F2994A 88.54%);
-    font-size: 72px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 74px;
 }
 
 
