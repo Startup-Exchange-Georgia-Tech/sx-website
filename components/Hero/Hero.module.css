@@ -33,6 +33,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-size: 74px;
+    line-height: 80%;
 }
 
 .HeroHeadingExchange {
