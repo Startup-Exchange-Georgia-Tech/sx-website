@@ -22,6 +22,8 @@ import wesley from '../../assets/images/wesley.png'
 import gary from '../../assets/images/gary.png'
 import isaac from '../../assets/images/isaac.png'
 import katie from '../../assets/images/katie.png'
+import jayp from '../../assets/images/jayp.png'
+import dakota from '../../assets/images/dakota.png'
 
 export default function ExecBoard() {
     return (
@@ -68,7 +70,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            {/* <Image src={}></Image> */}
+                            <Image src={jayp}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Jay Patel</div>
                         <div className={styles.ExecBoardCardEmail}>jay@startup.exchange</div>
@@ -225,6 +227,15 @@ export default function ExecBoard() {
                         </div>
                         <div className={styles.ExecBoardCardName}>Katie Roberts</div>
                         <div className={styles.ExecBoardCardEmail}>katie@startup.exchange</div>
+                    </div>
+                </div>
+                <div className={styles.ExecBoardCard}>
+                    <div className={styles.ExecBoardCardContainer}>
+                        <div className={styles.ExecBoardCardImageContainer}>
+                            <Image src={dakota}></Image>
+                        </div>
+                        <div className={styles.ExecBoardCardName}>Dakota Dudley</div>
+                        <div className={styles.ExecBoardCardEmail}>dakota@startup.exchange</div>
                     </div>
                 </div>
             </div>
