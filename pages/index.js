@@ -16,6 +16,10 @@ import Footer from '../components/Footer/Footer'
 export default function Home() {
   return (
     <div className="Home">
+      <Head>
+        <title>Startup Exchange at Georgia Tech | Connect, Collaborate, and Innovate</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Hero></Hero>
       <AboutUs></AboutUs>
       <WhatsHappening></WhatsHappening>

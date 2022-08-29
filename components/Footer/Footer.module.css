@@ -131,6 +131,10 @@
     font-size: 100%;
 }
 
+.helloText:hover {
+    color: #eaaa00;
+}
+
 .FooterFooterTop {
     background: #222222;
     color: white;

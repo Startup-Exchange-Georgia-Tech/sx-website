@@ -17,8 +17,13 @@
 }
 
 .ContactHeroEmail {
-    font-size: 26px;
+    font-size: 24px;
     font-family: 'Crimson';
+}
+
+.ContactHeroEmail:hover {
+    cursor: pointer;
+    color: #eaaa00;
 }
 
 .ContactHeroHeading {
@@ -40,19 +45,22 @@
     font-weight: 200;
     font-style: normal;
     font-weight: 200;
-    font-style: 18px;
+    font-size: 18px;
     color: #C4C4C4;
-    letter-spacing: 3px;
+    letter-spacing: 0.215em;
+
 }
 
 .ContactHeroAddress {
     font-family: 'Crimson';
+    font-size: 20px;
+    line-height: 100%;
 }
 
 .ContactHeroView {
-    font-size: 24px;
+    font-size: 20px;
     color: #F2B111;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 .ContactHeroArrow {

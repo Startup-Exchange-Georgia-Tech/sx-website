@@ -9,7 +9,7 @@ const ContactHero = () => {
     return (
         <div className={styles.ContactHero}>
             <div className={styles.ContactHeroLeft}>
-                <div className={styles.ContactHeroHeading}>ATL<span><Image src={locIconYellow}></Image></span> | TECH SQUARE</div>
+                <div className={styles.ContactHeroHeading}>ATL, GA<span><Image src={locIconYellow}></Image></span> | TECH SQUARE</div>
                 <a className={styles.ContactHeroEmail}><u>hello@startup.exchange</u></a>
                 <div className={styles.ContactHeroAddressContainer}>
                     <div className={styles.ContactHeroSubHeading}>TECH SQUARE ATL SOCIAL CLUB</div>
