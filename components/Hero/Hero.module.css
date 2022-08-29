@@ -31,8 +31,15 @@
 }
 
 .HeroHeadingStartup {
+    background: -webkit-linear-gradient(-45deg, #FFFFFF 0%, #eaaa00 88.54%);
     font-size: 72px;
 }
+
+.HeroHeadingExchange {
+    background: -webkit-linear-gradient(-45deg, #eaaa00 0%, #F2994A 88.54%);
+    font-size: 72px;
+}
+
 
 .HeroHeadingsContainer {
 
