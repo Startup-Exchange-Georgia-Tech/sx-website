@@ -8,7 +8,7 @@ export default function Joining() {
     return (
         <div className={styles.Joining} id="Join">
             <div className={styles.Joiningtext}>JOINING SX</div>
-            <div className={styles.JoiningHeading}>We’re building a community of “<span className={styles.yellow}>do-ers</span>.”</div>
+            <div className={styles.JoiningHeading}>We’re building a <br /> community of “<span className={styles.yellow}>do-ers</span>.”</div>
             <div className={styles.JoiningCardContainer}>
                 <div className={styles.JoiningCard}>
                     <Image src={newmember} alt = "new-member"></Image>
