@@ -35,7 +35,9 @@ const Footer = () => {
                                 <Image src={smallArrow} className={styles.reverseArrow}></Image>
                             </div>
                         </Link>
-                        <div className={styles.FooterListItem}>SX TOOLBOX</div>
+                        <Link href="https://startupexchange.notion.site/SX-Toolbox-658b9ef658da4ba7bb8d4cbdc470a387">
+                            <div className={styles.FooterListItem}>SX TOOLBOX</div>
+                        </Link>
                         <Link href="https://startup.exchange/contact">
                             <div className={styles.FooterListItem}>CONTACT</div>
                         </Link>

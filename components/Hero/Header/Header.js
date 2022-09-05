@@ -62,7 +62,7 @@ export default function Header() {
                     <Link href="/contact">
                         <a className={styles.headerPageLink}>CONTACT</a>
                     </Link>
-                    <Link href="https://www.notion.so/startupexchange/SX-Toolbox-658b9ef658da4ba7bb8d4cbdc470a387">
+                    <Link href="https://startupexchange.notion.site/SX-Toolbox-658b9ef658da4ba7bb8d4cbdc470a387">
                     <a className={styles.headerPageLink}><span className={styles.yellow}><u>SX TOOLBOX</u></span></a>
                     </Link>
                 </div>
