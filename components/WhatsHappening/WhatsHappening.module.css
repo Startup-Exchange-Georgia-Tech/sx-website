@@ -75,6 +75,12 @@
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.WhatsHappeningCardLearn:hover {
+    background-color: #EAAA00;
+    color: #fff;
 }
 
 @media screen and (max-width: 700px) {

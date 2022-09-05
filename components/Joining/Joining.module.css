@@ -125,8 +125,13 @@
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 900;
     font-style: normal;
-    
+    transition: 0.3s;
     cursor: pointer;
+}
+
+.follow:hover {
+    background-color: #EAAA00;
+    color: #fff;
 }
 
 .yellow {

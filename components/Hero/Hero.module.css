@@ -72,6 +72,11 @@
     font-weight: 700;
     padding-top: 20px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.eventLink:hover {
+    color: #fff;
 }
 
 .eventLinkContainer {

@@ -33,6 +33,7 @@
 
 .headerPageLink {
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .headerPageLink:hover {
@@ -48,6 +49,12 @@
 
 .yellow {
     color: #F2C94C;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.yellow:hover {
+    color: #fff;
 }
 
 .headerToolbox {

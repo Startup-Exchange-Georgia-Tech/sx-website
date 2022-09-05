@@ -65,6 +65,7 @@
 
 .FooterLink {
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .FooterLink:hover {
@@ -74,6 +75,7 @@
 .FooterListItem {
     cursor: pointer;
     font-size: 18px;
+    transition: 0.3s;
 }
 
 .FooterListItem:hover {
@@ -121,6 +123,7 @@
 
 .socialIcon {
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .socialIcon:hover {
@@ -129,6 +132,7 @@
 
 .helloText {
     font-size: 100%;
+    transition: 0.3s;
 }
 
 .helloText:hover {
