@@ -121,7 +121,7 @@ export default function ExecBoard() {
                         <div className={styles.ExecBoardCardEmail}>isaac@startup.exchange</div>
                     </div>
                 </div>
-                <div className={styles.ExecBoardCard}>
+                {/* <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
                             <Image src={divya}></Image>
@@ -130,7 +130,7 @@ export default function ExecBoard() {
                         <div className={styles.ExecBoardCardTitle}>FELLOWSHIP</div>
                         <div className={styles.ExecBoardCardEmail}>divya@startup.exchange</div>
                     </div>
-                </div>
+                </div> */}
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
@@ -221,7 +221,7 @@ export default function ExecBoard() {
                         <div className={styles.ExecBoardCardEmail}>vani@startup.exchange</div>
                     </div>
                 </div>
-                <div className={styles.ExecBoardCard}>
+                {/* <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
                             <Image src={wesley}></Image>
@@ -230,7 +230,7 @@ export default function ExecBoard() {
                         <div className={styles.ExecBoardCardTitle}>PARTNERSHIPS</div>
                         <div className={styles.ExecBoardCardEmail}>wesley@startup.exchange</div>
                     </div>
-                </div>
+                </div> */}
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
