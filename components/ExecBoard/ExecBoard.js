@@ -46,7 +46,7 @@ export default function ExecBoard() {
                         <div className={styles.ExecBoardCardImageContainer}>
                             <Image src={mohit}></Image>
                         </div>
-                        <div className={styles.ExecBoardCardName}>Mohit Pinniti</div>
+                        <div className={styles.ExecBoardCardName}>Mohit Pinninti</div>
                         <div className={styles.ExecBoardCardTitle}>CO-DIRECTOR</div>
                         <div className={styles.ExecBoardCardEmail}>mohit@startup.exchange</div>
                     </div>
