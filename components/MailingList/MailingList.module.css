@@ -6,8 +6,8 @@
     align-items: center;
     padding-top: 5%;
     padding-bottom: 5%;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 1px solid #282828;
+    border-bottom: 1px solid #696969;
 }
 
 .joinMailingList {
