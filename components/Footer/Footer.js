@@ -17,7 +17,9 @@ const Footer = () => {
             <div className={styles.FooterContent}>
                 <div className={styles.FooterListLeft}>
                     <div className={styles.FooterLogo}>
-                        <Image src={secondaryLogo}></Image>
+                        <Link href="/">
+                            <Image src={secondaryLogo}></Image>
+                        </Link>
                     </div>
                     <Link href="mailto:hello@startup.exchange">
                         <div className={styles.helloSX}>
@@ -29,7 +31,7 @@ const Footer = () => {
                 </div>
                 <div className={styles.FooterRight}>
                     <div className={styles.FooterList}>
-                        <Link href="#Hero">
+                        <Link href="/">
                             <div className={styles.helloSX}>
                                 <div className={styles.FooterListHeading}>HOME</div>
                                 <Image src={smallArrow} className={styles.reverseArrow}></Image>
