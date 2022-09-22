@@ -57,8 +57,9 @@ export default function Header() {
                     <Link href="/#Join">
                         <a className={styles.headerPageLink}>JOIN</a>
                     </Link>
-                    
-                    <a className={styles.headerPageLink}>LEARN</a>
+                    <Link href="/#Events">
+                        <a className={styles.headerPageLink}>LEARN</a>
+                    </Link>
                     <Link href="/contact">
                         <a className={styles.headerPageLink}>CONTACT</a>
                     </Link>

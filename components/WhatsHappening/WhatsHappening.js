@@ -6,10 +6,25 @@ export default function WhatsHappening() {
         <div className={styles.WhatsHappening}>
             <div className={styles.WhatsHappeningLeft}>
                 <div className={styles.WhatsHappeningText}>WHAT'S HAPPENING NOW</div>
-                <div className={styles.WhatsHappeningHeading}>APPLICATIONS FOR THE FALL 2022 COHORT ARE OPEN!</div>
+                {/* <div className={styles.WhatsHappeningHeading}>APPLICATIONS FOR THE FALL 2022 COHORT ARE OPEN!</div> */}
+                <div className={styles.WhatsHappeningHeading}>HELP BUILD OUR COMMUNITY!</div>
             </div>
             <div className={styles.WhatsHappeningRight}>
                 <div className={styles.WhatsHappeningCard}>
+                    <div className={styles.WhatsHappeningCardHeading}>Previous founder looking for community?</div>
+                    <div className={styles.WhatsHappeningCardBody}>Apply for an Associate Membership! We'd love to have you in our community.</div>
+                    <Link href="">
+                        <div className={styles.WhatsHappeningCardLearn}>Apply Now</div>
+                    </Link>
+                </div>
+                <div className={styles.WhatsHappeningCard}>
+                    <div className={styles.WhatsHappeningCardHeading}>Want to help grow the community?</div>
+                    <div className={styles.WhatsHappeningCardBody}>Join our community slack and add yourself to projects that you'd like to contribute to, or share any ideas that you may have!</div>
+                    <Link href="https://join.slack.com/t/sx-members/shared_invite/zt-1g9igwn8h-hGy6idk9609~Y4OEWeiOYw">
+                        <div className={styles.WhatsHappeningCardLearn}>Join Slack</div>
+                    </Link>
+                </div>
+                {/* <div className={styles.WhatsHappeningCard}>
                     <div className={styles.WhatsHappeningCardHeading}>New Member</div>
                     <div className={styles.WhatsHappeningCardBody}>For the problem-solvers with rad skills and like working on cool stuff.
 
@@ -27,7 +42,7 @@ Teams of 2-5. Apply now!</div>
                         <div className={styles.WhatsHappeningCardLearn}>Apply Now</div>
                     </Link>
                     
-                </div>
+                </div> */}
             </div>
         </div>
     )
