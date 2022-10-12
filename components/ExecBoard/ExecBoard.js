@@ -25,6 +25,7 @@ import katie from '../../assets/images/katie.png'
 import jayp from '../../assets/images/jayp.png'
 import dakota from '../../assets/images/dakota.png'
 import yash from '../../assets/images/yash.png'
+import arjun from '../../assets/images/arjun.png'
 
 export default function ExecBoard() {
     return (
@@ -275,7 +276,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            {/* <Image src={yash}></Image> */}
+                            <Image src={arjun}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Arjun Dewan</div>
                         <div className={styles.ExecBoardCardTitle}>MARKETING + DESIGN</div>
