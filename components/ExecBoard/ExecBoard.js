@@ -24,6 +24,7 @@ import isaac from '../../assets/images/isaac.png'
 import katie from '../../assets/images/katie.png'
 import jayp from '../../assets/images/jayp.png'
 import dakota from '../../assets/images/dakota.png'
+import yash from '../../assets/images/yash.png'
 
 export default function ExecBoard() {
     return (
@@ -264,7 +265,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={yash}></Image>
+                            {/* <Image src={yash}></Image> */}
                         </div>
                         <div className={styles.ExecBoardCardName}>Om Jha</div>
                         <div className={styles.ExecBoardCardTitle}>MARKETING</div>
@@ -274,7 +275,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={yash}></Image>
+                            {/* <Image src={yash}></Image> */}
                         </div>
                         <div className={styles.ExecBoardCardName}>Arjun Dewan</div>
                         <div className={styles.ExecBoardCardTitle}>MARKETING</div>
@@ -284,7 +285,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={yash}></Image>
+                            {/* <Image src={yash}></Image> */}
                         </div>
                         <div className={styles.ExecBoardCardName}>Austin Rowland</div>
                         <div className={styles.ExecBoardCardTitle}>MARKETING</div>
