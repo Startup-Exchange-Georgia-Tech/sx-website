@@ -55,7 +55,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={naz}></Image>
+                            <Image src={naz} width="179px" height="179px"></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Naz Ozturk</div>
                         <div className={styles.ExecBoardCardTitle}>DIRECTOR OF EVENTS</div>
@@ -68,14 +68,14 @@ export default function ExecBoard() {
                             <Image src={carter}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Carter Cote</div>
-                        <div className={styles.ExecBoardCardTitle}>DIRECTOR OF MARKETING + DESIGN</div>
+                        <div className={styles.ExecBoardCardTitle}>DIR. OF MARKETING + DESIGN</div>
                         <div className={styles.ExecBoardCardEmail}>carter@startup.exchange</div>
                     </div>
                 </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={sean}></Image>
+                            <Image src={sean} width="179px" height="179px"></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Sean Alexander</div>
                         <div className={styles.ExecBoardCardTitle}>DIRECTOR OF SCOUTS</div>
@@ -115,7 +115,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={isaac}></Image>
+                            <Image src={isaac} width="179px" height="179px"></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Isaac Altman</div>
                         <div className={styles.ExecBoardCardTitle}>MEMBERSHIP</div>
@@ -135,7 +135,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={yuma}></Image>
+                            <Image src={yuma} width="179px" height="179px"></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Yuma Tanaka</div>
                         <div className={styles.ExecBoardCardTitle}>FELLOWSHIP</div>
@@ -148,7 +148,7 @@ export default function ExecBoard() {
                             <Image src={aditya}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Aditya Shukla</div>
-                        <div className={styles.ExecBoardCardTitle}>LOGISTICS</div>
+                        <div className={styles.ExecBoardCardTitle}>EVENTS</div>
                         <div className={styles.ExecBoardCardEmail}>aditya@startup.exchange</div>
                     </div>
                 </div>
@@ -158,7 +158,7 @@ export default function ExecBoard() {
                             <Image src={jayp}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Jay Patel</div>
-                        <div className={styles.ExecBoardCardTitle}>LOGISTICS</div>
+                        <div className={styles.ExecBoardCardTitle}>EVENTS</div>
                         <div className={styles.ExecBoardCardEmail}>jay@startup.exchange</div>
                     </div>
                 </div>
@@ -168,7 +168,7 @@ export default function ExecBoard() {
                             <Image src={sruti}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Sruti Gandreti</div>
-                        <div className={styles.ExecBoardCardTitle}>MARKETING</div>
+                        <div className={styles.ExecBoardCardTitle}>MARKETING + DESIGN</div>
                         <div className={styles.ExecBoardCardEmail}>sruti@startup.exchange</div>
                     </div>
                 </div>
@@ -178,7 +178,7 @@ export default function ExecBoard() {
                             <Image src={yatharth}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Yatharth Bhargava</div>
-                        <div className={styles.ExecBoardCardTitle}>MARKETING</div>
+                        <div className={styles.ExecBoardCardTitle}>MARKETING + DESIGN</div>
                         <div className={styles.ExecBoardCardEmail}>yatharth@startup.exchange</div>
                     </div>
                 </div>
@@ -188,7 +188,7 @@ export default function ExecBoard() {
                             <Image src={akabu}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Aditya Kabu</div>
-                        <div className={styles.ExecBoardCardTitle}>LOGISTICS</div>
+                        <div className={styles.ExecBoardCardTitle}>SCOUTS</div>
                         <div className={styles.ExecBoardCardEmail}>akabu@startup.exchange</div>
                     </div>
                 </div>
@@ -255,7 +255,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={yash}></Image>
+                            <Image src={yash} width="179px" height="179px"></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Yash Vagal</div>
                         <div className={styles.ExecBoardCardTitle}>MEMBERSHIP</div>
@@ -268,7 +268,7 @@ export default function ExecBoard() {
                             {/* <Image src={yash}></Image> */}
                         </div>
                         <div className={styles.ExecBoardCardName}>Om Jha</div>
-                        <div className={styles.ExecBoardCardTitle}>MARKETING</div>
+                        <div className={styles.ExecBoardCardTitle}>MARKETING + DESIGN</div>
                         <div className={styles.ExecBoardCardEmail}>om@startup.exchange</div>
                     </div>
                 </div>
@@ -278,7 +278,7 @@ export default function ExecBoard() {
                             {/* <Image src={yash}></Image> */}
                         </div>
                         <div className={styles.ExecBoardCardName}>Arjun Dewan</div>
-                        <div className={styles.ExecBoardCardTitle}>MARKETING</div>
+                        <div className={styles.ExecBoardCardTitle}>MARKETING + DESIGN</div>
                         <div className={styles.ExecBoardCardEmail}>arjun@startup.exchange</div>
                     </div>
                 </div>
@@ -288,7 +288,7 @@ export default function ExecBoard() {
                             {/* <Image src={yash}></Image> */}
                         </div>
                         <div className={styles.ExecBoardCardName}>Austin Rowland</div>
-                        <div className={styles.ExecBoardCardTitle}>MARKETING</div>
+                        <div className={styles.ExecBoardCardTitle}>MARKETING + DESIGN</div>
                         <div className={styles.ExecBoardCardEmail}>austin@startup.exchange</div>
                     </div>
                 </div>
