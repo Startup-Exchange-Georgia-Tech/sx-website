@@ -37,7 +37,7 @@ export default function ExecBoard() {
                             <Image src={apuroop}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Apuroop Mutyala</div>
-                        <div className={styles.ExecBoardCardTitle}>CO-DIRECTOR</div>
+                        <div className={styles.ExecBoardCardTitle}>EXECUTIVE CO-DIRECTOR</div>
                         <div className={styles.ExecBoardCardEmail}>apuroop@startup.exchange</div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ export default function ExecBoard() {
                             <Image src={mohit}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Mohit Pinninti</div>
-                        <div className={styles.ExecBoardCardTitle}>CO-DIRECTOR</div>
+                        <div className={styles.ExecBoardCardTitle}>EXECUTIVE CO-DIRECTOR</div>
                         <div className={styles.ExecBoardCardEmail}>mohit@startup.exchange</div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ export default function ExecBoard() {
                             <Image src={naz}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Naz Ozturk</div>
-                        <div className={styles.ExecBoardCardTitle}>DIRECTOR OF LOGISTICS</div>
+                        <div className={styles.ExecBoardCardTitle}>DIRECTOR OF EVENTS</div>
                         <div className={styles.ExecBoardCardEmail}>naz@startup.exchange</div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@ export default function ExecBoard() {
                             <Image src={carter}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Carter Cote</div>
-                        <div className={styles.ExecBoardCardTitle}>DIRECTOR OF MARKETING</div>
+                        <div className={styles.ExecBoardCardTitle}>DIRECTOR OF MARKETING + DESIGN</div>
                         <div className={styles.ExecBoardCardEmail}>carter@startup.exchange</div>
                     </div>
                 </div>
@@ -247,18 +247,48 @@ export default function ExecBoard() {
                             <Image src={dakota}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Dakota Dudley</div>
-                        <div className={styles.ExecBoardCardTitle}>LOGISTICS</div>
+                        <div className={styles.ExecBoardCardTitle}>FELLOWSHIP</div>
                         <div className={styles.ExecBoardCardEmail}>dakota@startup.exchange</div>
                     </div>
                 </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            {/* <Image src={dakota}></Image> */}
+                            <Image src={yash}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Yash Vagal</div>
                         <div className={styles.ExecBoardCardTitle}>MEMBERSHIP</div>
                         <div className={styles.ExecBoardCardEmail}>yash@startup.exchange</div>
+                    </div>
+                </div>
+                <div className={styles.ExecBoardCard}>
+                    <div className={styles.ExecBoardCardContainer}>
+                        <div className={styles.ExecBoardCardImageContainer}>
+                            <Image src={yash}></Image>
+                        </div>
+                        <div className={styles.ExecBoardCardName}>Om Jha</div>
+                        <div className={styles.ExecBoardCardTitle}>MARKETING</div>
+                        <div className={styles.ExecBoardCardEmail}>om@startup.exchange</div>
+                    </div>
+                </div>
+                <div className={styles.ExecBoardCard}>
+                    <div className={styles.ExecBoardCardContainer}>
+                        <div className={styles.ExecBoardCardImageContainer}>
+                            <Image src={yash}></Image>
+                        </div>
+                        <div className={styles.ExecBoardCardName}>Arjun Dewan</div>
+                        <div className={styles.ExecBoardCardTitle}>MARKETING</div>
+                        <div className={styles.ExecBoardCardEmail}>arjun@startup.exchange</div>
+                    </div>
+                </div>
+                <div className={styles.ExecBoardCard}>
+                    <div className={styles.ExecBoardCardContainer}>
+                        <div className={styles.ExecBoardCardImageContainer}>
+                            <Image src={yash}></Image>
+                        </div>
+                        <div className={styles.ExecBoardCardName}>Austin Rowland</div>
+                        <div className={styles.ExecBoardCardTitle}>MARKETING</div>
+                        <div className={styles.ExecBoardCardEmail}>austin@startup.exchange</div>
                     </div>
                 </div>
             </div>
