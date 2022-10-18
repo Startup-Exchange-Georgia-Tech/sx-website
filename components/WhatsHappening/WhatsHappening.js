@@ -13,7 +13,7 @@ export default function WhatsHappening() {
                 <div className={styles.WhatsHappeningCard}>
                     <div className={styles.WhatsHappeningCardHeading}>Previous founder looking for community?</div>
                     <div className={styles.WhatsHappeningCardBody}>Apply for an Associate Membership! We'd love to have you in our community.</div>
-                    <Link href="">
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdRIIkSrl7n8Yt9LZyFvVN-oW2ufwVyRiPIa_9iEfq17-g2fg/viewform">
                         <div className={styles.WhatsHappeningCardLearn}>Apply Now</div>
                     </Link>
                 </div>

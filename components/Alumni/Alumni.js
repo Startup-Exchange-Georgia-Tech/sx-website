@@ -57,7 +57,7 @@ export default function Alumni() {
                         </div>
                         <div className={styles.CompanyContainer}>
                             <div className={styles.CompanyImageContainer}>
-                                <Image src={autodesk} layout="responsive"></Image>
+                                <Image src={autodesk} width="405px" layout="responsive"></Image>
                             </div>
                             <div className={styles.CompanyName}>AUTODESK</div>
                         </div>
@@ -69,13 +69,13 @@ export default function Alumni() {
                         </div>
                         <div className={styles.CompanyContainer}>
                             <div className={styles.CompanyImageContainer}>
-                                <Image src={deloitte} layout="responsive"></Image>
+                                <Image src={deloitte} width="220px" layout="responsive"></Image>
                             </div>
                             <div className={styles.CompanyName}>DELOITTE</div>
                         </div>
                         <div className={styles.CompanyContainer}>
                             <div className={styles.CompanyImageContainer}>
-                                <Image src={google} layout="responsive"></Image>
+                                <Image src={google} width="530px"layout="responsive"></Image>
                             </div>
                             <div className={styles.CompanyName}>GOOGLE</div>
                         </div>
@@ -93,7 +93,7 @@ export default function Alumni() {
                         </div>
                         <div className={styles.CompanyContainer}>
                             <div className={styles.CompanyImageContainer}>
-                                <Image src={microsoft} layout="responsive"></Image>
+                                <Image src={microsoft} width="510px" height="490px" layout="responsive"></Image>
                             </div>
                             <div className={styles.CompanyName}>MICROSOFT</div>
                         </div>

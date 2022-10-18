@@ -26,6 +26,7 @@ import jayp from '../../assets/images/jayp.png'
 import dakota from '../../assets/images/dakota.png'
 import yash from '../../assets/images/yash.png'
 import arjun from '../../assets/images/arjun.png'
+import om from '../../assets/images/om.png'
 
 export default function ExecBoard() {
     return (
@@ -116,6 +117,16 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
+                            <Image src={yuma} width="179px" height="179px"></Image>
+                        </div>
+                        <div className={styles.ExecBoardCardName}>Yuma Tanaka</div>
+                        <div className={styles.ExecBoardCardTitle}>CO-DIRECTOR OF FELLOWSHIP</div>
+                        <div className={styles.ExecBoardCardEmail}>yuma@startup.exchange</div>
+                    </div>
+                </div>
+                <div className={styles.ExecBoardCard}>
+                    <div className={styles.ExecBoardCardContainer}>
+                        <div className={styles.ExecBoardCardImageContainer}>
                             <Image src={isaac} width="179px" height="179px"></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Isaac Altman</div>
@@ -133,16 +144,6 @@ export default function ExecBoard() {
                         <div className={styles.ExecBoardCardEmail}>divya@startup.exchange</div>
                     </div>
                 </div> */}
-                <div className={styles.ExecBoardCard}>
-                    <div className={styles.ExecBoardCardContainer}>
-                        <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={yuma} width="179px" height="179px"></Image>
-                        </div>
-                        <div className={styles.ExecBoardCardName}>Yuma Tanaka</div>
-                        <div className={styles.ExecBoardCardTitle}>FELLOWSHIP</div>
-                        <div className={styles.ExecBoardCardEmail}>yuma@startup.exchange</div>
-                    </div>
-                </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
@@ -266,7 +267,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            {/* <Image src={yash}></Image> */}
+                            <Image src={om} width="179px" height="179px"></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Om Jha</div>
                         <div className={styles.ExecBoardCardTitle}>MARKETING + DESIGN</div>
@@ -276,7 +277,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={arjun}></Image>
+                            <Image src={arjun} width="179px" height="179px"></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Arjun Dewan</div>
                         <div className={styles.ExecBoardCardTitle}>MARKETING + DESIGN</div>
@@ -286,7 +287,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            {/* <Image src={yash}></Image> */}
+                            {/* <Image src={yash} width="179px" height="179px"></Image> */}
                         </div>
                         <div className={styles.ExecBoardCardName}>Austin Rowland</div>
                         <div className={styles.ExecBoardCardTitle}>MARKETING + DESIGN</div>
