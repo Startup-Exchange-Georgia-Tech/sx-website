@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Joining() {
   return (
     <div className={styles.Joining} id="Join">
-      <div className={styles.Joiningtext}>JOINING SX</div>
+      <div className={styles.Joiningtext}>MEMBERSHIP TIERS</div>
       <div className={styles.JoiningHeading}>
         We’re building a <br /> community of “
         <span className={styles.yellow}>do-ers</span>.”
@@ -62,11 +62,11 @@ export default function Joining() {
           </div>
           <div className={styles.JoiningCardContentUpper}>
             <div className={styles.JoiningCardHeading}>ASSOCIATE MEMBER</div>
-            <div className={styles.JoiningCardSubHeading}>Non-expiring</div>
+            <div className={styles.JoiningCardSubHeading}>Non-Expiring</div>
           </div>
           <div className={styles.JoiningCardContentLower}>
-            Participate in workshops, social events, and fireside chats
-            alongside your cohort as you learn the ropes of entrepreneurship.
+            Connect with founders at Tech, and gain
+            access to SX's network of founders & members-only resources.
           </div>
         </div>
       </div>

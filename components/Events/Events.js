@@ -3,10 +3,10 @@ import Image from "next/image";
 import sxrocket from "../../assets/images/sxrocket.png";
 import eventsImage from "../../assets/images/eventsimage.png";
 import fireside from "../../assets/images/fireside.png";
-import socials from "../../assets/images/socials.png";
 import mentorship from "../../assets/images/mentorship.png";
+import social from "../../assets/images/social.png";
 import workshop from "../../assets/images/workshop.png";
-import pitch from "../../assets/images/pitch.png";
+import partnerships from "../../assets/images/partnerships.png";
 
 export default function Events() {
   return (
@@ -34,7 +34,7 @@ export default function Events() {
         </div>
         <div className={styles.EventsCard}>
           <div className={styles.EventsImageContainer}>
-            <Image src={socials} layout="responsive"></Image>
+            <Image src={mentorship} layout="responsive"></Image>
           </div>
           <div className={styles.EventsContentContainer}>
             <div className={styles.EventsCardHeading}>MENTORSHIP</div>
@@ -56,7 +56,7 @@ export default function Events() {
         </div>
         <div className={styles.EventsCard}>
           <div className={styles.EventsImageContainer}>
-            <Image src={pitch} layout="responsive"></Image>
+            <Image src={social} layout="responsive"></Image>
           </div>
           <div className={styles.EventsContentContainer}>
             <div className={styles.EventsCardHeading}>SOCIALS</div>
@@ -68,7 +68,7 @@ export default function Events() {
         </div>
         <div className={styles.EventsCard}>
           <div className={styles.EventsImageContainer}>
-            <Image src={pitch} layout="responsive"></Image>
+            <Image src={partnerships} layout="responsive"></Image>
           </div>
           <div className={styles.EventsContentContainer}>
             <div className={styles.EventsCardHeading}>PARTNERSHIPS</div>
