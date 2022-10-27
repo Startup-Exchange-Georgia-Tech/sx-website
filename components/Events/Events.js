@@ -56,7 +56,7 @@ export default function Events() {
         </div>
         <div className={styles.EventsCard}>
           <div className={styles.EventsImageContainer}>
-            <Image src={mentorship} layout="responsive"></Image>
+            <Image src={pitch} layout="responsive"></Image>
           </div>
           <div className={styles.EventsContentContainer}>
             <div className={styles.EventsCardHeading}>SOCIALS</div>
