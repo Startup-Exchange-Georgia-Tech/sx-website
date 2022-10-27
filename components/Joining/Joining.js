@@ -69,6 +69,13 @@ export default function Joining() {
             access to SX's network of founders & members-only resources.
           </div>
         </div>
+        <div className={styles.joinAction}>
+                <div className={styles.stayUp}>Stay up-to-date on our membership programs.</div>
+                <Link href="https://www.instagram.com/gtstartupexchange/">
+                    <div className={styles.follow}>Follow @gtstartupexchange</div>
+                </Link>
+                
+            </div>
       </div>
     </div>
   );

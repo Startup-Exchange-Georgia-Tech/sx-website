@@ -22,7 +22,7 @@ export default function Hero() {
                 </div>
                 <div className={styles.HeroBody}>With Startup Exchange, find community as you take your idea from concept to prototype, <br />or as you learn how to brainstorm a startup in the first place.</div>
                 <Link href="#Join">
-                    <div className={styles.eventLink}><span className={styles.HeroArrow}><Image src={arrow}></Image></span>OUR PROGRAMS</div>
+                    <div className={styles.eventLink}><span className={styles.HeroArrow}><Image src={arrow}></Image></span>OUR MEMBERSHIPS</div>
                 </Link>
                 
             </div>
