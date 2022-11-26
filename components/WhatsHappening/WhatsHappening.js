@@ -1,30 +1,44 @@
-import Link from 'next/link'
-import styles from './WhatsHappening.module.css'
+import Link from "next/link";
+import styles from "./WhatsHappening.module.css";
 
 export default function WhatsHappening() {
-    return (
-        <div className={styles.WhatsHappening}>
-            <div className={styles.WhatsHappeningLeft}>
-                <div className={styles.WhatsHappeningText}>WHAT'S HAPPENING NOW</div>
-                {/* <div className={styles.WhatsHappeningHeading}>APPLICATIONS FOR THE FALL 2022 COHORT ARE OPEN!</div> */}
-                <div className={styles.WhatsHappeningHeading}>BUILD OUR COMMUNITY OF CURRENT & BUDDING FOUNDERS!</div>
-            </div>
-            <div className={styles.WhatsHappeningRight}>
-                <div className={styles.WhatsHappeningCard}>
-                    <div className={styles.WhatsHappeningCardHeading}>Previous founder looking for community?</div>
-                    <div className={styles.WhatsHappeningCardBody}>Apply for an Associate Membership! Connect with other founders at GT + access our member-only resources.</div>
-                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdRIIkSrl7n8Yt9LZyFvVN-oW2ufwVyRiPIa_9iEfq17-g2fg/viewform">
-                        <div className={styles.WhatsHappeningCardLearn}>Apply Now</div>
-                    </Link>
-                </div>
-                <div className={styles.WhatsHappeningCard}>
-                    <div className={styles.WhatsHappeningCardHeading}>Want to help grow the community?</div>
-                    <div className={styles.WhatsHappeningCardBody}>Join our community slack + contribute to current community initiatives, or share any ideas that you may have!</div>
-                    <Link href="https://join.slack.com/t/sx-members/shared_invite/zt-1g9igwn8h-hGy6idk9609~Y4OEWeiOYw">
-                        <div className={styles.WhatsHappeningCardLearn}>Join Slack</div>
-                    </Link>
-                </div>
-                {/* <div className={styles.WhatsHappeningCard}>
+  return (
+    <div className={styles.WhatsHappening}>
+      <div className={styles.WhatsHappeningLeft}>
+        <div className={styles.WhatsHappeningText}>WHAT'S HAPPENING NOW</div>
+        {/* <div className={styles.WhatsHappeningHeading}>APPLICATIONS FOR THE FALL 2022 COHORT ARE OPEN!</div> */}
+        <div className={styles.WhatsHappeningHeading}>
+          COME TO OUR BIGGEST EVENT YET - SX SUMMIT!
+        </div>
+      </div>
+      <div className={styles.WhatsHappeningRight}>
+        <div className={styles.WhatsHappeningCard}>
+          <div className={styles.WhatsHappeningCardHeading}>
+            RSVP FOR SX SUMMIT
+          </div>
+          <div className={styles.WhatsHappeningCardBody}>
+            Connecting founders and funders through a celebration of innovation
+            & creativity, here in the heart of Atlanta. Thursday, December 1st,
+            2022 from 5-8:30PM at Tech Square Social Club!
+          </div>
+          <Link href="https://lu.ma/sxsummit.atl">
+            <div className={styles.WhatsHappeningCardLearn}>RSVP</div>
+          </Link>
+        </div>
+        <div className={styles.WhatsHappeningCard}>
+          <div className={styles.WhatsHappeningCardHeading}>
+            Previous founder looking for community?
+          </div>
+          <div className={styles.WhatsHappeningCardBody}>
+            Apply for an Associate Membership! Connect with other founders at GT
+            + access our member-only resources.
+          </div>
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdRIIkSrl7n8Yt9LZyFvVN-oW2ufwVyRiPIa_9iEfq17-g2fg/viewform">
+            <div className={styles.WhatsHappeningCardLearn}>Apply Now</div>
+          </Link>
+        </div>
+
+        {/* <div className={styles.WhatsHappeningCard}>
                     <div className={styles.WhatsHappeningCardHeading}>New Member</div>
                     <div className={styles.WhatsHappeningCardBody}>For the problem-solvers with rad skills and like working on cool stuff.
 
@@ -43,7 +57,7 @@ Teams of 2-5. Apply now!</div>
                     </Link>
                     
                 </div> */}
-            </div>
-        </div>
-    )
+      </div>
+    </div>
+  );
 }
