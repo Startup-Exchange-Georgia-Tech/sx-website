@@ -17,7 +17,7 @@ export default function Home() {
     <div className="Home">
       <Head>
         <title>
-          Startup Exchange at Georgia Tech | Connect, Collaborate, and Innovate
+          Georgia Tech Startup Exchange | Connect, Collaborate, and Innovate
         </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>

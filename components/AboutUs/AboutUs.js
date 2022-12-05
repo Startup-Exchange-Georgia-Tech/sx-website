@@ -10,7 +10,7 @@ export default function AboutUs() {
             <div className={styles.AboutUsLeft}>
                 <div className={styles.AboutUsText}>ABOUT US</div>
                 <div className={styles.AboutUsHeading}>From Concept to Prototype</div>
-                <div className={styles.AboutUsBody}>Startup Exchange is the largest entrepreneurship organization at Georgia Tech. 
+                <div className={styles.AboutUsBody}>Georgia Tech Startup Exchange is the institute's largest entrepreneurship organization. 
                     Our mission is to inspire our members to create and develop their ventures by cultivating a hub for members to <u> connect</u>, <u>collaborate</u>, and <u>innovate</u>.<br></br><br></br>
                     Through our network of founders and curriculum taught by industry leaders, SX empowers students at all levels of entrepreneurship 
                     to develop the literacy to build their own ventures.</div>

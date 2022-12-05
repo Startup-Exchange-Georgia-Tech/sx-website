@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Joining() {
   return (
     <div className={styles.Joining} id="Join">
-      <div className={styles.Joiningtext}>MEMBERSHIP TIERS</div>
+      <div className={styles.Joiningtext}>OUR PROGRAMS</div>
       <div className={styles.JoiningHeading}>
         We’re building a <br /> community of “
         <span className={styles.yellow}>do-ers</span>.”
@@ -24,7 +24,7 @@ export default function Joining() {
             ></Image>
           </div>
           <div className={styles.JoiningCardContentUpper}>
-            <div className={styles.JoiningCardHeading}>NEW MEMBER</div>
+            <div className={styles.JoiningCardHeading}>MENTORSHIP</div>
             <div className={styles.JoiningCardSubHeading}>Semester-Long</div>
           </div>
           <div className={styles.JoiningCardContentLower}>
@@ -43,7 +43,7 @@ export default function Joining() {
             ></Image>
           </div>
           <div className={styles.JoiningCardContentUpper}>
-            <div className={styles.JoiningCardHeading}>FELLOWSHIP MEMBER</div>
+            <div className={styles.JoiningCardHeading}>FELLOWSHIP ACCELERATOR</div>
             <div className={styles.JoiningCardSubHeading}>Semester-Long</div>
           </div>
           <div className={styles.JoiningCardContentLower}>
@@ -61,7 +61,7 @@ export default function Joining() {
             ></Image>
           </div>
           <div className={styles.JoiningCardContentUpper}>
-            <div className={styles.JoiningCardHeading}>ASSOCIATE MEMBER</div>
+            <div className={styles.JoiningCardHeading}>MEMBERSHIP</div>
             <div className={styles.JoiningCardSubHeading}>Non-Expiring</div>
           </div>
           <div className={styles.JoiningCardContentLower}>

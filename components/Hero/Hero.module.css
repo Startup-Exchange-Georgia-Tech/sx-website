@@ -6,7 +6,8 @@
 }
 
 .Hero {
-    background-image: url(../../assets/images/heroimage.png);
+    /* background-image: url(../../assets/images/heroimage.png); */
+    background-image: url(../../assets/images/heroimage2.png);
     background-size: cover;
     height: 100vh;
 }
