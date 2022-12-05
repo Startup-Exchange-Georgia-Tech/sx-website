@@ -64,13 +64,16 @@ export default function Header() {
             <Link href="/contact">
               <a className={styles.headerPageLink}>CONTACT</a>
             </Link>
-            <Link href="https://www.google.com/search?q=coming+soon&rlz=1C1RXQR_enUS970US970&sxsrf=ALiCzsZfqKcJzQ7lZqpnXi44y7yB0Vmowg:1664940615514&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjLp9aPk8j6AhW5mGoFHWlxAAoQ_AUoAXoECAIQAw&biw=1920&bih=929&dpr=17">
+            <Link href="https://startupexchange.notion.site/Georgia-Tech-s-Entrepreneurship-Ecosystem-658b9ef658da4ba7bb8d4cbdc470a387">
+              <a className={styles.headerPageLink}>ECOSYSTEM GUIDE</a>
+            </Link>
+            {/* <Link href="https://www.google.com/search?q=coming+soon&rlz=1C1RXQR_enUS970US970&sxsrf=ALiCzsZfqKcJzQ7lZqpnXi44y7yB0Vmowg:1664940615514&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjLp9aPk8j6AhW5mGoFHWlxAAoQ_AUoAXoECAIQAw&biw=1920&bih=929&dpr=17">
               <a className={styles.headerPageLink}>
                 <span className={styles.yellow}>
                   🚀 <u>MEMBERS ONLY</u>
                 </span>
               </a>
-            </Link>
+            </Link> */}
           </div>
           <div className={styles.pagesDropDown}>
             <div className={styles.headerLogoContainer}>

@@ -22,7 +22,10 @@ export default function Hero() {
                 </div>
                 <div className={styles.HeroBody}>Find community + access cool benefits as you take your idea from concept to prototype, <br />or as you learn how to brainstorm a startup in the first place.</div>
                 <Link href="#Join">
-                    <div className={styles.eventLink}><span className={styles.HeroArrow}><Image src={arrow}></Image></span>OUR MEMBERSHIPS</div>
+                    <button className={styles.eventLink}>OUR PROGRAMS<span className={styles.HeroArrow}><Image src={arrow}></Image></span></button>
+                </Link>
+                <Link href="#Join">
+                    <button className={styles.eventLinkWhite}>ABOUT US<span className={styles.HeroArrow}><Image src={arrow}></Image></span></button>
                 </Link>
                 
             </div>

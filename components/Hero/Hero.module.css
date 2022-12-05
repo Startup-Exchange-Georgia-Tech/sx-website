@@ -64,20 +64,58 @@
     font-style: normal;
     color: white;
     font-size: 24px;
+    letter-spacing: 0.5px;
     padding-top: 2%;
 }
 
 .eventLink {
-    font-size: 20px;
+    font-size: 18px;
     color: #eaaa00;
     font-weight: 700;
-    padding-top: 20px;
+    border: 1px solid #EAAA00;
+    border-radius: 40px;
+    background-color: transparent;
+    text-align: center;
+
+    /* height: 45px; */
+    margin-top: 40px;
+    margin-right: 25px;
+    padding: 15px 30px 15px 30px;
+
     cursor: pointer;
     transition: 0.3s;
 }
 
 .eventLink:hover {
     color: #fff;
+    background-color: #eaaa00;
+    border: 1px solid #eaaa00;
+
+}
+
+.eventLinkWhite {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: transparent;
+    text-align: center;
+
+    /* height: 45px; */
+    margin-top: 40px;
+    margin-right: 25px;
+    padding: 15px 30px 15px 30px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.eventLinkWhite:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #fff;
+
 }
 
 .eventLinkContainer {
@@ -88,8 +126,9 @@
 }
 
 .HeroArrow {
-    padding-right: 10px;
+    padding-left: 10px;
 }
+
 
 .arrow {
     margin-right: 4%;

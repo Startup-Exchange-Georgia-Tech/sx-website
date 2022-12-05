@@ -19,12 +19,13 @@
 
 .AboutUsHeading {
     font-family: 'Druk';
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .AboutUsBody {
     line-height: 150%;
-    font-size: 24px;
+    font-size: 21px;
+    letter-spacing: 1px;
 }
 
 .AboutUsText {
