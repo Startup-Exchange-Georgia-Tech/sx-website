@@ -27,6 +27,7 @@ body {
   margin: 0;
   font-family: 'Neue Haas Grotesk Display Pro';
   font-weight: 500;
+  letter-spacing: 0.5px;
   font-style: normal;
   overflow-x: hidden;
   background: #111111;
