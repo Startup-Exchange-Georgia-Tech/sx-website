@@ -8,21 +8,20 @@ export default function WhatsHappening() {
         <div className={styles.WhatsHappeningText}>WHAT'S HAPPENING NOW</div>
         {/* <div className={styles.WhatsHappeningHeading}>APPLICATIONS FOR THE FALL 2022 COHORT ARE OPEN!</div> */}
         <div className={styles.WhatsHappeningHeading}>
-          COME TO OUR BIGGEST EVENT YET - SX SUMMIT!
+          APPLY TO THE STARTUP EXCHANGE EXECUTIVE BOARD!
         </div>
       </div>
       <div className={styles.WhatsHappeningRight}>
         <div className={styles.WhatsHappeningCard}>
           <div className={styles.WhatsHappeningCardHeading}>
-            RSVP FOR SX SUMMIT
+            APPLY TO EXEC
           </div>
           <div className={styles.WhatsHappeningCardBody}>
-            Connecting founders and funders through a celebration of innovation
-            & creativity, here in the heart of Atlanta. Thursday, December 1st,
-            2022 from 5-8:30PM at Tech Square Social Club!
+            Grow your network + gain access to resources about the startup Ecosystem
+            as you turn Georgia Tech into the next startup school.
           </div>
-          <Link href="https://lu.ma/sxsummit.atl">
-            <div className={styles.WhatsHappeningCardLearn}>RSVP</div>
+          <Link href="https://forms.gle/R6CCHFoe8qzjgGmb6">
+            <div className={styles.WhatsHappeningCardLearn}>APPLY</div>
           </Link>
         </div>
         <div className={styles.WhatsHappeningCard}>
