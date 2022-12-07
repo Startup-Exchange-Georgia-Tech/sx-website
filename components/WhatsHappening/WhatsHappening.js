@@ -29,8 +29,8 @@ export default function WhatsHappening() {
             Previous founder looking for community?
           </div>
           <div className={styles.WhatsHappeningCardBody}>
-            Apply for an Associate Membership! Connect with other founders at GT
-            + access our member-only resources.
+            Apply for our Membership! Connect with other founders at GT
+            + access mentors as you continue to build your product.
           </div>
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdRIIkSrl7n8Yt9LZyFvVN-oW2ufwVyRiPIa_9iEfq17-g2fg/viewform">
             <div className={styles.WhatsHappeningCardLearn}>Apply Now</div>
