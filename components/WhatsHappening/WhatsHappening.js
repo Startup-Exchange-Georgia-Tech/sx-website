@@ -8,7 +8,7 @@ export default function WhatsHappening() {
         <div className={styles.WhatsHappeningText}>WHAT'S HAPPENING NOW</div>
         {/* <div className={styles.WhatsHappeningHeading}>APPLICATIONS FOR THE FALL 2022 COHORT ARE OPEN!</div> */}
         <div className={styles.WhatsHappeningHeading}>
-          APPLY TO STARTUP EXCHANGE FOR THE SPRING!
+          APPLY TO STARTUP EXCHANGE FOR SPRING 2023!
         </div>
       </div>
       <div className={styles.WhatsHappeningRight}>
