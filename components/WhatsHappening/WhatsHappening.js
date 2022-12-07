@@ -33,7 +33,7 @@ export default function WhatsHappening() {
             + access mentors as you continue to build your product.
           </div>
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdRIIkSrl7n8Yt9LZyFvVN-oW2ufwVyRiPIa_9iEfq17-g2fg/viewform">
-            <div className={styles.WhatsHappeningCardLearn}>Apply Now</div>
+            <div className={styles.WhatsHappeningCardLearn}>APPLY</div>
           </Link>
         </div>
 
