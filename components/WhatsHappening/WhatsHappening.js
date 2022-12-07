@@ -14,7 +14,7 @@ export default function WhatsHappening() {
       <div className={styles.WhatsHappeningRight}>
         <div className={styles.WhatsHappeningCard}>
           <div className={styles.WhatsHappeningCardHeading}>
-            APPLY TO EXEC
+            Apply to the Exec Board
           </div>
           <div className={styles.WhatsHappeningCardBody}>
             Grow your network + gain access to resources about the startup Ecosystem
@@ -29,7 +29,7 @@ export default function WhatsHappening() {
             Previous founder looking for community?
           </div>
           <div className={styles.WhatsHappeningCardBody}>
-            Apply for our Membership! Connect with other founders at GT
+            Apply for our Membership for Spring 2023! Connect with other founders at GT
             + access mentors as you continue to build your product.
           </div>
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdRIIkSrl7n8Yt9LZyFvVN-oW2ufwVyRiPIa_9iEfq17-g2fg/viewform">
