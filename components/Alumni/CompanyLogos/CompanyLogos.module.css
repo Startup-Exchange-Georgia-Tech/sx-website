@@ -1,0 +1,14 @@
+.CurrentPartners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+    border-bottom: 1px solid #696969;
+}
+
+.CurrentPartnersText {
+    font-family: 'Crimson';
+    font-size: 18px;
+    color: #696969;
+    margin-bottom: 40px;
+}

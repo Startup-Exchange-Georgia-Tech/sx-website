@@ -9,7 +9,6 @@ const Partnering = () => {
             <div className={styles.PartneringSubHeading}>Our partners receive exclusive networking and recruiting opportunities with Georgia Tech students, access to our private mailing list, invitations to future events, and more.</div>
             <div className={styles.PartneringDivContainer}>
                 <div className={styles.PartneringSubSubHeading}>Events</div>
-                <div className={styles.AlumniDesc}>Past event types have included information sessions, panels, workshops, recruiting and networking evenings, sharing of personal stories, and Q&</div>
                 <div className={styles.PartneringBody}>We welcome speakers from all industries and walks of life looking to host all kinds of different events. Seasoned experts can sit on panels, run workshops, and lead seminars on carefully selected topics.</div>
             </div>
             <div className={styles.PartneringDivContainer}>
