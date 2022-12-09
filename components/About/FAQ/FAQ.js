@@ -42,7 +42,7 @@ const FAQ = () => {
                 </div>
                 <div className={styles.FAQCard}>
                     <div className={styles.Question}>What if I already have an idea I've built?</div>
-                    <div className={styles.Answer}>Student builders have the option of joining either our membership or our startup accelerator, SX Fellowship.</div>
+                    <div className={styles.Answer}>Student builders have the option of joining either our <b>membership</b> or our <b>startup accelerator</b>, SX Fellowship.</div>
                     <br/>
                     <div className={styles.Answer}> Through founder dinners and 1:1 coffee chats, membership allows founders to build community with our network of mentors, founders, and venture capitalists.</div>
 

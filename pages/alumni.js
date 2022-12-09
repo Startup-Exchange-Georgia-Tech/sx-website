@@ -14,8 +14,6 @@ export default function Alumni() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header></Header>
-            <ContactHero></ContactHero>
-            <FAQ></FAQ>
             <Partnering></Partnering>
             <CurrentPartners></CurrentPartners>
             <Footer></Footer>

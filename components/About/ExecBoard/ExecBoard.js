@@ -39,19 +39,19 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardHeading}>Executive Directors</div>
 
             <div className={styles.ExecBoardExecDirContainer}>
-                <div className={styles.ExecBoardCard}>
+                <div className={styles.ExecBoardExecDirCard}>
                     <div className={styles.ExecBoardCardContainer}>
-                        <div className={styles.ExecBoardCardImageContainer}>
+                        <div className={styles.ExecDirCardImageContainer}>
                             <Image src={aazan}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Aazan Khan</div>
-                        <div className={styles.ExecBoardCardTitle}>EXECUTIVE DIRECTOR OF MEMBERSHIP</div>
+                        <div className={styles.ExecBoardCardTitle}>EXECUTIVE DIRECTOR OF MEMBERSHIP</div><br/>
                         <div className={styles.ExecBoardCardEmail}>aazan@startup.exchange</div>
                     </div>
                 </div>
-                <div className={styles.ExecBoardCard}>
+                <div className={styles.ExecBoardExecDirCard}>
                     <div className={styles.ExecBoardCardContainer}>
-                        <div className={styles.ExecBoardCardImageContainer}>
+                        <div className={styles.ExecDirCardImageContainer}>
                             <Image src={carter}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Carter Cote</div>
@@ -59,9 +59,9 @@ export default function ExecBoard() {
                         <div className={styles.ExecBoardCardEmail}>carter@startup.exchange</div>
                     </div>
                 </div>
-                <div className={styles.ExecBoardCard}>
+                <div className={styles.ExecBoardExecDirCard}>
                     <div className={styles.ExecBoardCardContainer}>
-                        <div className={styles.ExecBoardCardImageContainer}>
+                        <div className={styles.ExecDirCardImageContainer}>
                             <Image src={sean} width="179px" height="179px"></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Sean Alexander</div>
