@@ -34,13 +34,13 @@
 }
 
 .ExecBoardExecDirContainer {
-    padding-left: 26%;
+    padding-left: 54%;
 
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    width: 130%;
+    width: 180%;
     padding-top: 3%;
     column-gap: 2%;
     row-gap: 40px;
@@ -48,7 +48,7 @@
 }
 
 .ExecBoardCard {
-    width: 23%;
+    width: 18%;
     border: 1px solid #515151;
     border-radius: 4px;
     display: flex;
@@ -111,9 +111,9 @@
         padding-right:  26%;
 
 
-        width: 120%;
+        width: 180%;
         padding-top: 5%;
-        column-gap: 1%;
+        /* column-gap: 1%; */
         row-gap: 30px;
     }
 }

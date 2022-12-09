@@ -28,7 +28,7 @@ import yash from '../../../assets/images/yash.png'
 import arjun from '../../../assets/images/arjun.png'
 import om from '../../../assets/images/om.png'
 import austin from '../../../assets/images/austin.png'
-// import chrisKlaus from '../../../assets/images/chrisKlaus.png'
+import chrisKlaus from '../../../assets/images/chrisKlaus.png'
 
 
 export default function ExecBoard() {
@@ -326,7 +326,7 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                         <div className={styles.ExecBoardCardContainer}>
                             <div className={styles.ExecBoardCardImageContainer}>
-                                {/* <Image src={chrisKlaus} width="179px" height="179px"></Image> */}
+                                <Image src={chrisKlaus} width="179px" height="179px"></Image>
                             </div>
                             <div className={styles.ExecBoardCardName}>Christopher Klaus</div>
                             <div className={styles.ExecBoardCardTitle}>FOUNDER, COO OF KANEVA</div>

@@ -1,39 +1,72 @@
 import styles from './FAQ.module.css'
-import Image from 'next/image'
-import partneringImage from '../../../assets/images/partneringImage.png'
+import Link from 'next/link'
 
 const FAQ = () => {
     return (
-        <div className={styles.Partnering}>
-            <div className={styles.PartneringHeading}>Partnering with SX</div>
-            <div className={styles.PartneringSubHeading}>Our partners receive exclusive networking and recruiting opportunities with Georgia Tech students, access to our private mailing list, invitations to future events, and more.</div>
-            <div className={styles.PartneringDivContainer}>
-                <div className={styles.PartneringSubSubHeading}>Events</div>
-                <div className={styles.AlumniDesc}>Past event types have included information sessions, panels, workshops, recruiting and networking evenings, sharing of personal stories, and Q&</div>
-                <div className={styles.PartneringBody}>We welcome speakers from all industries and walks of life looking to host all kinds of different events. Seasoned experts can sit on panels, run workshops, and lead seminars on carefully selected topics.</div>
+        <div className={styles.FAQ}>
+            <div className={styles.FAQText}>COMMONLY ASKED QUESTIONS</div>
+
+            <div className={styles.FAQHeading}>Mentorship is step one for joining SX.</div>
+
+            <div className={styles.FAQContainer}>
+                <div className={styles.FAQCard}>
+                    <div className={styles.Question}>How long is GT Startup Exchange mentorship?</div>
+                    <div className={styles.Answer}>Mentorship is approximately 3 months long, and runs in both the Fall and Spring semesters.</div>
+                    <br/><br/><br/>
+                    <div className={styles.Answer}><b>Spring 2023 mentorship will occur from mid-January to mid-April.</b></div>
+
+                </div>
+                <div className={styles.FAQCard}>
+                    <div className={styles.Question}>What do I learn during the mentorship process?</div>
+                    <div className={styles.Answer}>During mentorship, you will learn about the basics of customer discovery, value proposition, and revenue channels.</div>
+                    <br/>
+                    <div className={styles.Answer}> You will be taught different ways to validate business hypotheses as well as how to construct a proper pitch deck. </div>
+
+                </div>
+                <div className={styles.FAQCard}>
+                    <div className={styles.Question}>What is the time commitment for the mentorship program?</div>
+                    <div className={styles.Answer}>Attending weekly lectures and completing assignments take ~2-3 hours each week. </div>
+                    <br/>
+                    <br/>
+
+                    <div className={styles.Answer}>During the semester, you will also have a midterm VC assignment as well as a final startup pitch. Those who finish the program will be considered for fellowship in order to advance their idea.</div>
+
+                </div>
+                <div className={styles.FAQCard}>
+                    <div className={styles.Question}>How do I join the mentorship class for the Georgia Tech Startup Exchange?</div>
+                    <div className={styles.Answer}>Check our website and follow our social media to stay updated on when applications open!</div>
+                    {/* <div className={styles.Answer}>Mentorship is approximately 3 months long, and runs in both the Fall and Spring semesters.</div>
+                    */}<br/><br/><br/> 
+                    <div className={styles.Answer}><b>Spring 2023 mentorship will occur from mid-January to mid-April.</b></div>
+
+                </div>
+                <div className={styles.FAQCard}>
+                    <div className={styles.Question}>What if I already have an idea I've built?</div>
+                    <div className={styles.Answer}>Student builders have the option of joining either our membership or our startup accelerator, SX Fellowship.</div>
+                    <br/>
+                    <div className={styles.Answer}> Through founder dinners and 1:1 coffee chats, membership allows founders to build community with our network of mentors, founders, and venture capitalists.</div>
+
+                </div>
+                <div className={styles.FAQCard}>
+                    <div className={styles.Question}>What if I have more questions about mentorship or how to join?</div>
+                    <div className={styles.Answer}>Contact Apuroop Mutyala, Director of Mentorship </div>
+                    <br/>
+                    <br/>
+                    <br/>
+
+                    <div className={styles.Answer}>Email Apuroop at <Link href="https://mailto:apuroop@startup.exchange">apuroop@startup.exchange</Link></div>
+
+                </div>
             </div>
-            <div className={styles.PartneringDivContainer}>
-                <div className={styles.PartneringSubSubHeading}>Recruiting</div>
-                <div className={styles.PartneringBody}>Bolster your campus recruiting efforts with help from SX. Our team can plan and tailor personalized marketing campaigns, organize coffee chats, and help with anything you have in mind.</div>
-            </div>
-            <div className={styles.PartneringSubHeading}>Gain access to our SX member community to connect with Georgia Tech’s most entrepreneurial-minded students.</div>
-            <div className={styles.PartneringDivContainer}>
-                <div className={styles.PartneringSubSubHeading}>Sourcing</div>
-                <div className={styles.PartneringBody}>If you are a VC, entrepreneur, founder, professor, executive, angel, lawyer, recruiter, or simply interested in the SX community, we will work with you to foster a meaningful relationship.</div>
-            </div>
-            <div className={styles.PartneringSubHeading}>Past event types have included information sessions, panels, workshops, recruiting and networking evenings, sharing of personal stories, and Q&As. </div>
-            <div className={styles.PartneringSubHeading}>Email us for more information at <span className={styles.yellow}>vani@startup.exchange</span>.</div>
-            <div className={styles.PartneringImage}>
-                <Image src={partneringImage} layout="responsive"></Image>
-            </div>
-            <div className={styles.PartneringHeading}>Interested in mentoring our students?</div>
-            <div className={styles.PartneringDivContainer}>
-                <div className={styles.PartneringSubSubHeading}>What does a mentor do?</div>
-                <div className={styles.PartneringBody}>We are actively growing our diverse list of mentors to jumpstart student entrepreneurship talent.  Our mentors dedicate around 30 to 40 minutes per week to meet with Fellowship teams during the 10 week program, providing valuable feedback to the team’s idea.</div>
-            </div>
-            <div className={styles.PartneringSubHeading}>Email us at <span className={styles.yellow}>parth@startup.exchange</span> to get started!</div>
+
+
+            {/*<div> className={styles.QuestionContainer}
+                <div className={styles.Question}> </div>
+                <li className={styles.Answer}>If you live in Square on Fifth, take the elevator downstairs</li>
+    </div>*/}
         </div>
     )
 }
 
-export default FAQ
+export default FAQ;
+
