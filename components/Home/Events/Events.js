@@ -1,12 +1,12 @@
 import styles from "./Events.module.css";
 import Image from "next/image";
-import sxrocket from "../../assets/images/sxrocket.png";
-import eventsImage from "../../assets/images/eventsimage.png";
-import fireside from "../../assets/images/fireside.png";
-import mentorship from "../../assets/images/mentorship.png";
-import social from "../../assets/images/social.png";
-import workshop from "../../assets/images/workshop.png";
-import partnerships from "../../assets/images/partnerships.png";
+import sxrocket from "../../../assets/images/sxrocket.png";
+import eventsImage from "../../../assets/images/eventsimage.png";
+import fireside from "../../../assets/images/fireside.png";
+import mentorship from "../../../assets/images/mentorship.png";
+import social from "../../../assets/images/social.png";
+import workshop from "../../../assets/images/workshop.png";
+import partnerships from "../../../assets/images/partnerships.png";
 
 export default function Events() {
   return (

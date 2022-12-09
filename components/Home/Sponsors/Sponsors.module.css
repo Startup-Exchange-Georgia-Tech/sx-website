@@ -1,0 +1,50 @@
+.SponsorsText {
+    font-family: 'Crimson';
+    color: #696969;
+    font-size: 18px;
+    text-align: center;
+
+}
+.SponsorsHeading {
+    font-family: 'Druk';
+    font-size: 36px;
+    color: white;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.Sponsors {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10%;
+    padding-top: 0;
+    padding-bottom: 5%;
+
+}
+
+.eventLink {
+    font-size: 20px;
+    color: #F2B111;
+    font-weight: 700;
+    padding-right: 2%;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+
+    
+}
+
+.eventLink:hover {
+    color: #fff;
+}
+
+.arrowContainer {
+    padding-right: 10px;
+}
+@media screen and (max-width: 700px) {
+    .SponsorsText {
+        font-size: 16px;
+    }
+}

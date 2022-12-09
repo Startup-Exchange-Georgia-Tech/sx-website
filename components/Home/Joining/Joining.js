@@ -1,7 +1,7 @@
 import styles from "./Joining.module.css";
-import newmember from "../../assets/images/newmember.png";
-import fellow from "../../assets/images/fellow.png";
-import associate from "../../assets/images/associate.png";
+import newmember from "../../../assets/images/newmember.png";
+import fellow from "../../../assets/images/fellow.png";
+import associate from "../../../assets/images/associate.png";
 import Image from "next/image";
 import Link from "next/link";
 

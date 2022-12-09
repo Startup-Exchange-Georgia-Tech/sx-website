@@ -2,14 +2,14 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Hero from "../components/Hero/Hero";
-import AboutUs from "../components/AboutUs/AboutUs";
-import WhatsHappening from "../components/WhatsHappening/WhatsHappening";
-import Joining from "../components/Joining/Joining";
-import Events from "../components/Events/Events";
-import Alumni from "../components/Alumni/Alumni";
+import AboutUs from "../components/Home/AboutUs/AboutUs";
+import WhatsHappening from "../components/Home/WhatsHappening/WhatsHappening";
+import Joining from "../components/Home/Joining/Joining";
+import Events from "../components/Home/Events/Events";
+import Alumni from "../components/Home/Alumni/Alumni";
 import ExecBoard from "../components/ExecBoard/ExecBoard";
-import Sponsors from "../components/Sponsors/Sponsors";
-import MailingList from "../components/MailingList/MailingList";
+import Sponsors from "../components/Home/Sponsors/Sponsors";
+import MailingList from "../components/Home/MailingList/MailingList";
 import Footer from "../components/Footer/Footer";
 
 export default function Home() {

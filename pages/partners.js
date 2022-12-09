@@ -6,7 +6,7 @@ import FAQ from "../components/FAQ/FAQ"
 import Partnering from "../components/Partnering/Partnering"
 import CurrentPartners from "../components/CurrentPartners/CurrentPartners"
 
-export default function Contact() {
+export default function Partners() {
     return (
         <div>
             <Head>
@@ -14,8 +14,6 @@ export default function Contact() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header></Header>
-            <ContactHero></ContactHero>
-            <FAQ></FAQ>
             <Partnering></Partnering>
             <CurrentPartners></CurrentPartners>
             <Footer></Footer>

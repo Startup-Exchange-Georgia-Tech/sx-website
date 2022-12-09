@@ -29,17 +29,20 @@ export default function Header() {
             <Link href="/">
               <div className={styles.ddLink}>Home</div>
             </Link>
-            <Link href="/#AboutUs">
+            <Link href="/about">
               <div className={styles.ddLink}>About</div>
             </Link>
             <Link href="/#Join">
-              <div className={styles.ddLink}>Join</div>
+              <div className={styles.ddLink}>Join Us</div>
             </Link>
-            <Link href="https://startupexchange.notion.site/SX-Toolbox-658b9ef658da4ba7bb8d4cbdc470a387">
-              <div className={styles.ddLink}>Learn</div>
+            <Link href="/alumni">
+              <div className={styles.ddLink}>Alumni</div>
             </Link>
-            <Link href="/contact">
-              <div className={styles.ddLinkContact}>Contact</div>
+            <Link href="/partners">
+              <div className={styles.ddLinkContact}>Partners</div>
+            </Link>
+            <Link href="https://startupexchange.notion.site/Georgia-Tech-s-Entrepreneurship-Ecosystem-658b9ef658da4ba7bb8d4cbdc470a387">
+              <a className={styles.headerPageLink}>Ecosystem Guide</a>
             </Link>
           </div>
         </div>
@@ -52,17 +55,17 @@ export default function Header() {
           </Link>
 
           <div className={styles.pagesContainerHeader}>
-            <Link href="/#AboutUs">
+            <Link href="/about">
               <a className={styles.headerPageLink}>ABOUT</a>
             </Link>
             <Link href="/#Join">
-              <a className={styles.headerPageLink}>JOIN</a>
+              <a className={styles.headerPageLink}>JOIN US</a>
             </Link>
-            <Link href="https://startupexchange.notion.site/SX-Toolbox-658b9ef658da4ba7bb8d4cbdc470a387">
-              <a className={styles.headerPageLink}>LEARN</a>
+            <Link href="/alumni">
+              <a className={styles.headerPageLink}>ALUMNI</a>
             </Link>
-            <Link href="/contact">
-              <a className={styles.headerPageLink}>CONTACT</a>
+            <Link href="/partners">
+              <a className={styles.headerPageLink}>PARTNERS</a>
             </Link>
             <Link href="https://startupexchange.notion.site/Georgia-Tech-s-Entrepreneurship-Ecosystem-658b9ef658da4ba7bb8d4cbdc470a387">
               <a className={styles.headerPageLink}>ECOSYSTEM GUIDE</a>
