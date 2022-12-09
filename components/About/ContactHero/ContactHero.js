@@ -1,8 +1,8 @@
 import styles from './ContactHero.module.css'
 import Image from 'next/image'
-import contactHeroImage from '../../assets/images/contactheroimage.png'
-import locIconYellow from '../../assets/images/locIconYello.png'
-import arrow from '../../assets/images/Arrow.png'
+import contactHeroImage from '../../../assets/images/contactheroimage.png'
+import locIconYellow from '../../../assets/images/locIconYello.png'
+import arrow from '../../../assets/images/Arrow.png'
 import Link from 'next/link'
 
 const ContactHero = () => {

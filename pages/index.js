@@ -7,7 +7,6 @@ import WhatsHappening from "../components/Home/WhatsHappening/WhatsHappening";
 import Joining from "../components/Home/Joining/Joining";
 import Events from "../components/Home/Events/Events";
 import Alumni from "../components/Home/Alumni/Alumni";
-import ExecBoard from "../components/ExecBoard/ExecBoard";
 import Sponsors from "../components/Home/Sponsors/Sponsors";
 import MailingList from "../components/Home/MailingList/MailingList";
 import Footer from "../components/Footer/Footer";
@@ -27,7 +26,6 @@ export default function Home() {
       <Joining></Joining>
       <Events></Events>
       <Alumni></Alumni>
-      <ExecBoard></ExecBoard>
       <Sponsors></Sponsors>
       <MailingList></MailingList>
       <Footer></Footer>
