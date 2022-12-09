@@ -10,7 +10,7 @@ const Sponsors = () => {
             <div className={styles.SponsorsText}>OUR SPONSORS</div>
             <div className={styles.SponsorsHeading}>We're backed by the best.</div> 
             <Image src={SXsponsors} layout="responsive"></Image>
-            <Link href="#Join">
+            <Link href="http://mailto:hello@startup.exchange?subject=Sponsoring%20Georgia%20Tech%20Startup%20Exchange">
                     <div className={styles.eventLink}>
                         <span className={styles.arrowContainer}>
                             <Image src={arrow}></Image>
