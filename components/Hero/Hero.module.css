@@ -65,6 +65,7 @@
     color: white;
     font-size: 24px;
     padding-top: 2%;
+    padding-right: 35%;
 }
 
 .eventLink {
@@ -142,28 +143,35 @@
 .Hero {
     width: 100vw;
 }
+@media screen and (max-width: 1200px) {
+    .HeroBody {
+        padding-right: 10%;
+    }
+}
 
 @media screen and (max-width: 700px) {
     .HeroHeading  {
         font-size: 36px;
     }
     .HeroHeadingStartup {
-        font-size: 44px;
+        font-size: 72px;
     }
     .HeroHeadingExchange {
-        font-size: 44px;
+        font-size: 60px;
     }
     .HeroContentContainer {
+        padding-top: 10%;
+        padding-left: 1%;
         width: 80%;
     }
 
     .HeroSubHeading {
-        font-size: 14px;
+        font-size: 23px;
     }
 
     .HeroBody {
-        font-size: 16px;
-        margin-top: 80%;
+        margin-top: 30%;
+        padding-right: 15%;
     }
 
     .eventLink {
@@ -176,13 +184,32 @@
         font-size: 32px;
     }
 
+    .HeroContentContainer {
+        padding-top: 15%;
+    }
+    .HeroBody {
+        font-size: 18px;
+        line-height: 125%;
+        margin-top: 10%;
+        padding-right: 4%;
+
+    }
     .HeroHeadingStartup {
-        font-size: 38px;
+        font-size: 42px;
     }
     .HeroHeadingExchange {
-        font-size: 38px;
+        font-size: 36px;
+    }
+    .eventLink {
+        margin-top: 100px;
+        padding: 15px 58px 15px 58px;
+    }
+    .eventLinkWhite {
+        margin-top: 20px;
+        padding: 15px 78px 15px 78px;
     }
     .HeroSubHeading {
-        font-size: 12.5px;
+        text-align: left;
+        font-size: 13px;
     }
 }

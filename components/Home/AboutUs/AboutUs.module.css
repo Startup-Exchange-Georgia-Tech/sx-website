@@ -115,3 +115,16 @@
         padding-top: 10%;
     }
 }
+@media screen and (max-width: 390px) {
+    .AboutUs {
+        flex-direction: row;
+    }
+    .AboutUsHeading {
+        font-size: 24px;
+        padding-right: 5%;
+    }
+    .AboutUsBody {
+        width: 100%;
+        padding-right: 1%;
+    }
+}

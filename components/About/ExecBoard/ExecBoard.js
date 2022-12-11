@@ -65,7 +65,7 @@ export default function ExecBoard() {
                             <Image src={sean} width="179px" height="179px"></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Sean Alexander</div>
-                        <div className={styles.ExecBoardCardTitle}>EXECUTIVE DIRECTOR OF EXTERNAL OUTREACH</div>
+                        <div className={styles.ExecBoardCardTitle}>EXECUTIVE DIRECTOR OF EXTERNAL RELATIONS</div>
                         <div className={styles.ExecBoardCardEmail}>sean@startup.exchange</div>
                     </div>
                 </div>

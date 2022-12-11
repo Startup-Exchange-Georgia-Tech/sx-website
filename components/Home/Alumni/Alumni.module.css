@@ -158,3 +158,16 @@
         font-size: 8px;
     }
 }
+@media screen and (max-width: 390px) {
+    .AlumniCompanyContainer {
+        padding-bottom: 0%;
+    }
+    .AlumniRight {
+        padding-top: 10%;
+        padding-bottom: 14%;
+    }
+    .AlumniCardText {
+        font-size: 14px;
+
+    }
+}

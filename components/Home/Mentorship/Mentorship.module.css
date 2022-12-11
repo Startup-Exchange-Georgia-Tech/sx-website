@@ -107,3 +107,16 @@
         padding-top: 10%;
     }
 }
+@media screen and (max-width: 390px) {
+    .Mentorship {
+        flex-direction: row;
+    }
+    .MentorshipHeading {
+        font-size: 24px;
+        padding-right: 12%;
+    }
+    .MentorshipBody {
+        width: 100%;
+        padding-right: 1%;
+    }
+}
