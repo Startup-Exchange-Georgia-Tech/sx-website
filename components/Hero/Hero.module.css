@@ -71,8 +71,10 @@
     font-size: 18px;
     color: #eaaa00;
     font-weight: 700;
-    border: 1px solid #EAAA00;
     border-radius: 40px;
+    border: 1px solid #eaaa00;
+    /* border: 1px solid; */
+    /* border-image-slice: 1; */
     background-color: transparent;
     text-align: center;
 
@@ -83,6 +85,10 @@
 
     cursor: pointer;
     transition: 0.3s;
+}
+
+.eventLinkGradient {
+    border-image-source: linear-gradient(to left, #eaaa00, #F2994A);
 }
 
 .eventLink:hover {

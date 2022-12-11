@@ -10,34 +10,25 @@ const Mission = () => {
             <div className={styles.MissionHeading}>Providing GT entrepreneurs community, resources, and guidance.</div>
 
             <div className={styles.PartneringDivContainer}>
-                <div className={styles.PartneringSubSubHeading}>FreightWaves</div>
+                <div className={styles.PartneringSubSubHeading}>Growth-minded</div>
                     <div className={styles.MissionDesc}>We grow the next generation of world-changing entrepreneurs and companies. 
                         But no great journey is a straight line. That’s why we provide a safe space for exploration, so entrepreneurs can crash fast and keep building. 
-                        Ten weeks later, it’s only upward.</div>
-            </div>
+                        Ten weeks later, it’s only upward.
+                    </div>
+                </div>
             <div className={styles.PartneringDivContainer}>
-                <div className={styles.PartneringSubSubHeading}>EIN News</div>
-                <Link href="https://www.einnews.com/pr_news/605075100/the-future-of-school-snaps-up-key-talent-with-eyes-for-100k-students">
-                    <div className={styles.MissionDesc}><u>The Future of School Snaps Up Key Talent with Eyes for 100K Students</u></div>
-                </Link>
-            </div>
+                <div className={styles.PartneringSubSubHeading}>Steeped in Georgia Tech</div>
+                    <div className={styles.MissionDesc}>As the only startup accelerator run exclusively by and for Stanford students, Cardinal Ventures has unique access to the campus that launched Silicon Valley.
+                    We bring to bear world-leading mentors, talents, and resources from across Stanford’s broad network to ensure our startups thrive.
+                    </div>
+                </div>
             <div className={styles.PartneringDivContainer}>
-                <div className={styles.PartneringSubSubHeading}>TalkBusiness</div>
-                <Link href="https://talkbusiness.net/2021/03/bentonville-startup-ox-lands-3-5-million-in-seed-funding/">
-                    <div className={styles.MissionDesc}><u>Bentonville startup Ox lands $3.5 million in seed funding</u></div>
-                </Link>
-            </div>
-            <div className={styles.PartneringDivContainer}>
-                <div className={styles.PartneringSubSubHeading}>InsiderBusiness</div>
-                <Link href="https://www.youtube.com/watch?v=VT9AuMNQUMU">
-                    <div className={styles.AlumniDesc}><u>How One Young Entrepreneur Discovered A Way to Improve Supply Chain Logistics With Augmented Reality</u></div>
-                </Link>
-            </div>
-            <div className={styles.PartneringDivContainer}>
-                <div className={styles.PartneringSubSubHeading}>InVenture Prize</div>
-                <Link href="http://news.gatech.edu/news/2022/03/17/team-sola-wins-2022-georgia-tech-inventure-prize">
-                    <div className={styles.AlumniDesc}><u>Team Sola Wins 2022 Georgia Tech InVenture Prize</u></div>
-                </Link>
+                <div className={styles.PartneringSubSubHeading}>Community-First</div>
+                    <div className={styles.MissionDesc}>Cardinal Ventures is community first. 
+                    We believe that founding companies is not a one-person show – it takes a village to launch something great. 
+                    That’s why we work tirelessly to form bonds, share information, and drive collaborative innovation across the CV cohort. 
+                    The Stanford community has changed all of our lives. We take every chance we can to reinvest in the community and grow its reach.
+                    </div>
             </div>
         </div>
     )

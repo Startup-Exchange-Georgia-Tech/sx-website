@@ -35,6 +35,9 @@ export default function Header() {
             <Link href="/#Join">
               <div className={styles.ddLink}>Join Us</div>
             </Link>
+            <Link href="/initiatives">
+              <div className={styles.ddLink}>Initiatives</div>
+            </Link>
             <Link href="/alumni">
               <div className={styles.ddLink}>Alumni</div>
             </Link>
@@ -61,11 +64,11 @@ export default function Header() {
             <Link href="/#Join">
               <a className={styles.headerPageLink}>JOIN US</a>
             </Link>
+            <Link href="/initiatives">
+              <a className={styles.headerPageLink}>INITIATIVES</a>
+            </Link>
             <Link href="/alumni">
               <a className={styles.headerPageLink}>ALUMNI</a>
-            </Link>
-            <Link href="/partners">
-              <a className={styles.headerPageLink}>PARTNERS</a>
             </Link>
             <Link href="https://startupexchange.notion.site/Georgia-Tech-s-Entrepreneurship-Ecosystem-658b9ef658da4ba7bb8d4cbdc470a387">
               <a className={styles.headerPageLink}>ECOSYSTEM GUIDE</a>

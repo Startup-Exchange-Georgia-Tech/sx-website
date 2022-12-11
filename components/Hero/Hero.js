@@ -22,6 +22,7 @@ export default function Hero() {
                 </div>
                 <div className={styles.HeroBody}>Find community + access cool benefits as you take your idea from concept to prototype, <br />or as you learn how to brainstorm a startup in the first place.</div>
                 <Link href="#Join">
+                    {/* <button className={`${styles.eventLink} ${styles.eventLinkGradient}`}>OUR PROGRAMS<span className={styles.HeroArrow}><Image src={arrow}></Image></span></button> */}
                     <button className={styles.eventLink}>OUR PROGRAMS<span className={styles.HeroArrow}><Image src={arrow}></Image></span></button>
                 </Link>
                 <Link href="#Join">
