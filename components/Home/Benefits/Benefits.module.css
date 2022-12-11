@@ -1,0 +1,115 @@
+.Events {
+    padding: 5% 10% 10% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.EventsText {
+    font-family: 'Crimson';
+    color: #696969;
+    font-size: 18px;
+}
+
+.EventsCardContainer {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3%;
+    background: url(../../../assets/images/mesh.png);
+    background-blend-mode: color-dodge;
+    text-align: center;
+}
+
+.EventsCard {
+    width: 29%;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    align-items: center;
+    flex-direction: column;
+    padding: 3%;
+    min-width: 300px;
+    row-gap: 30px;
+}
+
+.EventsCardHeading {
+    font-family: 'Druk';
+    color: white;
+    font-size: 24px;
+}
+
+.EventsImageContainer {
+    width: 40%;
+}
+
+.EventsCardBody {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 150%;
+    color: white;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.eventsImageContainer {
+    justify-self: center;
+    align-self: center;
+    padding: 10%;
+    padding-bottom: 0;
+}
+
+.Joiningtext {
+    font-family: 'Crimson';
+    color: #696969;
+    font-size: 18px;
+    text-align: center;
+}
+
+.JoiningHeading {
+    font-size: 36px;
+    font-family: 'Druk';
+    line-height: 150%;
+    text-align: center;
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.TestimonialsHeading {
+    font-size: 36px;
+    font-family: 'Druk';
+    line-height: 150%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 5% 0% 2% 0%;
+}
+
+.yellow {
+    color: #eaaa00;
+}
+
+.JoiningHeadingContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 860px) {
+    .EventsCard {
+        width: 100%;
+    }
+
+    .EventsContentContainer {
+        width: 100%;
+    }
+
+    .JoiningHeading {
+        width: 100%;
+        font-size: 28px;
+    }
+}

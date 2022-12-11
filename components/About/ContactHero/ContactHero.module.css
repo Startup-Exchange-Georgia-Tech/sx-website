@@ -58,9 +58,14 @@
 }
 
 .ContactHeroView {
-    font-size: 20px;
+    font-size: 18px;
     color: #F2B111;
     font-weight: 900;
+    transition: 0.3s;
+}
+
+.ContactHeroView:hover {
+    color: #FFF;
 }
 
 .ContactHeroArrow {

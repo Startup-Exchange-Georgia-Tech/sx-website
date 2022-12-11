@@ -2,10 +2,13 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Hero from "../components/Hero/Hero";
-import AboutUs from "../components/Home/AboutUs/AboutUs";
 import WhatsHappening from "../components/Home/WhatsHappening/WhatsHappening";
+import AboutUs from "../components/Home/AboutUs/AboutUs";
+import Fellowship from "../components/Home/Fellowship/Fellowship";
+import Mentorship from "../components/Home/Mentorship/Mentorship";
+import Membership from "../components/Home/Membership/Membership";
 import Joining from "../components/Home/Joining/Joining";
-import Events from "../components/Home/Events/Events";
+import Benefits from "../components/Home/Benefits/Benefits";
 import Alumni from "../components/Home/Alumni/Alumni";
 import Sponsors from "../components/Home/Sponsors/Sponsors";
 import MailingList from "../components/Home/MailingList/MailingList";
@@ -21,10 +24,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero></Hero>
-      <AboutUs></AboutUs>
       <WhatsHappening></WhatsHappening>
+      <AboutUs></AboutUs>
       <Joining></Joining>
-      <Events></Events>
+      <Mentorship></Mentorship>
+      <Fellowship></Fellowship>
+      <Membership></Membership>
+      <Benefits></Benefits>
       <Alumni></Alumni>
       <Sponsors></Sponsors>
       <MailingList></MailingList>

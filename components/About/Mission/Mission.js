@@ -5,7 +5,7 @@ import partneringImage from '../../../assets/images/partneringImage.png'
 
 const Mission = () => {
     return (
-        <div className={styles.Partnering}>
+        <div className={styles.Mission}>
             <div className={styles.MissionText}>OUR MISSION</div>
             <div className={styles.MissionHeading}>Providing GT entrepreneurs community, resources, and guidance.</div>
 
@@ -28,6 +28,20 @@ const Mission = () => {
                     We believe that founding companies is not a one-person show – it takes a village to launch something great. 
                     That’s why we work tirelessly to form bonds, share information, and drive collaborative innovation across the CV cohort. 
                     The Stanford community has changed all of our lives. We take every chance we can to reinvest in the community and grow its reach.
+                    </div>
+            </div>
+            <div className={styles.PartneringDivContainer}>
+                <div className={styles.PartneringSubSubHeading}>For students, by students</div>
+                    <div className={styles.MissionDesc}>As the only equity-free student-run accelerator at Stanford, our only interest is you. 
+                    We believe that being a student is an asset, not a liability. 
+                    Wherever you’re headed, Cardinal Ventures will help get you there.
+                    </div>
+            </div>
+            <div className={styles.PartneringDivContainer}>
+                <div className={styles.PartneringSubSubHeading}>Bring the new</div>
+                    <div className={styles.MissionDesc}>We help entrepreneurs build the future, now. 
+                    That starts with the next wave of founders married to the cutting edge in technology, creativity and strategy. 
+                    Our founders bring us the best of the next, and we in turn help pull the future into the present.
                     </div>
             </div>
         </div>

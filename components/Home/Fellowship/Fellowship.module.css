@@ -1,0 +1,109 @@
+.Fellowship {
+    background: #111111;
+    color: white;
+    padding: 5% 10% 5% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.FellowshipRight {
+    width: 40%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.FellowshipHeading {
+    font-family: 'Druk';
+    font-size: 32px;
+}
+
+.FellowshipBody {
+    line-height: 150%;
+    font-size: 21px;
+    padding-bottom: 7%;
+    border-bottom: 1px solid #2f2f2f;
+}
+
+.FellowshipText {
+    margin-top: 10%;
+    font-family: 'Crimson';
+    color: #696969;
+    font-size: 18px;
+}
+
+.FellowshipLeft {
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+    width: 40%;
+}
+
+.FellowshipVideo {
+    width: 100%;
+    border: 1px solid #505050;
+    border-radius: 4px;
+}
+
+.eventLink {
+    font-size: 18px;
+    color: #F2B111;
+    font-weight: 700;
+    padding-right: 2%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.eventLink:hover {
+    color: #fff;
+}
+
+.eventLinkContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.arrowContainer {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .FellowshipHeading {
+        font-size: 28px;
+    }
+
+    .FellowshipBody {
+        font-size: 20px;
+    }
+
+    .FellowshipLeft {
+        width: 100%;
+    }
+
+    .FellowshipRight {
+        width: 100%;
+    }
+
+    .FellowshipText {
+        font-size: 16px;
+    }
+
+    .eventLink {
+        font-size:18px;
+    }
+
+    .arrowContainer {
+        width: 30px;
+    }
+
+    .FellowshipRight {
+        padding-top: 10%;
+    }
+}

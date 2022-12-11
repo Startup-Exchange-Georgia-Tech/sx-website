@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Footer from "../components/Footer/Footer"
 import ContactHero from "../components/About/ContactHero/ContactHero"
 import FAQ from "../components/About/FAQ/FAQ"
-import ColumnText from "../components/Alumni/ColumnText/ColumnText"
+import AlumniNews from "../components/Alumni/AlumniNews/AlumniNews"
 import CompanyLogos from "../components/Alumni/CompanyLogos/CompanyLogos"
 
 export default function Alumni() {
@@ -14,7 +14,7 @@ export default function Alumni() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header></Header>
-            <ColumnText></ColumnText>
+            <AlumniNews></AlumniNews>
             <CompanyLogos></CompanyLogos>
             <Footer></Footer>
         </div>

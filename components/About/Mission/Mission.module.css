@@ -1,8 +1,7 @@
-.Partnering {
+.Mission {
     display: flex;
     flex-direction: column;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding: 0% 20% 10% 20%;
     color: white;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 200;

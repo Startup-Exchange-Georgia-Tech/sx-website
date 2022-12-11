@@ -12,10 +12,10 @@ const Sponsors = () => {
             <Image src={SXsponsors} layout="responsive"></Image>
             <Link href="http://mailto:hello@startup.exchange?subject=Sponsoring%20Georgia%20Tech%20Startup%20Exchange">
                     <div className={styles.eventLink}>
+                        JOIN US
                         <span className={styles.arrowContainer}>
                             <Image src={arrow}></Image>
                         </span>
-                        JOIN US
                     </div>
                 </Link>
         </div>

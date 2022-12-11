@@ -1,0 +1,109 @@
+.Membership {
+    background: #111111;
+    color: white;
+    padding: 5% 10% 5% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.MembershipLeft {
+    width: 40%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.MembershipHeading {
+    font-family: 'Druk';
+    font-size: 32px;
+}
+
+.MembershipBody {
+    line-height: 150%;
+    font-size: 21px;
+    padding-bottom: 7%;
+    border-bottom: 1px solid #2f2f2f;
+}
+
+.MembershipText {
+    font-family: 'Crimson';
+    color: #696969;
+    font-size: 18px;
+    margin-top: 10%;
+}
+
+.MembershipRight {
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    width: 40%;
+}
+
+.MembershipPic {
+    width: 100%;
+    border: 1px solid #505050;
+    border-radius: 4px;
+}
+
+.eventLink {
+    font-size: 18px;
+    color: #F2B111;
+    font-weight: 700;
+    padding-right: 2%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.eventLink:hover {
+    color: #fff;
+}
+
+.eventLinkContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.arrowContainer {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .MembershipHeading {
+        font-size: 28px;
+    }
+
+    .MembershipBody {
+        font-size: 20px;
+    }
+
+    .MembershipLeft {
+        width: 100%;
+    }
+
+    .MembershipRight {
+        width: 100%;
+    }
+
+    .MembershipText {
+        font-size: 16px;
+    }
+
+    .eventLink {
+        font-size:18px;
+    }
+
+    .arrowContainer {
+        width: 30px;
+    }
+
+    .MembershipRight {
+        padding-top: 10%;
+    }
+}

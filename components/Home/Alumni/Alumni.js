@@ -26,10 +26,10 @@ export default function Alumni() {
             <div className={styles.AlumniContainer}>
                 <div className={styles.AlumniLeft}>
                     <div className={styles.AlumniHeading}>Alumni Project Spotlight</div> 
-                    <div className={styles.AlumniBody}>Sola uses 70 years of data to develop a proprietary model to help homeowners access financial support immediately following the devastation of a tornado.</div>
-                    <Link href="https://solainsurance.com/">
+                    <div className={styles.AlumniBody}><u><Link href="https://solainsurance.com/">Sola</Link></u> uses 70 years of data to develop a proprietary model to help homeowners access financial support immediately following the devastation of a tornado.</div>
+                    <Link href="/alumni">
                         <div className={styles.AlumniCheckout}>
-                            CHECK OUT SOLA
+                            VIEW OUR ALUMNI COMPANIES
                             <span className={styles.arrowContainer}>
                                 <Image src={arrow}></Image>
                             </span>
@@ -116,6 +116,9 @@ export default function Alumni() {
                             <div className={styles.CompanyName}>AND MORE</div>
                         </div>
                     </div>
+                    <div className={styles.AlumniCardText}>Tap into our network to gain insight into your desired industry.</div>
+
+                    
                 </div>
             </div>
             

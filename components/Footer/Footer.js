@@ -36,9 +36,7 @@ const Footer = () => {
                 </div>
                 <div className={styles.FooterRight}>
                     <div className={styles.FooterList}>
-                        <div className={styles.helloSX}>
-                            <div className={styles.FooterListHeading}>GET INVOLVED</div>
-                        </div>
+                        <div className={styles.FooterListHeading}>GET INVOLVED</div>
                         <Link href="#">
                             <div className={styles.FooterListItem}>MENTORSHIP</div>
                         </Link>

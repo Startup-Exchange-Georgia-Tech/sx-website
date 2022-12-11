@@ -8,71 +8,51 @@ import Link from "next/link";
 export default function Joining() {
   return (
     <div className={styles.Joining} id="Join">
-      <div className={styles.Joiningtext}>OUR PROGRAMS</div>
-      <div className={styles.JoiningHeading}>
-        We’re building a <br /> community of “
-        <span className={styles.yellow}>do-ers</span>.”
-      </div>
       <div className={styles.JoiningCardContainer}>
-        <div className={styles.JoiningCard}>
-          <div className={styles.JoiningCardImageContainer}>
-            <Image
-              src={newmember}
-              objectFit="cover"
-              width={1000}
-              height={800}
-            ></Image>
+        <Link href="#Mentorship">
+          <div className={styles.JoiningCard}>
+            <div className={styles.JoiningCardContentUpper}>
+              <div className={styles.JoiningCardHeading}>MENTORSHIP</div>
+              <div className={styles.JoiningCardSubHeading}>10-Week Course</div>
+            </div>
+            <div className={styles.JoiningCardContentLower}>
+              Break into the world of startups, and listen to founder + industry expert guest lecturers.
+              Develop a pitch and gain feedback.
+            </div>
           </div>
-          <div className={styles.JoiningCardContentUpper}>
-            <div className={styles.JoiningCardHeading}>MENTORSHIP</div>
-            <div className={styles.JoiningCardSubHeading}>Semester-Long</div>
-          </div>
-          <div className={styles.JoiningCardContentLower}>
-            Participate in workshops, social events, and fireside chats
-            alongside your cohort as you learn the ropes of entrepreneurship.
-          </div>
-        </div>
+        </Link>
 
-        <div className={styles.JoiningCard}>
-          <div className={styles.JoiningCardImageContainer}>
-            <Image
-              src={fellow}
-              objectFit="cover"
-              width={1000}
-              height={800}
-            ></Image>
+        <Link href="#Fellowship">
+          <div className={styles.JoiningCard}>
+
+            <div className={styles.JoiningCardContentUpper}>
+              <div className={styles.JoiningCardHeading}>FELLOWSHIP</div>
+              <div className={styles.JoiningCardSubHeading}>10-Week Accelerator</div>
+            </div>
+            <div className={styles.JoiningCardContentLower}>
+              Your founder team of 2-5 gains feedback from mentors to take your idea
+              to the next level. Pitch in front of VCs and investors.
+            </div>
           </div>
-          <div className={styles.JoiningCardContentUpper}>
-            <div className={styles.JoiningCardHeading}>FELLOWSHIP ACCELERATOR</div>
-            <div className={styles.JoiningCardSubHeading}>Semester-Long</div>
+        </Link>
+
+        <Link href="#Membership">
+          <div className={styles.JoiningCard}>
+            <div className={styles.JoiningCardContentUpper}>
+              <div className={styles.JoiningCardHeading}>MEMBERSHIP</div>
+              <div className={styles.JoiningCardSubHeading}>Non-Expiring Access</div>
+            </div>
+            <div className={styles.JoiningCardContentLower}>
+              Build community with Tech's student founders and gain
+              access to SX's founder socials and network of mentors.
+            </div>
           </div>
-          <div className={styles.JoiningCardContentLower}>
-            Work alongside industry leaders in a team of 2-5 to take your idea
-            to the next level. Pitch in front of VC firms.
-          </div>
-        </div>
-        <div className={styles.JoiningCard}>
-          <div className={styles.JoiningCardImageContainer}>
-            <Image
-              src={associate}
-              objectFit="cover"
-              width={1000}
-              height={800}
-            ></Image>
-          </div>
-          <div className={styles.JoiningCardContentUpper}>
-            <div className={styles.JoiningCardHeading}>MEMBERSHIP</div>
-            <div className={styles.JoiningCardSubHeading}>Non-Expiring</div>
-          </div>
-          <div className={styles.JoiningCardContentLower}>
-            Connect with founders at Tech, and gain
-            access to SX's network of founders & members-only resources.
-          </div>
-        </div>
+        </Link>
+
         <div className={styles.joinAction}>
-                <div className={styles.stayUp}>Stay up-to-date on our membership programs.</div>
+                <div className={styles.stayUp}>Stay up-to-date on our programs and initiatives.</div>
                 <Link href="https://www.instagram.com/gtstartupexchange/">
-                    <div className={styles.follow}>Follow @gtstartupexchange</div>
+                    <div className={styles.follow}>FOLLOW @gtstartupexchange</div>
                 </Link>
                 
             </div>

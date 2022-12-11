@@ -119,7 +119,7 @@ export default function ExecBoard() {
                             <Image src={yatharth}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Yatharth Bhargava</div>
-                        <div className={styles.ExecBoardCardTitle}>DIR. OF MARKETING + DESIGN</div>
+                        <div className={styles.ExecBoardCardTitle}>DIRECTOR OF MARKETING</div>
                         <div className={styles.ExecBoardCardEmail}>yatharth@startup.exchange</div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ export default function ExecBoard() {
                             <Image src={parth}></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Parth Arora</div>
-                        <div className={styles.ExecBoardCardTitle}>CO-DIRECTOR OF FELLOWSHIP</div>
+                        <div className={styles.ExecBoardCardTitle}>DIRECTOR OF FELLOWSHIP</div>
                         <div className={styles.ExecBoardCardEmail}>parth@startup.exchange</div>
                     </div>
                 </div>
@@ -153,6 +153,16 @@ export default function ExecBoard() {
                         <div className={styles.ExecBoardCardEmail}>yuma@startup.exchange</div>
                     </div>
                 </div> */}
+                                <div className={styles.ExecBoardCard}>
+                    <div className={styles.ExecBoardCardContainer}>
+                        <div className={styles.ExecBoardCardImageContainer}>
+                            <Image src={om} width="179px" height="179px"></Image>
+                        </div>
+                        <div className={styles.ExecBoardCardName}>Om Jha</div>
+                        <div className={styles.ExecBoardCardTitle}>DIRECTOR OF DESIGN</div>
+                        <div className={styles.ExecBoardCardEmail}>om@startup.exchange</div>
+                    </div>
+                </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
@@ -251,16 +261,6 @@ export default function ExecBoard() {
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={om} width="179px" height="179px"></Image>
-                        </div>
-                        <div className={styles.ExecBoardCardName}>Om Jha</div>
-                        <div className={styles.ExecBoardCardTitle}>ASSOCIATE DIR. OF DESIGN</div>
-                        <div className={styles.ExecBoardCardEmail}>om@startup.exchange</div>
-                    </div>
-                </div>
-                <div className={styles.ExecBoardCard}>
-                    <div className={styles.ExecBoardCardContainer}>
-                        <div className={styles.ExecBoardCardImageContainer}>
                             <Image src={arjun} width="179px" height="179px"></Image>
                         </div>
                         <div className={styles.ExecBoardCardName}>Arjun Dewan</div>
@@ -282,6 +282,12 @@ export default function ExecBoard() {
             <div className={styles.ExecBoardHeading}>Associate Board Members</div>
             <div className={styles.ExecBoardContainer}>
 
+                <div className={styles.ExecBoardCard}>
+                    <div className={styles.ExecBoardCardContainer}>
+                        <div className={styles.ExecBoardCardName}>Apuroop Mutyala</div>
+                        <div className={styles.ExecBoardCardTitle}>MENTORSHIP</div>
+                    </div>
+                </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardName}>John Wright-Stanly</div>

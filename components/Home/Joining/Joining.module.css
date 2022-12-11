@@ -3,9 +3,7 @@
     flex-direction: column;
     row-gap: 30px;
     background: #111111;
-    padding: 10%;
-    padding-top: 0;
-    padding-bottom: 5%;
+    padding: 0% 10% 5% 10%;
     margin-top: 0;
     justify-content: center;
     align-items: center;
@@ -47,6 +45,7 @@
     flex-direction: column;
     background: #222222;
     min-width: 300px;
+    cursor: pointer;
 }
 
 .JoiningCardImageContainer {
@@ -137,9 +136,9 @@
 .follow {
     color: #EAAA00;
     border: 1px solid #EAAA00;
-    font-size: 18px;
-    padding: 2%;
-
+    font-size: 16px;
+    margin-left: 8%;
+    padding: 1.5% 3% 1.5% 3%;
     border-radius: 40px;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 900;

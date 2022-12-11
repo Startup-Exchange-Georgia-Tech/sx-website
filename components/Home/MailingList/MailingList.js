@@ -10,7 +10,7 @@ const MailingList = () => {
             </Link> */}
             <div className={styles.joinMailingList}>Not sure where to start? Check out our resource guide to find what you need.</div>
             <Link href="https://startupexchange.notion.site/SX-Toolbox-658b9ef658da4ba7bb8d4cbdc470a387">
-                <div className={styles.signUpMailingList}><b>Visit SX Toolbox</b></div>
+                <div className={styles.signUpMailingList}><b>VISIT RESOURCE GUIDE</b></div>
             </Link>
         </div>
     )
