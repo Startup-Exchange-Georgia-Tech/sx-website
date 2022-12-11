@@ -154,28 +154,35 @@
         font-size: 36px;
     }
     .HeroHeadingStartup {
-        font-size: 72px;
+        font-size: 42px;
     }
     .HeroHeadingExchange {
-        font-size: 60px;
+        font-size: 36px;
     }
     .HeroContentContainer {
         padding-top: 10%;
-        padding-left: 1%;
+        /* padding-left: 1%; */
         width: 80%;
     }
 
     .HeroSubHeading {
-        font-size: 23px;
+        font-size: 14px;
     }
 
     .HeroBody {
-        margin-top: 30%;
-        padding-right: 15%;
+        font-size: 21px;
+        line-height: 125%;
+        margin-top: 15%;
+        padding-right: 4%;
     }
 
     .eventLink {
-        font-size: 16px;
+        margin-top: 100px;
+        padding: 15px 56px 15px 56px;
+    }
+    .eventLinkWhite {
+        margin-top: 20px;
+        padding: 15px 84px 15px 84px;
     }
 }
 
