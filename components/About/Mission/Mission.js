@@ -18,23 +18,23 @@ const Mission = () => {
                 </div>
             <div className={styles.PartneringDivContainer}>
                 <div className={styles.PartneringSubSubHeading}>Steeped in Georgia Tech</div>
-                    <div className={styles.MissionDesc}>As the only startup accelerator run exclusively by and for Stanford students, Cardinal Ventures has unique access to the campus that launched Silicon Valley.
-                    We bring to bear world-leading mentors, talents, and resources from across Stanford’s broad network to ensure our startups thrive.
+                    <div className={styles.MissionDesc}>As the only startup accelerator run exclusively by and for Georgia Tech students, Startup Exchange has access to Atlanta's network of venture capitalists, investors, and proven founders.
+                    We connect students with our network across the Atlanta venture ecosystem to ensure our startups thrive.
                     </div>
                 </div>
             <div className={styles.PartneringDivContainer}>
                 <div className={styles.PartneringSubSubHeading}>Community-First</div>
-                    <div className={styles.MissionDesc}>Cardinal Ventures is community first. 
+                    <div className={styles.MissionDesc}>Startup Exchange is community first. 
                     We believe that founding companies is not a one-person show – it takes a village to launch something great. 
-                    That’s why we work tirelessly to form bonds, share information, and drive collaborative innovation across the CV cohort. 
-                    The Stanford community has changed all of our lives. We take every chance we can to reinvest in the community and grow its reach.
+                    That’s why we work tirelessly to form bonds, share information, and drive collaborative innovation across the SX cohort. 
+                    The Georgia Tech community has changed all of our lives. We take every chance we can to reinvest in the community and grow its reach.
                     </div>
             </div>
             <div className={styles.PartneringDivContainer}>
                 <div className={styles.PartneringSubSubHeading}>For students, by students</div>
-                    <div className={styles.MissionDesc}>As the only equity-free student-run accelerator at Stanford, our only interest is you. 
+                    <div className={styles.MissionDesc}>As the only equity-free student-run accelerator at Georgia Tech, our only interest is you. 
                     We believe that being a student is an asset, not a liability. 
-                    Wherever you’re headed, Cardinal Ventures will help get you there.
+                    Wherever you’re headed, Startup Exchange will help get you there.
                     </div>
             </div>
             <div className={styles.PartneringDivContainer}>
