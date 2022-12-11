@@ -41,9 +41,6 @@ export default function Header() {
             <Link href="/alumni">
               <div className={styles.ddLink}>Alumni</div>
             </Link>
-            <Link href="/partners">
-              <div className={styles.ddLinkContact}>Partners</div>
-            </Link>
             <Link href="https://startupexchange.notion.site/Georgia-Tech-s-Entrepreneurship-Ecosystem-658b9ef658da4ba7bb8d4cbdc470a387">
               <a className={styles.headerPageLink}>Ecosystem Guide</a>
             </Link>

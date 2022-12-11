@@ -8,7 +8,7 @@ export default function Mentorship() {
     return (
         <div className={styles.Mentorship} id="Mentorship">
             <div className={styles.MentorshipLeft}>
-                <div className={styles.MentorshipText}>MENTORSHIP</div>
+                <div className={styles.MentorshipText}>MENTORSHIP PROGRAM</div>
                 <div className={styles.MentorshipHeading}>Learn the ropes of entrepreneurship.</div>
                 <div className={styles.MentorshipBody}>Learn the ropes of entrepreneurship through our 10-week course that covers topics ranging from customer discovery, to revenue channels.<br/><br/>
                     Our mentorship lowers the barrier to entry for students looking to break into the world of startups. During the course, students have the chance to develop a pitch, 

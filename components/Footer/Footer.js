@@ -37,13 +37,13 @@ const Footer = () => {
                 <div className={styles.FooterRight}>
                     <div className={styles.FooterList}>
                         <div className={styles.FooterListHeading}>GET INVOLVED</div>
-                        <Link href="#">
+                        <Link href="#Mentorship">
                             <div className={styles.FooterListItem}>MENTORSHIP</div>
                         </Link>
-                        <Link href="#">
+                        <Link href="#Fellowship">
                             <div className={styles.FooterListItem}>ACCELERATOR</div>
                         </Link>
-                        <Link href="#">
+                        <Link href="#Membership">
                             <div className={styles.FooterListItem}>MEMBERSHIP</div>
                         </Link>
                         <Link href="https://summit.startup.exchange/">
