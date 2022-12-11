@@ -170,7 +170,7 @@
     }
 
     .HeroBody {
-        font-size: 21px;
+        font-size: 18px;
         line-height: 125%;
         margin-top: 15%;
         padding-right: 4%;
@@ -178,11 +178,11 @@
 
     .eventLink {
         margin-top: 100px;
-        padding: 15px 56px 15px 56px;
+        padding: 15px 52px 15px 52px;
     }
     .eventLinkWhite {
         margin-top: 20px;
-        padding: 15px 84px 15px 84px;
+        padding: 15px 82px 15px 82px;
     }
 }
 
