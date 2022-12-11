@@ -25,7 +25,7 @@ export default function Hero() {
                     {/* <button className={`${styles.eventLink} ${styles.eventLinkGradient}`}>OUR PROGRAMS<span className={styles.HeroArrow}><Image src={arrow}></Image></span></button> */}
                     <button className={styles.eventLink}>OUR PROGRAMS<span className={styles.HeroArrow}><Image src={arrow}></Image></span></button>
                 </Link>
-                <Link href="#Join">
+                <Link href="/about">
                     <button className={styles.eventLinkWhite}>ABOUT US<span className={styles.HeroArrow}><Image src={arrow}></Image></span></button>
                 </Link>
                 
