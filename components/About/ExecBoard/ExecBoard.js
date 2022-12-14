@@ -37,7 +37,11 @@ export default function ExecBoard() {
         <div className={styles.ExecBoard} id="Exec">
             <div className={styles.ExecBoardText}>OUR EXECUTIVE BOARD</div>
                 <div className={styles.ExecBoardHeading}>Executive Directors</div>
-
+                <div className={styles.ExecBoardBody}>The 3 Executive Directors of SX move the organization forward while ensuring alignment with our vision. 
+                They are selected for year-long terms and choose the new leadership for the Fall and Spring. 
+                Each quarter, they report the performance and growth of the Georgia Tech founder community. 
+                {/* Each senior director is also paired with a committee to help provide guidance. */}
+                </div>
             <div className={styles.ExecBoardExecDirContainer}>
                 <div className={styles.ExecBoardExecDirCard}>
                     <div className={styles.ExecBoardCardContainer}>
@@ -71,7 +75,10 @@ export default function ExecBoard() {
                 </div>
             </div>
 
-            <div className={styles.ExecBoardHeading}>Division Leaders</div>
+            <div className={styles.ExecBoardHeading}>Committee Leaders</div>
+            <div className={styles.ExecBoardBody}>The Committee Directors are selected each semester and 
+                are responsible for executive decisions related to the organization. Each committee helps to advance the organization's goals, and fall under one of the three executive co-director committees.
+                </div>
             <div className={styles.ExecBoardContainer}>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
@@ -163,49 +170,26 @@ export default function ExecBoard() {
                         <div className={styles.ExecBoardCardEmail}>om@startup.exchange</div>
                     </div>
                 </div>
-                <div className={styles.ExecBoardCard}>
-                    <div className={styles.ExecBoardCardContainer}>
-                        <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={isaac} width="179px" height="179px"></Image>
-                        </div>
-                        <div className={styles.ExecBoardCardName}>Isaac Altman</div>
-                        <div className={styles.ExecBoardCardTitle}>MEMBERSHIP</div>
-                        <div className={styles.ExecBoardCardEmail}>isaac@startup.exchange</div>
+
+            </div>
+            <div className={styles.ExecBoardHeading}>Associate Directors</div>
+            <div className={styles.ExecBoardBody}>The Associate Directors report directly to their corresponding Committee Director.
+                    They are chosen each semester, which enables executive board members to lead multiple initiatives.
                     </div>
-                </div>
-                {/* <div className={styles.ExecBoardCard}>
-                    <div className={styles.ExecBoardCardContainer}>
-                        <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={divya}></Image>
-                        </div>
-                        <div className={styles.ExecBoardCardName}>Divya Pinnaka</div>
-                        <div className={styles.ExecBoardCardTitle}>FELLOWSHIP</div>
-                        <div className={styles.ExecBoardCardEmail}>divya@startup.exchange</div>
-                    </div>
-                </div> */}
-                <div className={styles.ExecBoardCard}>
-                    <div className={styles.ExecBoardCardContainer}>
-                        <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={aditya}></Image>
-                        </div>
-                        <div className={styles.ExecBoardCardName}>Aditya Shukla</div>
-                        <div className={styles.ExecBoardCardTitle}>EVENTS</div>
-                        <div className={styles.ExecBoardCardEmail}>aditya@startup.exchange</div>
-                    </div>
-                </div>
+            <div className={styles.ExecBoardContainer}>
 
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
-                        <div className={styles.ExecBoardCardImageContainer}>
+                        {/* <div className={styles.ExecBoardCardImageContainer}>
                             <Image src={sruti}></Image>
-                        </div>
+                        </div> */}
                         <div className={styles.ExecBoardCardName}>Sruti Gandreti</div>
                         <div className={styles.ExecBoardCardTitle}>ASSOCIATE DIR. OF SOCIAL MEDIA</div>
                         <div className={styles.ExecBoardCardEmail}>sruti@startup.exchange</div>
                     </div>
                 </div>
 
-                <div className={styles.ExecBoardCard}>
+                {/* <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
                             <Image src={akabu}></Image>
@@ -225,19 +209,9 @@ export default function ExecBoard() {
                         <div className={styles.ExecBoardCardTitle}>VENTURE SCOUT</div>
                         <div className={styles.ExecBoardCardEmail}>tomer@startup.exchange</div>
                     </div>
-                </div>
+                </div> */}
 
                 {/* <div className={styles.ExecBoardCard}>
-                    <div className={styles.ExecBoardCardContainer}>
-                        <div className={styles.ExecBoardCardImageContainer}>
-                            <Image src={wesley}></Image>
-                        </div>
-                        <div className={styles.ExecBoardCardName}>Wesley Pergament</div>
-                        <div className={styles.ExecBoardCardTitle}>PARTNERSHIPS</div>
-                        <div className={styles.ExecBoardCardEmail}>wesley@startup.exchange</div>
-                    </div>
-                </div> */}
-                <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardImageContainer}>
                             <Image src={katie}></Image>
@@ -257,71 +231,73 @@ export default function ExecBoard() {
                         <div className={styles.ExecBoardCardEmail}>dakota@startup.exchange</div>
                     </div>
                 </div>
-
+                */}
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
-                        <div className={styles.ExecBoardCardImageContainer}>
+                        {/* <div className={styles.ExecBoardCardImageContainer}>
                             <Image src={arjun} width="179px" height="179px"></Image>
-                        </div>
+                        </div> */}
                         <div className={styles.ExecBoardCardName}>Arjun Dewan</div>
-                        <div className={styles.ExecBoardCardTitle}>MARKETING + DESIGN</div>
+                        <div className={styles.ExecBoardCardTitle}>ASSOCIATE DIR. OF DESIGN</div>
                         <div className={styles.ExecBoardCardEmail}>arjun@startup.exchange</div>
                     </div>
                 </div>
-                {/* <div className={styles.ExecBoardCard}>
+                <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
-                        <div className={styles.ExecBoardCardImageContainer}>
+                        {/* <div className={styles.ExecBoardCardImageContainer}>
                             <Image src={austin} width="179px" height="179px"></Image>
-                        </div>
-                        <div className={styles.ExecBoardCardName}>Austin Rowland</div>
-                        <div className={styles.ExecBoardCardTitle}>MARKETING + DESIGN</div>
-                        <div className={styles.ExecBoardCardEmail}>austin@startup.exchange</div>
+                        </div> */}
+                        <div className={styles.ExecBoardCardName}>Aditya Shukla</div>
+                        <div className={styles.ExecBoardCardTitle}>ASSOCIATE DIR. OF EVENTS</div>
+                        <div className={styles.ExecBoardCardEmail}>aditya@startup.exchange</div>
                     </div>
-                </div> */}
-            </div>
-            <div className={styles.ExecBoardHeading}>Associate Board Members</div>
-            <div className={styles.ExecBoardContainer}>
-
+                </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardName}>Apuroop Mutyala</div>
-                        <div className={styles.ExecBoardCardTitle}>MENTORSHIP</div>
+                        <div className={styles.ExecBoardCardTitle}>ASSOCIATE MEMBER</div>
                     </div>
                 </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardName}>John Wright-Stanly</div>
-                        <div className={styles.ExecBoardCardTitle}>MEMBERSHIP</div>
+                        <div className={styles.ExecBoardCardTitle}>ASSOCIATE MEMBER</div>
+                    </div>
+                </div>
+                <div className={styles.ExecBoardCard}>
+                    <div className={styles.ExecBoardCardContainer}>
+                        <div className={styles.ExecBoardCardName}>Praneet Kedari</div>
+                        <div className={styles.ExecBoardCardTitle}>ASSOCIATE MEMBER</div>
                     </div>
                 </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardName}>Isaac Altman</div>
-                        <div className={styles.ExecBoardCardTitle}>MEMBERSHIP</div>
+                        <div className={styles.ExecBoardCardTitle}>ASSOCIATE MEMBER</div>
                     </div>
                 </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardName}>Mohit Pinninti</div>
-                        <div className={styles.ExecBoardCardTitle}>MEMBERSHIP</div>
+                        <div className={styles.ExecBoardCardTitle}>ASSOCIATE MEMBER</div>
                     </div>
                 </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardName}>Parth Arora</div>
-                        <div className={styles.ExecBoardCardTitle}>FELLOWSHIP</div>
+                        <div className={styles.ExecBoardCardTitle}>ASSOCIATE MEMBER</div>
                     </div>
                 </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardName}>Yash Vagal</div>
-                        <div className={styles.ExecBoardCardTitle}>MEMBERSHIP</div>
+                        <div className={styles.ExecBoardCardTitle}>ASSOCIATE MEMBER</div>
                     </div>
                 </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardName}>Yuma Tanaka</div>
-                        <div className={styles.ExecBoardCardTitle}>FELLOWSHIP</div>
+                        <div className={styles.ExecBoardCardTitle}>ASSOCIATE MEMBER</div>
                     </div>
                 </div>
             </div>

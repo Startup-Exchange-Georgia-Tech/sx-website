@@ -12,12 +12,20 @@
     font-size: 18px;
 }
 
+.ExecBoardBody {
+    line-height: 150%;
+    font-size: 21px;
+    color: #fff;
+    text-align: center;
+    width: 60%;
+}
+
 .ExecBoardHeading {
     font-family: 'Druk';
     font-size: 36px;
     color: white;
     margin-top: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
     text-align: center;
 }
 
