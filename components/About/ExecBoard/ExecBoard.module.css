@@ -136,10 +136,15 @@
     .ExecBoardExecDirContainer {
         padding-right:  26%;
 
-
+        flex-direction: row;
         width: 180%;
         padding-top: 5%;
         /* column-gap: 1%; */
         row-gap: 30px;
+    }
+    .ExecBoardBody {
+        width: 75%;
+        padding: 10% 0% 10% 0%;
+        text-align: left;
     }
 }

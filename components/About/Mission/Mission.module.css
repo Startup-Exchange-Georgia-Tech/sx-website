@@ -64,4 +64,13 @@
         padding-left: 10%;
         padding-right: 10%;
     }
+    .MissionContainer {
+        flex-direction: row;
+        text-align: left;
+    }
+    .MissionDesc {
+        padding-top: 10%;
+        padding-left: 0%;
+
+    }
 }
