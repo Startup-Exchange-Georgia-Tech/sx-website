@@ -1,6 +1,6 @@
 import styles from './CurrentPartners.module.css'
 import Image from 'next/image';
-import partners from '../../assets/images/SXsponsors.png'
+import partners from '../../../assets/images/SXsponsors.png'
 
 const CurrentPartners = () => {
     return (

@@ -1,10 +1,10 @@
 import Header from "../components/Hero/Header/Header"
 import Head from 'next/head'
 import Footer from "../components/Footer/Footer"
-import Partnering from "../components/Join/Partnering/Partnering"
+import StudentsInfo from "../components/Join/Students/StudentsInfo"
 import CurrentPartners from "../components/Join/CurrentPartners/CurrentPartners"
 
-export default function Partners() {
+export default function Students() {
     return (
         <div>
             <Head>
@@ -12,7 +12,7 @@ export default function Partners() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header></Header>
-            <Partnering></Partnering>
+            <StudentsInfo></StudentsInfo>
             <CurrentPartners></CurrentPartners>
             <Footer></Footer>
         </div>

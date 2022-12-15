@@ -1,7 +1,6 @@
 import styles from './AlumniNews.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import partneringImage from '../../../assets/images/partneringImage.png'
 
 const AlumniNews = () => {
     return (

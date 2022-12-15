@@ -1,7 +1,6 @@
 import styles from './Mission.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import partneringImage from '../../../assets/images/partneringImage.png'
 
 const Mission = () => {
     return (

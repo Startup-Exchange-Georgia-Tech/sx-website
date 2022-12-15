@@ -1,6 +1,6 @@
 import styles from './Partnering.module.css'
 import Image from 'next/image'
-import partneringImage from '../../assets/images/partneringImage.jpg'
+import partneringImage from '../../../assets/images/partneringImage.jpg'
 
 const Partnering = () => {
     return (

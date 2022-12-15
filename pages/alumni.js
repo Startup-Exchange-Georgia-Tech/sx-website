@@ -8,7 +8,7 @@ export default function Alumni() {
     return (
         <div>
             <Head>
-                <title>Startup Exchange at Georgia Tech | Contact Us</title>
+                <title>Georgia Tech Startup Exchange | Contact Us</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Header></Header>

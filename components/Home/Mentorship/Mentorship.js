@@ -10,12 +10,12 @@ export default function Mentorship() {
             <div className={styles.MentorshipLeft}>
                 <div className={styles.MentorshipText}>MENTORSHIP PROGRAM</div>
                 <div className={styles.MentorshipHeading}>Learn the ropes of entrepreneurship.</div>
-                <div className={styles.MentorshipBody}>Learn the ropes of entrepreneurship through our 10-week course that covers topics ranging from customer discovery, to revenue channels.<br/><br/>
+                <div className={styles.MentorshipBody}>Learn the ropes of entrepreneurship through our 9-week course that covers topics ranging from customer discovery, to revenue channels.<br/><br/>
                     Our mentorship lowers the barrier to entry for students looking to break into the world of startups. During the course, students have the chance to develop a pitch, 
                     and to receive feedback that will enable them to bring the idea to life.<br/><br/>
                     The class is open to all Georgia Tech students. All materials are posted online so that anyone can follow and take the class on their own time.
                     </div>
-                <Link href="/alumni">
+                <Link href="/students">
                     <div className={styles.eventLink}>
                         VIEW COURSE SCHEDULE
                         <span className={styles.arrowContainer}>
