@@ -4,8 +4,6 @@ import Footer from "../components/Footer/Footer"
 import ContactHero from "../components/About/ContactHero/ContactHero"
 import Mission from "../components/About/Mission/Mission"
 import FAQ from "../components/About/FAQ/FAQ"
-import Partnering from "../components/Partnering/Partnering"
-import CurrentPartners from "../components/CurrentPartners/CurrentPartners"
 import ExecBoard from "../components/About/ExecBoard/ExecBoard"
 
 export default function About() {

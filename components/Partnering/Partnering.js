@@ -1,11 +1,12 @@
 import styles from './Partnering.module.css'
 import Image from 'next/image'
-import partneringImage from '../../assets/images/partneringImage.png'
+import partneringImage from '../../assets/images/partneringImage.jpg'
 
 const Partnering = () => {
     return (
         <div className={styles.Partnering}>
-            <div className={styles.PartneringHeading}>Partnering with SX</div>
+            <div className={styles.PartneringText}>PARTNERING WITH SX</div>
+            <div className={styles.PartneringHeading}>Tap into Georgia Tech's student founder community.</div>
             <div className={styles.PartneringSubHeading}>Our partners receive exclusive networking and recruiting opportunities with Georgia Tech students, access to our private mailing list, invitations to future events, and more.</div>
             <div className={styles.PartneringDivContainer}>
                 <div className={styles.PartneringSubSubHeading}>Events</div>
@@ -28,7 +29,7 @@ const Partnering = () => {
             <div className={styles.PartneringHeading}>Interested in mentoring our students?</div>
             <div className={styles.PartneringDivContainer}>
                 <div className={styles.PartneringSubSubHeading}>What does a mentor do?</div>
-                <div className={styles.PartneringBody}>We are actively growing our diverse list of mentors to jumpstart student entrepreneurship talent.  Our mentors dedicate around 30 to 40 minutes per week to meet with Fellowship teams during the 10 week program, providing valuable feedback to the team’s idea.</div>
+                <div className={styles.PartneringBody}>We are actively growing our diverse list of mentors to jumpstart student entrepreneurship talent.  Our mentors dedicate around 30 to 40 minutes per week to meet with our accelerator teams during the 10 week program, providing valuable feedback to the team’s idea.</div>
             </div>
             <div className={styles.PartneringSubHeading}>Email us at <span className={styles.yellow}>parth@startup.exchange</span> to get started!</div>
         </div>

@@ -11,7 +11,7 @@ const Mission = () => {
 
             <div className={styles.MissionContainer}>
                 <div className={styles.PartneringSubSubHeading}>Growth-minded</div>
-                    <div className={styles.MissionDesc}>No great journey is a straight line. That’s why we provide a safe, low-stakes place for exploration, so entrepreneurs can crash fast and keep building. 
+                    <div className={styles.MissionDesc}>No great journey is a straight line. That’s why we provide a low-stakes environment to explore, so entrepreneurs can crash fast and keep building. 
                         We support students at all levels of entrepreneurial experience.
                     </div>
                 </div>

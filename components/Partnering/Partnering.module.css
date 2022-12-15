@@ -10,20 +10,31 @@
     row-gap: 50px;
 }
 
+.PartneringText {
+    font-family: 'Crimson';
+    color: #696969;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 1-px;
+
+}
+
 .PartneringHeading {
-    font-size: 36px;
+    text-align: center;
+    font-size: 32px;
     font-family: 'Druk';
 }
 
 .PartneringSubHeading {
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 600;
 }
 
 .PartneringSubSubHeading {
     color: #EAAA00;
+    font-family: 'Crimson';
     font-weight: 600;
-    font-size: 24px;
+    font-size: 21px;
 }
 .AlumniDesc {
     padding-left: 22%;
@@ -35,7 +46,7 @@
 }
 
 .PartneringBody {
-    font-size: 24px;
+    font-size: 21px;
     line-height: 150%;
 }
 

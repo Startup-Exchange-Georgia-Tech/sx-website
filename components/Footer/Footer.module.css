@@ -43,6 +43,7 @@
 .FooterLogo {
     width: 40%;
     padding-bottom: 2%;
+    cursor: pointer;
 }
 
 .FooterListHeading {

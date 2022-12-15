@@ -29,7 +29,8 @@ const FAQ = () => {
                     <br/>
                     <br/>
 
-                    <div className={styles.Answer}>During the semester, you will also have a midterm VC assignment as well as a final startup pitch. Those who finish the program will be considered for fellowship in order to advance their idea.</div>
+                    <div className={styles.Answer}>During the semester, you will also have a midterm VC assignment as well as a final startup pitch. 
+                    Those who finish the program will be considered for CREATE-X in order to advance their idea.</div>
 
                 </div>
                 <div className={styles.FAQCard}>
