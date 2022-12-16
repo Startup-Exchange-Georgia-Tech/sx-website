@@ -54,6 +54,18 @@ const StudentsInfo = () => {
             </div>
             <div className={styles.StudentsInfoDivContainer}>
                 <div className={styles.StudentsInfoSubSubHeading}>Mentors</div>
+                <div className={styles.StudentsInfoSubHeading}><u><Link href="">Nakia Melecio</Link></u>  |  
+                    <u><Link href="">Josh Pinto Taylor</Link></u>  |  
+                    <u><Link href="">Recha Reives</Link></u>  |  
+                    <u><Link href="">Christopher Klaus</Link></u>
+                    <br/>
+                    {/* <u><Link href="">Nakia Melecio</Link></u>  |  
+                    <u><Link href="">Nakia Melecio</Link></u>  |  
+                    <u><Link href="">Nakia Melecio</Link></u>
+                    <br/> */}
+
+                </div>
+
             </div>
             <div className={styles.StudentsInfoSubHeading}>Questions about SX Fellowship? Email our Director of Fellowship for more information at <span className={styles.yellow}>parth@startup.exchange</span>.</div>
 
