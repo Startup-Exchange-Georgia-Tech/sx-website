@@ -1,0 +1,79 @@
+.Hero {
+    padding: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0%;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    color: white;
+}
+
+.HeroLeft {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.HeroEmail {
+    font-size: 24px;
+    font-family: 'Crimson';
+}
+
+.HeroEmail:hover {
+    cursor: pointer;
+    color: #eaaa00;
+}
+
+.HeroHeading {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Crimson';
+}
+
+.HeroAddressContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 24px;
+}
+
+.HeroSubHeading {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    color: #C4C4C4;
+    letter-spacing: 0.215em;
+
+}
+
+.HeroAddress {
+    font-family: 'Crimson';
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.HeroView {
+    font-size: 18px;
+    color: #F2B111;
+    font-weight: 900;
+    transition: 0.3s;
+}
+
+.HeroView:hover {
+    color: #FFF;
+}
+
+.HeroArrow {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .Hero {
+        padding-top: 10%;
+    }
+}

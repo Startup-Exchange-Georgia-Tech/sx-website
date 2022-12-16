@@ -51,6 +51,23 @@
     padding-bottom: 10%;
 }
 
+.eventLink {
+    font-size: 18px;
+    color: #F2B111;
+    font-weight: 700;
+    padding-right: 2%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.eventLink:hover {
+    color: #fff;
+}
+
+.arrowContainer {
+    padding-left: 10px;
+}
+
 @media screen and (max-width: 700px) {
     .StudentsInfo {
         padding-left: 10%;

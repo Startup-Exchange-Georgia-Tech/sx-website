@@ -16,6 +16,7 @@ const StudentsInfo = () => {
             Our mentorship lowers the barrier to entry for students looking to break into the world of startups. During the course, students have the chance to develop a pitch, and to receive feedback that will enable them to bring the idea to life.
             <br/><br/>
             The class is open to all Georgia Tech students. All materials are posted online so that anyone can follow and take the class on their own time.
+            All slides and materials from our Fall 2022 class can be found in this <u><Link href="/">folder</Link></u>.
             </div>
             <div className={styles.StudentsInfoDivContainer}>
                 <div className={styles.StudentsInfoSubSubHeading}>Schedule</div>
@@ -34,14 +35,49 @@ const StudentsInfo = () => {
             <div className={styles.StudentsInfoSubHeading}>Past lectures have included guest lecturers, such as entrepreneurs <u>
                 <Link href="https://hypepotamus.com/startup-news/upbeat-music-acquisition/">Seth Radman</Link></u>, <u><Link href="https://www.wsj.com/articles/supply-chain-startup-stord-reaches-1-3-billion-valuation-11652184003">Sean Henry</Link>
             </u>, and <u><Link href="https://www.croatiaweek.com/croatian-american-engineer-building-the-worlds-fastest-aircraft/">AJ Piplica</Link></u>.</div>
-            <div className={styles.StudentsInfoSubHeading}>Email our Director of Mentorship for more information at <span className={styles.yellow}>apuroop@startup.exchange</span>.</div>
+            <div className={styles.StudentsInfoSubHeading}>Questions about the curriculum? Email our Director of Mentorship for more information at <span className={styles.yellow}>apuroop@startup.exchange</span>.</div>
+            
 
-            <div className={styles.StudentsInfoHeading}>Interested in mentoring our students?</div>
-            <div className={styles.StudentsInfoDivContainer}>
-                <div className={styles.StudentsInfoSubSubHeading}>What does a mentor do?</div>
-                <div className={styles.StudentsInfoBody}>We are actively growing our diverse list of mentors to jumpstart student entrepreneurship talent.  Our mentors dedicate around 30 to 40 minutes per week to meet with our accelerator teams during the 10 week program, providing valuable feedback to the team’s idea.</div>
+            <div className={styles.StudentsInfoImage}>
+                <Image src={partneringImage} layout="responsive"></Image>
             </div>
-            <div className={styles.StudentsInfoSubHeading}>Email us at <span className={styles.yellow}>parth@startup.exchange</span> to get started!</div>
+            <div className={styles.StudentsInfoText}>ACCELERATOR</div>
+            <div className={styles.StudentsInfoHeading}>Take your idea to the next level with SX Fellowship.</div>
+            <div className={styles.StudentsInfoBody}>Have you already built something? Not sure what the next steps are after Startup Launch?
+                With insight from notable mentors, your team of 2-5 can take your idea to the next level through Startup Exchange Fellowship! 
+            <br/><br/>
+            At the end of the semester, pitch in front of venture capitalists, notable founders, and industry experts at our flagship event, SX Summit ATL.
+            We had over 300 students and 50 notable guests in attendance.
+            <br/><br/>
+            Our Fellowship enables student founders to continue to build their idea. 
+            We offer the community to empower and inspire founders, as well as a network of readily-available mentors and industry experts.
+            </div>
+            <div className={styles.StudentsInfoDivContainer}>
+                <div className={styles.StudentsInfoSubSubHeading}>Mentors</div>
+            </div>
+            <div className={styles.StudentsInfoSubHeading}>Questions about SX Fellowship? Email our Director of Fellowship for more information at <span className={styles.yellow}>parth@startup.exchange</span>.</div>
+
+            <div className={styles.StudentsInfoImage}>
+                <Image src={partneringImage} layout="responsive"></Image>
+            </div>
+            <div className={styles.StudentsInfoText}>MEMBERSHIP</div>
+            <div className={styles.StudentsInfoHeading}>Fostering community among student founders.</div>
+            <div className={styles.StudentsInfoBody}>Building a startup is hard. As a student, it’s even harder.<br/><br/>
+                    Our membership offers student founders a chance to network and gain feedback from venture capitalists, previous founders,
+                    industry experts, and other student founders.<br/><br/>
+                    Beyond that, our membership offers a space for like-minded people to share their challenges, learnings,
+                    passions, jokes, and more.<br/><br/>
+
+                    <i>Apply via link below, and an exec member will review your application the following week.</i>
+            </div>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdRIIkSrl7n8Yt9LZyFvVN-oW2ufwVyRiPIa_9iEfq17-g2fg/viewform?usp=sf_link">
+                <div className={styles.eventLink}>
+                    JOIN NOW
+                    <span className={styles.arrowContainer}>
+                        <Image src={arrow}></Image>
+                    </span>
+                </div>
+            </Link>
         </div>
     )
 }

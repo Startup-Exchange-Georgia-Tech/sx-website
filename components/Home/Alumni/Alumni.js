@@ -25,8 +25,8 @@ export default function Alumni() {
             <div className={styles.AlumniText}>SX ALUMNI</div>
             <div className={styles.AlumniContainer}>
                 <div className={styles.AlumniLeft}>
-                    <div className={styles.AlumniHeading}>Alumni Project Spotlight</div> 
-                    <div className={styles.AlumniBody}><u><Link href="https://solainsurance.com/">Sola</Link></u> uses 70 years of data to develop a proprietary model to help homeowners access financial support immediately following the devastation of a tornado.</div>
+                    <div className={styles.AlumniHeading}>Alumni Company Spotlight</div> 
+                    <div className={styles.AlumniBody}>Spring '22 Accelerator company <u><Link href="https://solainsurance.com/">Sola</Link></u> uses 70 years of data to develop a proprietary model to help homeowners access financial support immediately following the devastation of a tornado.</div>
                     <Link href="/alumni">
                         <div className={styles.AlumniCheckout}>
                             VIEW OUR ALUMNI COMPANIES
@@ -117,8 +117,6 @@ export default function Alumni() {
                         </div>
                     </div>
                     <div className={styles.AlumniCardText}>Tap into our network to gain insight into your desired industry.</div>
-
-                    
                 </div>
             </div>
             

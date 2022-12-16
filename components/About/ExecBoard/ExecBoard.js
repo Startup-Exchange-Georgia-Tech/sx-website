@@ -272,6 +272,12 @@ export default function ExecBoard() {
                 </div>
                 <div className={styles.ExecBoardCard}>
                     <div className={styles.ExecBoardCardContainer}>
+                        <div className={styles.ExecBoardCardName}>Adam Patni</div>
+                        <div className={styles.ExecBoardCardTitle}>ASSOCIATE MEMBER</div>
+                    </div>
+                </div>
+                <div className={styles.ExecBoardCard}>
+                    <div className={styles.ExecBoardCardContainer}>
                         <div className={styles.ExecBoardCardName}>Isaac Altman</div>
                         <div className={styles.ExecBoardCardTitle}>ASSOCIATE MEMBER</div>
                     </div>

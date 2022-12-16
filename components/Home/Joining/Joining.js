@@ -13,7 +13,7 @@ export default function Joining() {
           <div className={styles.JoiningCard}>
             <div className={styles.JoiningCardContentUpper}>
               <div className={styles.JoiningCardHeading}>MENTORSHIP</div>
-              <div className={styles.JoiningCardSubHeading}>10-Week Course</div>
+              <div className={styles.JoiningCardSubHeading}>9-Week Course</div>
             </div>
             <div className={styles.JoiningCardContentLower}>
               Break into the world of startups, and listen to founder + industry expert guest lecturers.
