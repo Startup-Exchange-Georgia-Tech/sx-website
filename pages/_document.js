@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
                 type="font/otf"
                 crossOrigin="anonymous"
               />
-              <link rel="preload" href="/fonts/NeueHaasDisplay-Roman.woff2" as="font" type="font/woff2" crossOrigin/>
+              <link rel="preload" href="/fonts/NeueHaasDisplay-Roman.woff2" as="font" type="font/woff2" crossOrigin="anonymous"/>
             </Head>
             <body>
                 <Main />

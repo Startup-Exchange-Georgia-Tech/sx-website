@@ -2,6 +2,9 @@ import styles from './StudentsInfo.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import partneringImage from '../../../assets/images/partneringImage.jpg'
+import acceleratorImage from '../../../assets/images/acceleratorImage.jpg'
+import membershipImage from '../../../assets/images/membershipImage.jpg'
+import arrow from '../../../assets/images/Arrow.png'
 
 const StudentsInfo = () => {
     return (
@@ -39,7 +42,7 @@ const StudentsInfo = () => {
             
 
             <div className={styles.StudentsInfoImage}>
-                <Image src={partneringImage} layout="responsive"></Image>
+                <Image src={acceleratorImage} layout="responsive"></Image>
             </div>
             <div className={styles.StudentsInfoText}>ACCELERATOR</div>
             <div className={styles.StudentsInfoHeading}>Take your idea to the next level with SX Fellowship.</div>
@@ -54,10 +57,10 @@ const StudentsInfo = () => {
             </div>
             <div className={styles.StudentsInfoDivContainer}>
                 <div className={styles.StudentsInfoSubSubHeading}>Mentors</div>
-                <div className={styles.StudentsInfoSubHeading}><u><Link href="">Nakia Melecio</Link></u>  |  
-                    <u><Link href="">Josh Pinto Taylor</Link></u>  |  
-                    <u><Link href="">Recha Reives</Link></u>  |  
-                    <u><Link href="">Christopher Klaus</Link></u>
+                <div className={styles.StudentsInfoSubHeading}><u><Link href="">Nakia Melecio</Link></u><br/>
+                    <u><Link href="">Josh Pinto Taylor</Link></u><br/>
+                    <u><Link href="">Recha Reives</Link></u><br/>
+                    <u><Link href="">Christopher Klaus</Link></u><br/>
                     <br/>
                     {/* <u><Link href="">Nakia Melecio</Link></u>  |  
                     <u><Link href="">Nakia Melecio</Link></u>  |  
@@ -70,7 +73,7 @@ const StudentsInfo = () => {
             <div className={styles.StudentsInfoSubHeading}>Questions about SX Fellowship? Email our Director of Fellowship for more information at <span className={styles.yellow}>parth@startup.exchange</span>.</div>
 
             <div className={styles.StudentsInfoImage}>
-                <Image src={partneringImage} layout="responsive"></Image>
+                <Image src={membershipImage} layout="responsive"></Image>
             </div>
             <div className={styles.StudentsInfoText}>MEMBERSHIP</div>
             <div className={styles.StudentsInfoHeading}>Fostering community among student founders.</div>
