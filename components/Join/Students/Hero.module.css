@@ -1,0 +1,91 @@
+.Hero {
+    padding: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0%;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    color: white;
+}
+
+.HeroText {
+    font-family: 'Crimson';
+    color: #696969;
+    font-size: 18px;
+}
+
+.HeroYellow {
+    background: -webkit-linear-gradient(-45deg, #eaaa00 0%, #F2994A 88.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.PrimaryButton {
+    font-size: 18px;
+    color: #eaaa00;
+    font-weight: 700;
+    border-radius: 40px;
+    border: 1px solid #eaaa00;
+    background-color: transparent;
+    text-align: center;
+
+    /* height: 45px; */
+    margin-top: 40px;
+    margin-right: 25px;
+    padding: 15px 30px 15px 30px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.PrimaryButton:hover {
+    color: #fff;
+    background-color: #eaaa00;
+    border: 1px solid #eaaa00;
+
+}
+
+.HeroLeft {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    row-gap: 25px;
+}
+
+.HeroHeading {
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    font-family: 'Druk';
+}
+
+.ContactHeroAddressContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 24px;
+}
+
+.HeroBody {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    color: #C4C4C4;
+    letter-spacing: 0.05em;
+
+}
+
+.ContactHeroArrow {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .ContactHero {
+        padding-top: 10%;
+    }
+}
