@@ -9,9 +9,6 @@ import arrow from '../../../assets/images/Arrow.png'
 const StudentsInfo = () => {
     return (
         <div className={styles.StudentsInfo}>
-            <div className={styles.StudentsInfoImage}>
-                <Image src={partneringImage} layout="responsive"></Image>
-            </div>
             <div className={styles.StudentsInfoText}>MENTORSHIP</div>
             <div className={styles.StudentsInfoHeading}>Learn the ropes of entrepreneurship.</div>
             <div className={styles.StudentsInfoBody}>Learn the ropes of entrepreneurship through our 9-week course that covers topics ranging from customer discovery, to revenue channels.
@@ -19,7 +16,7 @@ const StudentsInfo = () => {
             Our mentorship lowers the barrier to entry for students looking to break into the world of startups. During the course, students have the chance to develop a pitch, and to receive feedback that will enable them to bring the idea to life.
             <br/><br/>
             The class is open to all Georgia Tech students. All materials are posted online so that anyone can follow and take the class on their own time.
-            All slides and materials from our Fall 2022 class can be found in this <u><Link href="/">folder</Link></u>.
+            All slides and materials from our Fall 2022 class can be found in this <u><Link href="https://drive.google.com/drive/folders/11wKuhnUHnXnYhZV4u9BHcVfowMIDXpdP?usp=sharing">folder</Link></u>.
             </div>
             <div className={styles.StudentsInfoDivContainer}>
                 <div className={styles.StudentsInfoSubSubHeading}>Schedule</div>
