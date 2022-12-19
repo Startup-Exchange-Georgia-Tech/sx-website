@@ -36,4 +36,4 @@ const Partnering = () => {
     )
 }
 
-export default Partnering
+export default Partnering;

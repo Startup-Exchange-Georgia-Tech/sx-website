@@ -27,4 +27,4 @@ const Alumni = () => {
     )
 }
 
-export default ContactHero;
+export default Alumni;
