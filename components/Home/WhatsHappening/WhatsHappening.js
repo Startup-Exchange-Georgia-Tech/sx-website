@@ -20,7 +20,7 @@ export default function WhatsHappening() {
             Grow your network + gain access to resources about the startup Ecosystem
             as you turn Georgia Tech into the next startup school.
           </div>
-          <Link href="https://forms.gle/R6CCHFoe8qzjgGmb6">
+          <Link href="https://forms.gle/eXrEwyTnemPyuA916">
             <div className={styles.WhatsHappeningCardLearn}>APPLY</div>
           </Link>
         </div>
