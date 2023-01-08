@@ -35,14 +35,17 @@ export default function Header() {
             <Link href="/students">
               <div className={styles.ddLink}>Join Us</div>
             </Link>
-            <Link href="/initiatives">
-              <div className={styles.ddLink}>Initiatives</div>
-            </Link>
             <Link href="/alumni">
               <div className={styles.ddLink}>Alumni</div>
             </Link>
+            <Link href="/initiatives">
+              <div className={styles.ddLink}>Initiatives</div>
+            </Link>
             <Link href="https://startupexchange.notion.site/Georgia-Tech-s-Entrepreneurship-Ecosystem-658b9ef658da4ba7bb8d4cbdc470a387">
-              <div className={styles.ddLink}>Ecosystem Guide</div>
+              <div className={styles.ddLink}>Ecosystem</div>
+            </Link>
+            <Link href="https://summit.startup.exchange">
+              <div className={styles.ddLink}>Conference</div>
             </Link>
           </div>
         </div>
@@ -61,22 +64,21 @@ export default function Header() {
             <Link href="/students">
               <a className={styles.headerPageLink}>JOIN US</a>
             </Link>
-            <Link href="/initiatives">
-              <a className={styles.headerPageLink}>INITIATIVES</a>
-            </Link>
+
             <Link href="/alumni">
               <a className={styles.headerPageLink}>ALUMNI</a>
             </Link>
-            <Link href="https://startupexchange.notion.site/Georgia-Tech-s-Entrepreneurship-Ecosystem-658b9ef658da4ba7bb8d4cbdc470a387">
-              <a className={styles.headerPageLink}>ECOSYSTEM GUIDE</a>
+            <Link href="/initiatives">
+              <a className={styles.headerPageLink}>INITIATIVES</a>
             </Link>
-            {/* <Link href="https://www.google.com/search?q=coming+soon&rlz=1C1RXQR_enUS970US970&sxsrf=ALiCzsZfqKcJzQ7lZqpnXi44y7yB0Vmowg:1664940615514&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjLp9aPk8j6AhW5mGoFHWlxAAoQ_AUoAXoECAIQAw&biw=1920&bih=929&dpr=17">
+            <Link href="https://startupexchange.notion.site/Georgia-Tech-s-Entrepreneurship-Ecosystem-658b9ef658da4ba7bb8d4cbdc470a387">
+              <a className={styles.headerPageLink}>ECOSYSTEM</a>
+            </Link>
+            <Link href="https://summit.startup.exchange">
               <a className={styles.headerPageLink}>
-                <span className={styles.yellow}>
-                  🚀 <u>MEMBERS ONLY</u>
-                </span>
+                CONFERENCE
               </a>
-            </Link> */}
+            </Link>
           </div>
           <div className={styles.pagesDropDown}>
             <div className={styles.headerLogoContainer}>

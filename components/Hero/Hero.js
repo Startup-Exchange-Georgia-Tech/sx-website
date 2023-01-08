@@ -16,9 +16,9 @@ export default function Hero() {
             </div> */}
             <div className={styles.HeroContentContainer}>
                 <div className={styles.HeroHeadingsContainer}>
-                    <div className={styles.HeroHeading}><span className={styles.HeroHeadingStartup}>STARTUP</span><br></br></div>
+                    <div className={styles.HeroSubHeading}>THE GEORGIA INSTITUTE OF TECHNOLOGY</div>
+                    <div className={styles.HeroHeading}><span className={styles.HeroHeadingStartup}>STARTUP</span></div>
                     <div className={styles.HeroHeading}><span className={styles.HeroHeadingExchange}>EXCHANGE</span></div>
-                    <div className={styles.HeroSubHeading}>AT THE GEORGIA INSTITUTE OF TECHNOLOGY</div>
                 </div>
                 <div className={styles.HeroBody}>Find community + access cool benefits as you take your idea from concept to prototype, or as you learn how to brainstorm a startup in the first place.</div>
                 <Link href="#Join">
