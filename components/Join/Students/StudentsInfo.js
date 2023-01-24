@@ -28,7 +28,7 @@ const StudentsInfo = () => {
         online so that anyone can follow and take the class on their own time.
         All slides and materials from our Fall 2022 class can be found in this{" "}
         <u>
-          <Link href="https://drive.google.com/drive/folders/11wKuhnUHnXnYhZV4u9BHcVfowMIDXpdP?usp=sharing">
+          <Link href="https://drive.google.com/drive/folders/1Q5tLDIr3_GWvhrmaPfsmBz9FXmm8QGin?usp=share_link">
             folder
           </Link>
         </u>

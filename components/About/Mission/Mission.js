@@ -24,7 +24,7 @@ const Mission = () => {
                 <div className={styles.PartneringSubSubHeading}>Community-First</div>
                     <div className={styles.MissionDesc}>Startup Exchange is community first. 
                     It takes a village to launch something great. 
-                    That’s why we work tirelessly to cultivate a close-knit community, and drive collaborative innovation across the SX community. 
+                    That’s why we work tirelessly to cultivate a close-knit community. We also encourage feedback from the community, so that we can improve our efforts to benefit it. 
                     </div>
             </div>
             <div>
