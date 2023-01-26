@@ -86,10 +86,18 @@ const StudentsInfo = () => {
         </u>
         .
       </div>
+      <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdT3XxmCzvo0k0GDcZjZcH-tDjDEpjo0dXGIC57BNz0_nrEhw/viewform?usp=sf_link">
+        <div className={styles.eventLink}>
+          APPLY NOW
+          <span className={styles.arrowContainer}>
+            <Image src={arrow}></Image>
+          </span>
+        </div>
+      </Link>
       <div className={styles.StudentsInfoSubHeading}>
         Questions about the curriculum? Email our Director of Mentorship for
         more information at{" "}
-        <span className={styles.yellow}>apuroop@startup.exchange</span>.
+        <span className={styles.yellow}>praneet@startup.exchange</span>.
       </div>
 
       <div className={styles.StudentsInfoImage}>
@@ -140,10 +148,18 @@ const StudentsInfo = () => {
                     <br/> */}
         </div>
       </div>
+      <Link href="https://docs.google.com/forms/d/e/1FAIpQLScYXPbiecT5kXKpn7dotfknCsgN5UcCho_cF6263ytiwOGl2Q/viewform?usp=sf_link">
+        <div className={styles.eventLink}>
+          APPLY NOW
+          <span className={styles.arrowContainer}>
+            <Image src={arrow}></Image>
+          </span>
+        </div>
+      </Link>
       <div className={styles.StudentsInfoSubHeading}>
         Questions about SX Fellowship? Email our Director of Fellowship for more
         information at{" "}
-        <span className={styles.yellow}>parth@startup.exchange</span>.
+        <span className={styles.yellow}>nitya@startup.exchange</span>.
       </div>
 
       <div className={styles.StudentsInfoImage}>
