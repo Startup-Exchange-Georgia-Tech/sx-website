@@ -13,7 +13,7 @@ const FAQ = () => {
                     <div className={styles.Question}>How long is GT Startup Exchange mentorship?</div>
                     <div className={styles.Answer}>Mentorship is approximately 3 months long, and runs in both the Fall and Spring semesters.</div>
                     <br/><br/><br/>
-                    <div className={styles.Answer}><b>Spring 2023 mentorship will occur from mid-January to mid-April.</b></div>
+                    <div className={styles.Answer}><b>Spring 2023 mentorship will occur from early-February to mid-April.</b></div>
 
                 </div>
                 <div className={styles.FAQCard}>
@@ -35,10 +35,10 @@ const FAQ = () => {
                 </div>
                 <div className={styles.FAQCard}>
                     <div className={styles.Question}>How do I join the mentorship class for the Georgia Tech Startup Exchange?</div>
-                    <div className={styles.Answer}>Check our website and follow our social media to stay updated on when applications open!</div>
+                    <div className={styles.Answer}>Check our website and follow our social media to stay updated on when applications open!</div><br/><br/><br/><br/><br/>
                     {/* <div className={styles.Answer}>Mentorship is approximately 3 months long, and runs in both the Fall and Spring semesters.</div>
                     */}<br/><br/><br/> 
-                    <div className={styles.Answer}><b>Spring 2023 mentorship will occur from mid-January to mid-April.</b></div>
+                    <div className={styles.Answer}><b> </b></div>
 
                 </div>
                 <div className={styles.FAQCard}>
@@ -50,12 +50,12 @@ const FAQ = () => {
                 </div>
                 <div className={styles.FAQCard}>
                     <div className={styles.Question}>What if I have more questions about mentorship or how to join?</div>
-                    <div className={styles.Answer}>Contact Apuroop Mutyala, Director of Mentorship </div>
+                    <div className={styles.Answer}>Contact Praneet Kedari, Director of Mentorship </div>
                     <br/>
                     <br/>
                     <br/>
 
-                    <div className={styles.Answer}>Email Apuroop at <Link href="https://mailto:apuroop@startup.exchange">apuroop@startup.exchange</Link></div>
+                    <div className={styles.Answer}>Email Praneet at <Link href="https://mailto:praneet@startup.exchange">praneet@startup.exchange</Link></div>
 
                 </div>
             </div>
