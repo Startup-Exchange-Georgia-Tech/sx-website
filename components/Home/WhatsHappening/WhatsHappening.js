@@ -14,13 +14,13 @@ export default function WhatsHappening() {
       <div className={styles.WhatsHappeningRight}>
         <div className={styles.WhatsHappeningCard}>
           <div className={styles.WhatsHappeningCardHeading}>
-            Apply to the Exec Board
+            Apply to our signature accelerator
           </div>
           <div className={styles.WhatsHappeningCardBody}>
-            Grow your network + gain access to resources about the startup Ecosystem
-            as you turn Georgia Tech into the next startup school.
+            For the builders seeking out the next steps to develop out their
+            idea and take it to market.
           </div>
-          <Link href="https://forms.gle/eXrEwyTnemPyuA916">
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLScYXPbiecT5kXKpn7dotfknCsgN5UcCho_cF6263ytiwOGl2Q/viewform">
             <div className={styles.WhatsHappeningCardLearn}>APPLY</div>
           </Link>
         </div>
@@ -29,8 +29,9 @@ export default function WhatsHappening() {
             Previous founder looking for community?
           </div>
           <div className={styles.WhatsHappeningCardBody}>
-            Apply for our Membership for Spring 2023! Connect with other founders at GT
-            + access mentors as you continue to build your product.
+            Apply for our Membership for Spring 2023! Connect with other
+            founders at GT + access mentors as you continue to build your
+            product.
           </div>
           <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdRIIkSrl7n8Yt9LZyFvVN-oW2ufwVyRiPIa_9iEfq17-g2fg/viewform">
             <div className={styles.WhatsHappeningCardLearn}>APPLY</div>
