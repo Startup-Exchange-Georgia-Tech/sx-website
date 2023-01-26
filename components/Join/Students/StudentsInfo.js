@@ -37,32 +37,31 @@ const StudentsInfo = () => {
       <div className={styles.StudentsInfoDivContainer}>
         <div className={styles.StudentsInfoSubSubHeading}>Schedule</div>
         <div className={styles.StudentsInfoSubHeading}>
-          Week 1: Intro to Startups and How They Work
+          Week 0: Before the startup
         </div>
         <div className={styles.StudentsInfoSubHeading}>
-          Week 2: Fundraising, VC, and Finance of Tech
+          Week 1: Generating ideas for greatness
         </div>
         <div className={styles.StudentsInfoSubHeading}>
-          Week 3: Building Products that People Love
+        Week 2: Building the simplest thing that works and talking to people.
         </div>
         <div className={styles.StudentsInfoSubHeading}>
-          Week 4: MVPs and starting a Startup from 0 → 1
+        Week 3: Why you want everything to break constantly all the time
         </div>
         <div className={styles.StudentsInfoSubHeading}>
-          Week 5: What is web3, Principles of Crypto, Why Decentralization
-          Matters
+        Week 4: All about rocket fuel 
         </div>
         <div className={styles.StudentsInfoSubHeading}>
-          Week 6: Building Companies that Grow and Last
+        Week 5: Telling good stories 
         </div>
         <div className={styles.StudentsInfoSubHeading}>
-          Week 7: Diving into Venture Capital
+        Week 6: Building great and lasting companies 
         </div>
         <div className={styles.StudentsInfoSubHeading}>
-          Week 8: Building your career in tech
+        Week 7: So you’re not ready to be a founder? 
         </div>
         <div className={styles.StudentsInfoSubHeading}>
-          Week 9: Startup Pitch
+        Week 8: Pitch week
         </div>
       </div>
       <div className={styles.StudentsInfoSubHeading}>
