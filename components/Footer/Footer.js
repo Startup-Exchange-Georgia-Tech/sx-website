@@ -63,7 +63,7 @@ const Footer = () => {
                             <Link href="https://www.linkedin.com/company/gtstartupexchange/">
                                 <div className={styles.socialIcon}><Image src={linkedin}></Image></div>
                             </Link>
-                            <Link href="https://www.linktr.ee/startupexchange">
+                            <Link href="https://www.lu.ma/gtstartupexchange">
                                 <div className={styles.socialIcon}><Image src={linktree}></Image></div>
                             </Link>
 
