@@ -1,5 +1,6 @@
 import Image from "next/image";
-import sxlogo from "../../../assets/images/SXsecondarylogoW.png";
+import sxlogo from "../../../assets/images/SXprimarylogo.png";
+import sxlogo2 from "../../../assets/images/SXsecondarylogoW.png";
 import styles from "./Header.module.css";
 import Link from "next/link";
 import hamburger from "../../../assets/images/hamburger.png";
@@ -22,7 +23,7 @@ export default function Header() {
             <Image src={ddClose}></Image>
           </div>
           <div className={styles.dropdownLogo}>
-            <Image src={sxlogo}></Image>
+            <Image src={sxlogo2}></Image>
           </div>
           <div className={styles.dropdownLinks}>
             <Link href="/">
@@ -80,7 +81,7 @@ export default function Header() {
             </Link>
           </div>
           <div className={styles.pagesDropDown}>
-            <div className={styles.hamburgerContainer}>
+            <div className={styles.headerLogoContainer}>
               <Image
                 src={hamburger}
                 onClick={() => {
