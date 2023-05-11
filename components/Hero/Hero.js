@@ -16,11 +16,10 @@ export default function Hero() {
             </div> */}
             <div className={styles.HeroContentContainer}>
                 <div className={styles.HeroHeadingsContainer}>
-                    <div className={styles.HeroSubHeading}>THE GEORGIA INSTITUTE OF TECHNOLOGY</div>
-                    <div className={styles.HeroHeading}><span className={styles.HeroHeadingStartup}>STARTUP</span></div>
-                    <div className={styles.HeroHeading}><span className={styles.HeroHeadingExchange}>EXCHANGE</span></div>
+                    {/* <div className={styles.HeroSubHeading}>THE GEORGIA INSTITUTE OF TECHNOLOGY</div> */}
+                    <div className={styles.HeroHeading}>Where builders create <span className={styles.HeroHeadingStartup}>epic ideas.</span></div>
                 </div>
-                <div className={styles.HeroBody}>Find community + access cool benefits as you take your idea from concept to prototype, or as you learn how to brainstorm a startup in the first place.</div>
+                <div className={styles.HeroBody}>We  enable the underrepresented, and empower bold technologists to explore emerging tech and build daring, innovative companies.</div>
                 <Link href="#Join">
                     {/* <button className={`${styles.eventLink} ${styles.eventLinkGradient}`}>OUR PROGRAMS<span className={styles.HeroArrow}><Image src={arrow}></Image></span></button> */}
                     <button className={styles.eventLink}>OUR PROGRAMS<span className={styles.HeroArrow}><Image src={arrow}></Image></span></button>

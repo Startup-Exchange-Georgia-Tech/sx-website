@@ -1,11 +1,11 @@
 import Image from "next/image";
-import sxlogo from "../../../assets/images/SXprimaryLogo.png";
+import sxlogo from "../../../assets/images/SXsecondarylogoW.png";
 import styles from "./Header.module.css";
 import Link from "next/link";
 import hamburger from "../../../assets/images/hamburger.png";
 import { useState } from "react";
 import ddClose from "../../../assets/images/ddClose.png";
-import sxwhite from "../../../assets/images/SXlogowhite.png";
+import sxwhite from "../../../assets/images/SXsecondarylogoW.png";
 
 export default function Header() {
   const [dropdown, setDropdown] = useState(false);
@@ -81,7 +81,7 @@ export default function Header() {
             </Link>
           </div>
           <div className={styles.pagesDropDown}>
-            <div className={styles.headerLogoContainer}>
+            <div className={styles.hamburgerContainer}>
               <Image
                 src={hamburger}
                 onClick={() => {

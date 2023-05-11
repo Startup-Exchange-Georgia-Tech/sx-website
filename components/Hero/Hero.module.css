@@ -24,8 +24,12 @@
 
 .HeroHeading {
 
-    font-family: 'Druk';
-    font-size: 60px;
+    font-family: 'Crimson Text', serif;
+    letter-spacing: -0.06em;
+    color: white;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 100%;
 }
 
 .HeroHeadingStartup {
@@ -33,7 +37,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 74px;
+    color: white;
     line-height: 80%;
 }
 
@@ -152,13 +156,10 @@
 
 @media screen and (max-width: 700px) {
     .HeroHeading  {
-        font-size: 36px;
+        font-size: 42px;
     }
     .HeroHeadingStartup {
         font-size: 42px;
-    }
-    .HeroHeadingExchange {
-        font-size: 36px;
     }
     .HeroContentContainer {
         padding-top: 10%;
@@ -189,7 +190,7 @@
 
 @media screen and (max-width: 390px) {
     .HeroHeading {
-        font-size: 32px;
+        font-size: 48px;
     }
 
     .HeroContentContainer {
@@ -203,10 +204,7 @@
 
     }
     .HeroHeadingStartup {
-        font-size: 42px;
-    }
-    .HeroHeadingExchange {
-        font-size: 36px;
+        font-size: 48px;
     }
     .eventLink {
         margin-top: 100px;
