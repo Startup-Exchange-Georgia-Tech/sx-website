@@ -24,8 +24,11 @@
 
 .HeroHeading {
 
-    font-family: 'Druk';
-    font-size: 60px;
+    font-family: 'Crimson Text', serif;
+    letter-spacing: -0.06em;
+    font-size: 72px;
+    line-height: 100%;
+    color: #fff;
 }
 
 .HeroHeadingStartup {
