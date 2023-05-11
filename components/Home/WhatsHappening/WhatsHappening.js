@@ -29,7 +29,7 @@ export default function WhatsHappening() {
             Previous founder looking for community?
           </div>
           <div className={styles.WhatsHappeningCardBody}>
-            Apply for our Membership for Spring 2023! Connect with other
+            Apply for our Membership! Connect with other
             founders at GT + access mentors as you continue to build your
             product.
           </div>

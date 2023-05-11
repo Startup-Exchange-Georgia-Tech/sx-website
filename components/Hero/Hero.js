@@ -17,8 +17,7 @@ export default function Hero() {
             <div className={styles.HeroContentContainer}>
                 <div className={styles.HeroHeadingsContainer}>
                     {/* <div className={styles.HeroSubHeading}>THE GEORGIA INSTITUTE OF TECHNOLOGY</div> */}
-                    <div className={styles.HeroHeading}>Where builders create epic ideas.</div>
-                    {/* <div className={styles.HeroHeading}><span className={styles.HeroHeadingExchange}>EXCHANGE</span></div> */}
+                    <div className={styles.HeroHeading}>Where builders create <span className={styles.HeroHeadingStartup}>epic ideas.</span></div>
                 </div>
                 <div className={styles.HeroBody}>We  enable the underrepresented, and empower bold technologists to explore emerging tech and build daring, innovative companies.</div>
                 <Link href="#Join">
