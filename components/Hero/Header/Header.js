@@ -5,7 +5,6 @@ import Link from "next/link";
 import hamburger from "../../../assets/images/hamburger.png";
 import { useState } from "react";
 import ddClose from "../../../assets/images/ddClose.png";
-import sxwhite from "../../../assets/images/SXsecondarylogoW.png";
 
 export default function Header() {
   const [dropdown, setDropdown] = useState(false);
@@ -23,7 +22,7 @@ export default function Header() {
             <Image src={ddClose}></Image>
           </div>
           <div className={styles.dropdownLogo}>
-            <Image src={sxwhite}></Image>
+            <Image src={sxlogo}></Image>
           </div>
           <div className={styles.dropdownLinks}>
             <Link href="/">
