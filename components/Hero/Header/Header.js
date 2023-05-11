@@ -53,7 +53,7 @@ export default function Header() {
         <div className={styles.Header}>
           <Link href="/">
             <a className={styles.headerLogoContainer}>
-              <Image src={sxlogo} className={styles.HeaderLogo}></Image>
+              <Image src={sxlogo2} className={styles.HeaderLogo}></Image>
             </a>
           </Link>
 
